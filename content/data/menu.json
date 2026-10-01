@@ -1,0 +1,6526 @@
+{
+ "source": {
+  "menu": "https://vk.ru/@tapiti_vrn-menu",
+  "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu",
+  "note": "M = 500 мл, L = 700 мл по легенде меню"
+ },
+ "categories": [
+  {
+   "id": "milk-tea",
+   "name": "Молочные чаи",
+   "short": "Молочные",
+   "motif": "bubble"
+  },
+  {
+   "id": "fruit-tea",
+   "name": "Фруктовые чаи с шариками",
+   "short": "Фруктовые",
+   "motif": "fruit"
+  },
+  {
+   "id": "milk-cocktail",
+   "name": "Молочные коктейли",
+   "short": "Коктейли",
+   "motif": "cream"
+  },
+  {
+   "id": "matcha",
+   "name": "Матча",
+   "short": "Матча",
+   "motif": "calm"
+  },
+  {
+   "id": "coffee",
+   "name": "Кофейные",
+   "short": "Кофе",
+   "motif": "dark"
+  },
+  {
+   "id": "frappe",
+   "name": "Фраппе",
+   "short": "Фраппе",
+   "motif": "ice"
+  },
+  {
+   "id": "lemonade",
+   "name": "Лимонады",
+   "short": "Лимонады",
+   "motif": "light"
+  },
+  {
+   "id": "hot-tea",
+   "name": "Горячие авторские чаи",
+   "short": "Горячие чаи",
+   "motif": "warm"
+  },
+  {
+   "id": "classic",
+   "name": "Классика",
+   "short": "Классика",
+   "motif": "classic"
+  }
+ ],
+ "classic": {
+  "note": "На альтернативном молоке: 350 мл + 60 ₽, 450 мл + 80 ₽. Сиропы на выбор +30 ₽.",
+  "allergy": "Если у вас имеется аллергия на определённые ингредиенты, обязательно сообщите нам.",
+  "items": [
+   {
+    "id": "classic-kapuchino",
+    "name": "Капучино",
+    "temp": "hot",
+    "prices": {
+     "350": 240,
+     "450": 270
+    },
+    "kbzhu": [
+     {
+      "size": null,
+      "temp": "cold",
+      "protein": 6.6,
+      "fat": 7,
+      "carbs": 10.4,
+      "kcal": 132.4,
+      "source": "Капучино 350 мл"
+     },
+     {
+      "size": null,
+      "temp": "cold",
+      "protein": 9,
+      "fat": 9.6,
+      "carbs": 14.2,
+      "kcal": 180.4,
+      "source": "Капучино 450 мл"
+     }
+    ]
+   },
+   {
+    "id": "classic-latte",
+    "name": "Латте",
+    "temp": "hot",
+    "prices": {
+     "350": 250,
+     "450": 280
+    },
+    "kbzhu": [
+     {
+      "size": null,
+      "temp": "cold",
+      "protein": 9.8,
+      "fat": 10.4,
+      "carbs": 15.3,
+      "kcal": 195.4,
+      "source": "Латте 450 мл"
+     },
+     {
+      "size": null,
+      "temp": "cold",
+      "protein": 7.1,
+      "fat": 7.5,
+      "carbs": 11.1,
+      "kcal": 141.4,
+      "source": "Латте 350 мл"
+     }
+    ]
+   },
+   {
+    "id": "classic-raf",
+    "name": "Раф",
+    "temp": "hot",
+    "prices": {
+     "350": 290,
+     "450": 320
+    },
+    "kbzhu": [
+     {
+      "size": null,
+      "temp": "cold",
+      "protein": 6.5,
+      "fat": 24,
+      "carbs": 10.1,
+      "kcal": 286,
+      "source": "Раф 350 мл"
+     },
+     {
+      "size": null,
+      "temp": "cold",
+      "protein": 8.9,
+      "fat": 33,
+      "carbs": 13.9,
+      "kcal": 393.1,
+      "source": "Раф 450 мл"
+     }
+    ]
+   },
+   {
+    "id": "classic-matcha-latte",
+    "name": "Матча латте",
+    "sub": "зеленая, розовая, синяя",
+    "temp": "both",
+    "prices": {
+     "500": 320
+    },
+    "kbzhu": [
+     {
+      "size": "M",
+      "temp": "cold",
+      "protein": 7.9,
+      "fat": 7.4,
+      "carbs": 27.9,
+      "kcal": 212.5,
+      "source": "Матча Латте (М)"
+     },
+     {
+      "size": "M",
+      "temp": "hot",
+      "protein": 7.9,
+      "fat": 7.4,
+      "carbs": 35.4,
+      "kcal": 243.5,
+      "source": "Тепл. Матча Латте (М)"
+     }
+    ]
+   },
+   {
+    "id": "classic-ays-latte",
+    "name": "Айс латте",
+    "temp": "cold",
+    "prices": {
+     "500": 280
+    },
+    "kbzhu": [
+     {
+      "size": null,
+      "temp": "cold",
+      "protein": 9,
+      "fat": 9.6,
+      "carbs": 14.2,
+      "kcal": 180.4,
+      "source": "Айс Латте 500 мл"
+     }
+    ]
+   },
+   {
+    "id": "classic-bambl-apelsin",
+    "name": "Бамбл апельсин",
+    "temp": "cold",
+    "prices": {
+     "500": 380
+    },
+    "kbzhu": [
+     {
+      "size": null,
+      "temp": "cold",
+      "protein": 1.3,
+      "fat": 0.3,
+      "carbs": 22.4,
+      "kcal": 104.3,
+      "source": "Бамбл Апельсин"
+     }
+    ]
+   },
+   {
+    "id": "classic-bambl-vishnya",
+    "name": "Бамбл вишня",
+    "temp": "cold",
+    "prices": {
+     "500": 360
+    },
+    "kbzhu": [
+     {
+      "size": null,
+      "temp": "cold",
+      "protein": 0.9,
+      "fat": 0.2,
+      "carbs": 36.2,
+      "kcal": 154.6,
+      "source": "Бамбл Вишня"
+     }
+    ]
+   }
+  ]
+ },
+ "toppings": {
+  "frappe": {
+   "chizhova": "Дополнительный топпинг: джус-боллы / кокосовый мармелад / тапиока +100 ₽",
+   "arena": "Дополнительный топпинг: джус-боллы / кокосовый мармелад / тапиока +100 ₽",
+   "maximir": "Дополнительный топпинг: джус-боллы / кокосовый мармелад / тапиока +100 ₽",
+   "dolphin": "Дополнительный топпинг: джус-боллы / кокосовый мармелад / тапиока +100 ₽",
+   "ozerki": "Дополнительный топпинг: джус-болл / тапиока +100 ₽"
+  },
+  "lemonade": {
+   "chizhova": "Дополнительный топпинг: джус-боллы / кокосовый мармелад +100 ₽",
+   "arena": "Дополнительный топпинг: джус-боллы / кокосовый мармелад +100 ₽",
+   "maximir": "Дополнительный топпинг: джус-боллы / кокосовый мармелад +100 ₽",
+   "dolphin": "Дополнительный топпинг: джус-боллы / кокосовый мармелад +100 ₽",
+   "ozerki": "Дополнительный топпинг: джус-боллы +100 ₽"
+  }
+ },
+ "stats": {
+  "chizhova": {
+   "total": 102,
+   "byCategory": {
+    "milk-tea": 21,
+    "fruit-tea": 16,
+    "milk-cocktail": 8,
+    "matcha": 8,
+    "coffee": 14,
+    "frappe": 15,
+    "lemonade": 16,
+    "hot-tea": 4
+   }
+  },
+  "arena": {
+   "total": 94,
+   "byCategory": {
+    "milk-tea": 18,
+    "fruit-tea": 16,
+    "milk-cocktail": 8,
+    "matcha": 8,
+    "coffee": 12,
+    "frappe": 12,
+    "lemonade": 16,
+    "hot-tea": 4
+   }
+  },
+  "maximir": {
+   "total": 72,
+   "byCategory": {
+    "milk-tea": 16,
+    "fruit-tea": 14,
+    "milk-cocktail": 6,
+    "matcha": 6,
+    "coffee": 10,
+    "frappe": 4,
+    "lemonade": 12,
+    "hot-tea": 4
+   }
+  },
+  "dolphin": {
+   "total": 94,
+   "byCategory": {
+    "milk-tea": 18,
+    "fruit-tea": 16,
+    "milk-cocktail": 8,
+    "matcha": 8,
+    "coffee": 12,
+    "frappe": 12,
+    "lemonade": 16,
+    "hot-tea": 4
+   }
+  },
+  "ozerki": {
+   "total": 62,
+   "byCategory": {
+    "milk-tea": 14,
+    "fruit-tea": 10,
+    "milk-cocktail": 6,
+    "matcha": 6,
+    "coffee": 10,
+    "frappe": 4,
+    "lemonade": 8,
+    "hot-tea": 4
+   }
+  }
+ },
+ "items": [
+  {
+   "id": "coffee-kofeynyy-tapi",
+   "name": "Кофейный Тапи",
+   "category": "coffee",
+   "description": "Кофейно-молочный классический напиток с коричневым сахаром, тапиокой и сливочным кремом",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "maximir": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    },
+    "ozerki": {
+     "M": 370,
+     "L": 400
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 6,
+     "fat": 17.6,
+     "carbs": 97.2,
+     "kcal": 579.4,
+     "source": "Кофейный Тапи (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 9.6,
+     "fat": 21.5,
+     "carbs": 99.4,
+     "kcal": 637.2,
+     "source": "Тепл. Кофейный Тапи (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 7.8,
+     "fat": 21.8,
+     "carbs": 108.1,
+     "kcal": 668.4,
+     "source": "Кофейный Тапи (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 10.8,
+     "fat": 25,
+     "carbs": 105.8,
+     "kcal": 700,
+     "source": "Тепл. Кофейный Тапи (L)"
+    }
+   ],
+   "kbzhuGroup": "Кофейный Тапи",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "coffee-melonano",
+   "name": "Мелонано",
+   "category": "coffee",
+   "description": "Кофейно-молочный напиток со вкусом банана с дыней и сливочным кремом. Джус-болл манго/тапиока",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "ozerki": {
+     "M": 370,
+     "L": 400
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 6.5,
+     "fat": 17.8,
+     "carbs": 52.1,
+     "kcal": 395.9,
+     "source": "Мелонано (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 9.3,
+     "fat": 20.9,
+     "carbs": 61.2,
+     "kcal": 472.3,
+     "source": "Тепл. Мелонано (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 8.5,
+     "fat": 22,
+     "carbs": 72.9,
+     "kcal": 525,
+     "source": "Мелонано (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 11.5,
+     "fat": 25.2,
+     "carbs": 80,
+     "kcal": 593.5,
+     "source": "Тепл. Мелонано (L)"
+    }
+   ],
+   "kbzhuGroup": "Меланоно",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "coffee-krepkiy-oreshek",
+   "name": "Крепкий орешек",
+   "category": "coffee",
+   "description": "Кофейно-молочный напиток с ореховым вкусом на выбор (арахис, фундук, миндаль), сливочным кремом и тапиокой",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420,
+     "description": "Кофейно-молочный напиток с ореховым вкусом лесной орех, сливочным кремом и тапиокой"
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 6,
+     "fat": 17.6,
+     "carbs": 46.7,
+     "kcal": 401.1,
+     "source": "Крепкий Орешек (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 6.3,
+     "fat": 18,
+     "carbs": 47.2,
+     "kcal": 379.5,
+     "source": "Тепл. Крепкий Орешек (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 7.8,
+     "fat": 21.8,
+     "carbs": 50.6,
+     "kcal": 489.4,
+     "source": "Крепкий Орешек (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 8.1,
+     "fat": 22.1,
+     "carbs": 51.1,
+     "kcal": 440.2,
+     "source": "Тепл. Крепкий Орешек (L)"
+    }
+   ],
+   "kbzhuGroup": "Крепкий Орешек",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "coffee-taroshka",
+   "name": "Тарошка",
+   "category": "coffee",
+   "description": "Кофейно-молочный напиток со вкусом таро с сливочным кремом и тапиокой",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "maximir": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    },
+    "ozerki": {
+     "M": 370,
+     "L": 400
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "coffee-shokoladnyy-batonchik",
+   "name": "Шоколадный батончик",
+   "category": "coffee",
+   "description": "Кофейно-молочный напиток со вкусом шоколадного батончика с арахисом, сливочным кремом и тапиокой",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "maximir": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 7.5,
+     "fat": 20.3,
+     "carbs": 69.6,
+     "kcal": 494.5,
+     "source": "Шоколадный Батончик (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 11.1,
+     "fat": 24.1,
+     "carbs": 75.3,
+     "kcal": 566.5,
+     "source": "Тепл. Шоколадный Батончик (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 9.4,
+     "fat": 24.5,
+     "carbs": 84.3,
+     "kcal": 641.5,
+     "source": "Шоколадный Батончик (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 12.4,
+     "fat": 27.7,
+     "carbs": 85.2,
+     "kcal": 644.6,
+     "source": "Тепл. Шоколадный Батончик (L)"
+    }
+   ],
+   "kbzhuGroup": "Шоколадный Батончик",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "coffee-shokolad-karamel",
+   "name": "Шоколад карамель",
+   "category": "coffee",
+   "description": "Кофейно-молочный напиток со вкусом карамели с шоколадом, сливочным кремом и тапиокой",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "maximir": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    },
+    "ozerki": {
+     "M": 370,
+     "L": 400
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 6.4,
+     "fat": 17.9,
+     "carbs": 67.9,
+     "kcal": 463.1,
+     "source": "Шоколад Карамель (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 10.1,
+     "fat": 21.9,
+     "carbs": 84.4,
+     "kcal": 580.1,
+     "source": "Тепл. Шоколад Карамель (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 8.3,
+     "fat": 22.2,
+     "carbs": 82.6,
+     "kcal": 568.8,
+     "source": "Шоколад Карамель (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 12.9,
+     "fat": 27.1,
+     "carbs": 96.7,
+     "kcal": 688.3,
+     "source": "Тепл. Шоколад Карамель (L)"
+    }
+   ],
+   "kbzhuGroup": "Шоколад Карамель",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "coffee-dubayskiy-sheyk",
+   "name": "Дубайский шейк",
+   "category": "coffee",
+   "description": "Кофейно-молочный напиток со вкусом дубайского шоколада с сливочным кремом, фисташкой и тапиокой",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    },
+    "ozerki": {
+     "M": 370,
+     "L": 400
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "coffee-oreo-kofe",
+   "name": "Орео-кофэ",
+   "category": "coffee",
+   "description": "Кофейно-молочный напиток со вкусом шоколадного печенья с крошкой орео и тапиокой",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "maximir": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    },
+    "ozerki": {
+     "M": 370,
+     "L": 400
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "coffee-temnoe-zhelanie",
+   "name": "Темное желание",
+   "category": "coffee",
+   "description": "Кофейно-сливочный напиток со вкусом черники и сливочным кремом. Джус-болл черника/тапиока",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "maximir": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    },
+    "ozerki": {
+     "M": 370,
+     "L": 400
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 5.7,
+     "fat": 28,
+     "carbs": 47.9,
+     "kcal": 467.9,
+     "source": "Темное Желание (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 7.9,
+     "fat": 36,
+     "carbs": 58.8,
+     "kcal": 594.1,
+     "source": "Тепл. Темное Желание (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 7.4,
+     "fat": 35.6,
+     "carbs": 61.8,
+     "kcal": 599.5,
+     "source": "Темное Желание (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 9.6,
+     "fat": 43.6,
+     "carbs": 72.7,
+     "kcal": 725.7,
+     "source": "Тепл. Темное Желание (L)"
+    }
+   ],
+   "kbzhuGroup": "Темное Желание",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "coffee-barkhatnaya-malina",
+   "name": "Бархатная малина",
+   "category": "coffee",
+   "description": "Кофейно-молочный напиток со вкусом малины с персиком и сливочным кремом. Джус-болл малина/тапиока",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "maximir": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 6.3,
+     "fat": 17.8,
+     "carbs": 49.9,
+     "kcal": 343.9,
+     "source": "Бархатная Малина (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 8.7,
+     "fat": 20.3,
+     "carbs": 53.7,
+     "kcal": 391.9,
+     "source": "Тепл. Бархатная Малина (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 8.1,
+     "fat": 21.9,
+     "carbs": 65.3,
+     "kcal": 448.5,
+     "source": "Бархатная Малина (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 11.1,
+     "fat": 25.1,
+     "carbs": 70,
+     "kcal": 508.5,
+     "source": "Тепл. Бархатная Малина (L)"
+    }
+   ],
+   "kbzhuGroup": "Бархатная Малина",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "coffee-klubnichnoe-oblako",
+   "name": "Клубничное облако",
+   "category": "coffee",
+   "description": "Кофейно-молочный напиток со вкусом клубники и сливочным кремом. Джус-болл клубника/тапиока",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "maximir": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    },
+    "ozerki": {
+     "M": 370,
+     "L": 400
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 6.1,
+     "fat": 17.7,
+     "carbs": 39.7,
+     "kcal": 338.6,
+     "source": "Клубничное облако (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 8.5,
+     "fat": 20.2,
+     "carbs": 43.4,
+     "kcal": 386.6,
+     "source": "Тепл. Клубничное облако (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 8,
+     "fat": 21.8,
+     "carbs": 50.2,
+     "kcal": 424.7,
+     "source": "Клубничное облако (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 11,
+     "fat": 25,
+     "carbs": 54.9,
+     "kcal": 484.7,
+     "source": "Тепл. Клубничное облако (L)"
+    }
+   ],
+   "kbzhuGroup": "Клубничное Облако",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "coffee-rafaelka",
+   "name": "Рафаэлка",
+   "category": "coffee",
+   "description": "Кофейный напиток на основе кокосового молока со вкусом кокоса, миндаля и сливочного крема с тапиокой",
+   "temp": "both",
+   "altMilkBase": true,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 420,
+     "L": 450
+    },
+    "arena": {
+     "M": 420,
+     "L": 450
+    },
+    "maximir": {
+     "M": 420,
+     "L": 450
+    },
+    "dolphin": {
+     "M": 420,
+     "L": 450
+    },
+    "ozerki": {
+     "M": 400,
+     "L": 430
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "coffee-kofeynyy-banan",
+   "name": "Кофейный банан",
+   "category": "coffee",
+   "description": "Кофейный напиток на основе бананового молока со вкусом банана и сливочным кремом. Джус-болл манго/тапиока",
+   "temp": "both",
+   "altMilkBase": true,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 420,
+     "L": 450
+    },
+    "arena": {
+     "M": 420,
+     "L": 450
+    },
+    "maximir": {
+     "M": 420,
+     "L": 450
+    },
+    "dolphin": {
+     "M": 420,
+     "L": 450
+    },
+    "ozerki": {
+     "M": 400,
+     "L": 430
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 4,
+     "fat": 14.1,
+     "carbs": 43.5,
+     "kcal": 346.5,
+     "source": "Кофейный Банан (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 4.1,
+     "fat": 14.2,
+     "carbs": 48,
+     "kcal": 338.6,
+     "source": "Тепл. Кофейный Банан (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 4.9,
+     "fat": 17,
+     "carbs": 56.3,
+     "kcal": 456.7,
+     "source": "Кофейный Банан (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 6.1,
+     "fat": 17.7,
+     "carbs": 67.7,
+     "kcal": 459,
+     "source": "Тепл. Кофейный Банан (L)"
+    }
+   ],
+   "kbzhuGroup": "Кофейный Банан",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "coffee-karibskaya-chernika",
+   "name": "Карибская черника",
+   "category": "coffee",
+   "description": "Кофейный напиток на основе кокосового молока со вкусом черника с кокосом и сливочным кремом. Джус-болл черника/тапиока",
+   "temp": "both",
+   "altMilkBase": true,
+   "locationIds": [
+    "chizhova",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 420,
+     "L": 450
+    },
+    "dolphin": {
+     "M": 420,
+     "L": 450
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 3.2,
+     "fat": 16.8,
+     "carbs": 39,
+     "kcal": 315.7,
+     "source": "Карибская Черника (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 3.9,
+     "fat": 17.9,
+     "carbs": 42.1,
+     "kcal": 340.5,
+     "source": "Тепл. Карибская Черника (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 4,
+     "fat": 20.1,
+     "carbs": 49,
+     "kcal": 387.8,
+     "source": "Карибская Черника (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 4.9,
+     "fat": 21.4,
+     "carbs": 52.9,
+     "kcal": 418.8,
+     "source": "Тепл. Карибская Черника (L)"
+    }
+   ],
+   "kbzhuGroup": "Карибская Черника",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "milk-tea-chernyy-zhemchug",
+   "name": "Черный жемчуг",
+   "category": "milk-tea",
+   "description": "Китайский черный молочный чай с добавлением коричневого сахара, сливочного крема и тапиоки",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "maximir": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    },
+    "ozerki": {
+     "M": 370,
+     "L": 400
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 5.1,
+     "fat": 18.9,
+     "carbs": 53.2,
+     "kcal": 407.9,
+     "source": "Черный жемчуг (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 5.4,
+     "fat": 17,
+     "carbs": 70.2,
+     "kcal": 460.6,
+     "source": "Тепл. Черный жемчуг (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 6.2,
+     "fat": 20.1,
+     "carbs": 61.9,
+     "kcal": 457.6,
+     "source": "Черный жемчуг (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 7.5,
+     "fat": 21.5,
+     "carbs": 71.1,
+     "kcal": 513,
+     "source": "Тепл. Черный жемчуг (L)"
+    }
+   ],
+   "kbzhuGroup": "Черный Жемчуг",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "milk-tea-rafael-banano",
+   "name": "Рафаэль-банано",
+   "category": "milk-tea",
+   "description": "Китайский зеленый чай на молоке со вкусом кокоса, миндаля и банана с сливочным кремом. Джус-болл манго/тапиока",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "maximir": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    },
+    "ozerki": {
+     "M": 370,
+     "L": 400
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "milk-tea-malvisha",
+   "name": "Мальвиша",
+   "category": "milk-tea",
+   "description": "Китайский молочный зеленый чай с жасмином со вкусом малины с вишней и добавлением сливочного крема. Джус-болл вишня/тапиока",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    },
+    "ozerki": {
+     "M": 370,
+     "L": 400
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 4.5,
+     "fat": 16,
+     "carbs": 35.7,
+     "kcal": 303.4,
+     "source": "Мальвиша (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 5.4,
+     "fat": 17,
+     "carbs": 37.1,
+     "kcal": 321.4,
+     "source": "Тепл. Мальвиша (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 5.7,
+     "fat": 19.6,
+     "carbs": 50.3,
+     "kcal": 397.1,
+     "source": "Мальвиша (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 7.5,
+     "fat": 21.5,
+     "carbs": 53.2,
+     "kcal": 433.3,
+     "source": "Тепл. Мальвиша (L)"
+    }
+   ],
+   "kbzhuGroup": "Мальвиша",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "milk-tea-vzryv-karameli",
+   "name": "Взрыв карамели",
+   "category": "milk-tea",
+   "description": "Китайский черный чай на молоке со вкусом карамели с посыпкой взрывной карамели, сливочным кремом и тапиокой",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "maximir": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    },
+    "ozerki": {
+     "M": 370,
+     "L": 400
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "milk-tea-lyubov-eto",
+   "name": "Любовь-это",
+   "category": "milk-tea",
+   "description": "Китайский молочный зеленый чай с жасмином со вкусом клубники с бабл гам и сливочным кремом. Джус-болл клубника/тапиока",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 4.5,
+     "fat": 16,
+     "carbs": 44.7,
+     "kcal": 341.4,
+     "source": "Любовь Это (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 5.4,
+     "fat": 17,
+     "carbs": 46.1,
+     "kcal": 359.5,
+     "source": "Тепл. Любовь Это (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 5.7,
+     "fat": 19.6,
+     "carbs": 60.9,
+     "kcal": 443.1,
+     "source": "Любовь Это (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 7.5,
+     "fat": 21.5,
+     "carbs": 63.8,
+     "kcal": 479.3,
+     "source": "Тепл. Любовь Это (L)"
+    }
+   ],
+   "kbzhuGroup": "Любовь Это",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "milk-tea-orekh-v-lesu",
+   "name": "Орех в лесу",
+   "category": "milk-tea",
+   "description": "Китайский черный чай на молоке со вкусом фундука, сливочным кремом и тапиокой",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "milk-tea-pechenko-malina",
+   "name": "Печенько-малина",
+   "category": "milk-tea",
+   "description": "Китайский черный чай на молоке со вкусом шоколадного печенья с малиной, крошкой орео и сливочного крема. Джус-болл малина/тапиока",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "maximir": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    },
+    "ozerki": {
+     "M": 370,
+     "L": 400
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "milk-tea-tapi-blyu",
+   "name": "Тапи блю",
+   "category": "milk-tea",
+   "description": "Китайский черный молочный чай со вкусом черники и сливочным кремом. Джус-болл черника/тапиока",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "maximir": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 6.1,
+     "fat": 17.8,
+     "carbs": 39,
+     "kcal": 341.6,
+     "source": "Тапи Блю (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 7.6,
+     "fat": 19.4,
+     "carbs": 48.9,
+     "kcal": 402.6,
+     "source": "Тепл. Тапи Блю (M)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 8,
+     "fat": 22,
+     "carbs": 57,
+     "kcal": 459.2,
+     "source": "Тапи Блю (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 9.5,
+     "fat": 23.6,
+     "carbs": 66.8,
+     "kcal": 520.2,
+     "source": "Тепл. Тапи Блю (L)"
+    }
+   ],
+   "kbzhuGroup": "Тапи Блю",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "milk-tea-yagodnaya-zhvachka",
+   "name": "Ягодная жвачка",
+   "category": "milk-tea",
+   "description": "Китайский молочный зеленый чай со вкусом клубники, малины, черники с бабл гам и сливочным кремом. Джус-болл вишня/тапиока",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "maximir": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    },
+    "ozerki": {
+     "M": 370,
+     "L": 400
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 4.5,
+     "fat": 16,
+     "carbs": 49.6,
+     "kcal": 359,
+     "source": "Ягодная Жвачка (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 5.4,
+     "fat": 17,
+     "carbs": 51,
+     "kcal": 377.1,
+     "source": "Тепл. Ягодная Жвачка (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 5.7,
+     "fat": 19.6,
+     "carbs": 62.1,
+     "kcal": 445.2,
+     "source": "Ягодная Жвачка (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 7.5,
+     "fat": 21.5,
+     "carbs": 64.9,
+     "kcal": 481.4,
+     "source": "Тепл. Ягодная Жвачка (L)"
+    }
+   ],
+   "kbzhuGroup": "Ягодная Жвачка",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "milk-tea-mango",
+   "name": "Манго",
+   "category": "milk-tea",
+   "description": "Китайский зеленый чай на молоке со вкусом манго и сливочным кремом. Джус-болл манго/тапиока",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "maximir"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "maximir": {
+     "M": 390,
+     "L": 420
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "milk-tea-klubnika-v-shokolade",
+   "name": "Клубника в шоколаде",
+   "category": "milk-tea",
+   "description": "Китайский молочный зеленый чай со вкусом клубники с какао и сливочным кремом. Джус-болл клубника/тапиока",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "maximir": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    },
+    "ozerki": {
+     "M": 370,
+     "L": 400
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 5.7,
+     "fat": 16.6,
+     "carbs": 44.7,
+     "kcal": 343.3,
+     "source": "Клубника в Шоколаде (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 5.7,
+     "fat": 16.6,
+     "carbs": 44.7,
+     "kcal": 343.3,
+     "source": "Тепл. Клубника в Шоколаде (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 7.3,
+     "fat": 20.3,
+     "carbs": 61.4,
+     "kcal": 446.8,
+     "source": "Клубника в Шоколаде (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 9.1,
+     "fat": 22.2,
+     "carbs": 64.2,
+     "kcal": 482.9,
+     "source": "Тепл. Клубника в Шоколаде (L)"
+    }
+   ],
+   "kbzhuGroup": "Клубника в Шоколаде",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "milk-tea-oreo",
+   "name": "Орео",
+   "category": "milk-tea",
+   "description": "Китайский черный молочный чай со вкусом печенья орео, сливочным кремом и тапиокой",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "maximir": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    },
+    "ozerki": {
+     "M": 370,
+     "L": 400
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 7.1,
+     "fat": 22,
+     "carbs": 79,
+     "kcal": 548.7,
+     "source": "Орео (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 8.6,
+     "fat": 23.6,
+     "carbs": 81.4,
+     "kcal": 578.7,
+     "source": "Тепл. Орео (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 9.3,
+     "fat": 27.3,
+     "carbs": 93.4,
+     "kcal": 663.4,
+     "source": "Орео (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 10.8,
+     "fat": 28.9,
+     "carbs": 95.8,
+     "kcal": 693.4,
+     "source": "Тепл. Орео (L)"
+    }
+   ],
+   "kbzhuGroup": "Орео",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "milk-tea-kokosovyy-taro",
+   "name": "Кокосовый таро",
+   "category": "milk-tea",
+   "description": "Китайский зеленый молочный чай на основе таро со вкусом кокоса с сливочным кремом и тапиокой",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "maximir": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 7.9,
+     "fat": 22.5,
+     "carbs": 81.7,
+     "kcal": 566,
+     "source": "Кокосовый Таро (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 6.3,
+     "fat": 20.6,
+     "carbs": 75.2,
+     "kcal": 516.4,
+     "source": "Тепл. Кокосовый Таро (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 8.5,
+     "fat": 25.4,
+     "carbs": 91.1,
+     "kcal": 633.6,
+     "source": "Кокосовый Таро (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 9.7,
+     "fat": 27,
+     "carbs": 97.1,
+     "kcal": 677.2,
+     "source": "Тепл. Кокосовый Таро (L)"
+    }
+   ],
+   "kbzhuGroup": "Кокосовый Таро",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "milk-tea-klubnichnyy-oreo",
+   "name": "Клубничный орео",
+   "category": "milk-tea",
+   "description": "Китайский зеленый молочный чай со вкусом печенья орео с клубникой и сливочным кремом. Джус-болл клубника/тапиока",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "maximir": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    },
+    "ozerki": {
+     "M": 370,
+     "L": 400
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 6.5,
+     "fat": 20.4,
+     "carbs": 65.4,
+     "kcal": 470.2,
+     "source": "Клубничный Орео (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 7.4,
+     "fat": 21.4,
+     "carbs": 66.8,
+     "kcal": 488.2,
+     "source": "Тепл. Клубничный Орео (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 8.4,
+     "fat": 25.4,
+     "carbs": 86.1,
+     "kcal": 604.5,
+     "source": "Клубничный Орео (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 9.3,
+     "fat": 26.4,
+     "carbs": 87.5,
+     "kcal": 622.5,
+     "source": "Тепл. Клубничный Орео (L)"
+    }
+   ],
+   "kbzhuGroup": "Клубничный Орео",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "milk-tea-les-chudes",
+   "name": "Лес чудес",
+   "category": "milk-tea",
+   "description": "Китайский молочный черный чай со вкусом клубники, малины, черники и добавлением сливочного крема. Джус-болл черника/тапиока",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "maximir": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    },
+    "ozerki": {
+     "M": 370,
+     "L": 400
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 4.5,
+     "fat": 16,
+     "carbs": 35.4,
+     "kcal": 301.2,
+     "source": "Лес Чудес (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 5.4,
+     "fat": 17,
+     "carbs": 36.8,
+     "kcal": 319.2,
+     "source": "Тепл. Лес Чудес (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 5.7,
+     "fat": 19.6,
+     "carbs": 44.2,
+     "kcal": 371.9,
+     "source": "Лес Чудес (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 7.5,
+     "fat": 21.5,
+     "carbs": 47,
+     "kcal": 407.9,
+     "source": "Тепл. Лес Чудес (L)"
+    }
+   ],
+   "kbzhuGroup": "Лес Чудес",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "milk-tea-banana-papa",
+   "name": "Банана папа",
+   "category": "milk-tea",
+   "description": "Китайский черный чай на основе бананового молока со вкусом банана и добавлением сливочного крема. Джус-болл манго/тапиока",
+   "temp": "both",
+   "altMilkBase": true,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 420,
+     "L": 450
+    },
+    "arena": {
+     "M": 420,
+     "L": 450
+    },
+    "maximir": {
+     "M": 420,
+     "L": 450
+    },
+    "dolphin": {
+     "M": 420,
+     "L": 450
+    },
+    "ozerki": {
+     "M": 400,
+     "L": 430
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 3.4,
+     "fat": 12.2,
+     "carbs": 49.9,
+     "kcal": 318.4,
+     "source": "Банана-Папа (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 3.4,
+     "fat": 12.3,
+     "carbs": 50.5,
+     "kcal": 321.8,
+     "source": "Тепл. Банана-Папа (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 4,
+     "fat": 15,
+     "carbs": 60.2,
+     "kcal": 386.9,
+     "source": "Банана-Папа (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 4.8,
+     "fat": 15.8,
+     "carbs": 65.8,
+     "kcal": 419.4,
+     "source": "Тепл. Банана-Папа (L)"
+    }
+   ],
+   "kbzhuGroup": "Банана-Папа",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "milk-tea-bannichka",
+   "name": "Банничка",
+   "category": "milk-tea",
+   "description": "Китайский черный чай на банановом молоке со вкусом клубники с бананом и сливочным кремом. Джус-болл клубника или тапиока на выбор",
+   "temp": "both",
+   "altMilkBase": true,
+   "locationIds": [
+    "chizhova"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 420,
+     "L": 450
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 3.2,
+     "fat": 13.7,
+     "carbs": 48.5,
+     "kcal": 326.1,
+     "source": "Банничка (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 3.9,
+     "fat": 16.5,
+     "carbs": 46.5,
+     "kcal": 347.4,
+     "source": "Тепл. Банничка (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 4,
+     "fat": 16.5,
+     "carbs": 55.4,
+     "kcal": 382.3,
+     "source": "Банничка (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 4.4,
+     "fat": 14.4,
+     "carbs": 58.5,
+     "kcal": 376.8,
+     "source": "Тепл. Банничка (L)"
+    }
+   ],
+   "kbzhuGroup": "Банничка",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "milk-tea-lav-malina",
+   "name": "Лав малина",
+   "category": "milk-tea",
+   "description": "Китайский зеленый чай с жасмином на кокосовом молоке со вкусом малины и сливочным кремом. Джус-болл малина/тапиока",
+   "temp": "both",
+   "altMilkBase": true,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 420,
+     "L": 450
+    },
+    "arena": {
+     "M": 420,
+     "L": 450
+    },
+    "maximir": {
+     "M": 420,
+     "L": 450
+    },
+    "dolphin": {
+     "M": 420,
+     "L": 450
+    },
+    "ozerki": {
+     "M": 400,
+     "L": 430
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 2.7,
+     "fat": 14.3,
+     "carbs": 50.7,
+     "kcal": 288.8,
+     "source": "Лав Малина (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 2.9,
+     "fat": 14.6,
+     "carbs": 51.5,
+     "kcal": 295.1,
+     "source": "Тепл. Лав Малина (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 3.4,
+     "fat": 17.3,
+     "carbs": 63.2,
+     "kcal": 354.9,
+     "source": "Лав Малина (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 3.5,
+     "fat": 15.4,
+     "carbs": 63.7,
+     "kcal": 339.9,
+     "source": "Тепл. Лав Малина (L)"
+    }
+   ],
+   "kbzhuGroup": "Лав Малина",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "milk-tea-vishnevyy-tapi",
+   "name": "Вишневый тапи",
+   "category": "milk-tea",
+   "description": "Китайский зеленый чай с жасмином на кокосовом молоке со вкусом вишни с сакурой и сливочным кремом. Джус-болл вишня/тапиока",
+   "temp": "both",
+   "altMilkBase": true,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 420,
+     "L": 450
+    },
+    "arena": {
+     "M": 420,
+     "L": 450
+    },
+    "dolphin": {
+     "M": 420,
+     "L": 450
+    },
+    "ozerki": {
+     "M": 400,
+     "L": 430
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 2.9,
+     "fat": 14.9,
+     "carbs": 54.3,
+     "kcal": 364.9,
+     "source": "Вишневый Тапи (M)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 3.3,
+     "fat": 15.4,
+     "carbs": 48.4,
+     "kcal": 346.4,
+     "source": "Тепл. Вишневый Тапи (M)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 3.7,
+     "fat": 18.1,
+     "carbs": 71.3,
+     "kcal": 465.1,
+     "source": "Вишневый Тапи (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 4.1,
+     "fat": 18.7,
+     "carbs": 65.4,
+     "kcal": 446.6,
+     "source": "Тепл. Вишневый Тапи (L)"
+    }
+   ],
+   "kbzhuGroup": "Вишневый Тапи",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "milk-tea-dynnyy-banan",
+   "name": "Дынный банан",
+   "category": "milk-tea",
+   "description": "Китайский зеленый чай с жасмином на банановом молоке со вкусом банана с дыней и сливочным кремом. Джус-болл манго/тапиока",
+   "temp": "both",
+   "altMilkBase": true,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 420,
+     "L": 450
+    },
+    "arena": {
+     "M": 420,
+     "L": 450
+    },
+    "maximir": {
+     "M": 420,
+     "L": 450
+    },
+    "dolphin": {
+     "M": 420,
+     "L": 450
+    },
+    "ozerki": {
+     "M": 400,
+     "L": 430
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 2.7,
+     "fat": 13.5,
+     "carbs": 38.9,
+     "kcal": 289.9,
+     "source": "Дынный Банан (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 3.1,
+     "fat": 13.8,
+     "carbs": 41.2,
+     "kcal": 302.6,
+     "source": "Тепл. Дынный Банан (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 3.4,
+     "fat": 16.3,
+     "carbs": 52.6,
+     "kcal": 372.7,
+     "source": "Дынный Банан (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 4.1,
+     "fat": 16.7,
+     "carbs": 57.2,
+     "kcal": 398.1,
+     "source": "Тепл. Дынный Банан (L)"
+    }
+   ],
+   "kbzhuGroup": "Дынный Банан",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "milk-tea-tapi-shok",
+   "name": "Тапи шок",
+   "category": "milk-tea",
+   "description": "Китайский черный чай на кокосовом молоке со вкусом карамели и шоколада, сливочным кремом с тапиокой",
+   "temp": "both",
+   "altMilkBase": true,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 420,
+     "L": 450
+    },
+    "arena": {
+     "M": 420,
+     "L": 450
+    },
+    "maximir": {
+     "M": 420,
+     "L": 450
+    },
+    "dolphin": {
+     "M": 420,
+     "L": 450
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 3,
+     "fat": 15.3,
+     "carbs": 41.4,
+     "kcal": 318,
+     "source": "Тапи Шок (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 3.3,
+     "fat": 15.7,
+     "carbs": 67.7,
+     "kcal": 428.9,
+     "source": "Тепл. Тапи Шок (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 3.8,
+     "fat": 18.4,
+     "carbs": 108.4,
+     "kcal": 620.1,
+     "source": "Тапи Шок (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 4.3,
+     "fat": 19.2,
+     "carbs": 85.6,
+     "kcal": 537.1,
+     "source": "Тепл. Тапи Шок (L)"
+    }
+   ],
+   "kbzhuGroup": "Тапи Шок",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "fruit-tea-kitayskaya-malina",
+   "name": "Китайская малина",
+   "category": "fruit-tea",
+   "description": "Китайский зеленый чай с жасмином со вкусом малины, личи, мяты, джус-болл малина",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 360,
+     "L": 400
+    },
+    "arena": {
+     "M": 360,
+     "L": 400
+    },
+    "maximir": {
+     "M": 360,
+     "L": 400
+    },
+    "dolphin": {
+     "M": 360,
+     "L": 400
+    },
+    "ozerki": {
+     "M": 340,
+     "L": 380
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 0.4,
+     "fat": 0.2,
+     "carbs": 67.4,
+     "kcal": 276.7,
+     "source": "Китайская Малина (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 0.4,
+     "fat": 0.2,
+     "carbs": 67.4,
+     "kcal": 262.8,
+     "source": "Тепл. Китайская Малина (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 0.4,
+     "fat": 0.2,
+     "carbs": 82.9,
+     "kcal": 353,
+     "source": "Китайская Малина (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 0.4,
+     "fat": 0.2,
+     "carbs": 82.9,
+     "kcal": 339,
+     "source": "Тепл. Китайская Малина (L)"
+    }
+   ],
+   "kbzhuGroup": "Китайская Малина",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "fruit-tea-chistyy-tsitrus",
+   "name": "Чистый цитрус",
+   "category": "fruit-tea",
+   "description": "Китайский зеленый чай со вкусом апельсина, лимона, юдзу и лайма, джус-боллы апельсин/кокосовый мармелад",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 360,
+     "L": 400
+    },
+    "arena": {
+     "M": 360,
+     "L": 400
+    },
+    "maximir": {
+     "M": 360,
+     "L": 400
+    },
+    "dolphin": {
+     "M": 360,
+     "L": 400
+    },
+    "ozerki": {
+     "M": 340,
+     "L": 380,
+     "description": "Китайский зеленый чай со вкусом апельсина, лимона, юдзу и лайма, джус-боллы апельсин"
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "fruit-tea-tsitrusovyy-vzryv",
+   "name": "Цитрусовый взрыв",
+   "category": "fruit-tea",
+   "description": "Китайский зеленый чай с жасмином, с соком апельсина и юдзу. Джус-боллы апельсин",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 360,
+     "L": 400
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 1.1,
+     "fat": 0.2,
+     "carbs": 42.4,
+     "kcal": 207.7,
+     "source": "Цитрусовый Взрыв (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 1.1,
+     "fat": 0.2,
+     "carbs": 41.6,
+     "kcal": 204.2,
+     "source": "Тепл. Цитрусовый Взрыв (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 1.3,
+     "fat": 0.3,
+     "carbs": 50.9,
+     "kcal": 252.3,
+     "source": "Цитрусовый Взрыв (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 1.3,
+     "fat": 0.3,
+     "carbs": 50,
+     "kcal": 247.9,
+     "source": "Тепл. Цитрусовый Взрыв (L)"
+    }
+   ],
+   "kbzhuGroup": "Цитрусовый Взрыв",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "fruit-tea-vishnya-lichi",
+   "name": "Вишня личи",
+   "category": "fruit-tea",
+   "description": "Китайский зеленый чай с жасмином со вкусом вишни и личи, джус-болл вишня",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 360,
+     "L": 400
+    },
+    "arena": {
+     "M": 360,
+     "L": 400
+    },
+    "maximir": {
+     "M": 360,
+     "L": 400
+    },
+    "dolphin": {
+     "M": 360,
+     "L": 400
+    },
+    "ozerki": {
+     "M": 340,
+     "L": 380
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 0.3,
+     "fat": 0.1,
+     "carbs": 54,
+     "kcal": 257.3,
+     "source": "Вишня-Личи (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 0.3,
+     "fat": 0.1,
+     "carbs": 54,
+     "kcal": 257.2,
+     "source": "Тепл. Вишня-Личи (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 0.3,
+     "fat": 0.1,
+     "carbs": 67.6,
+     "kcal": 325.3,
+     "source": "Вишня-Личи (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 0.3,
+     "fat": 0.1,
+     "carbs": 67.5,
+     "kcal": 325.1,
+     "source": "Тепл. Вишня-Личи (L)"
+    }
+   ],
+   "kbzhuGroup": "Вишня Личи",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "fruit-tea-granilina",
+   "name": "Гранилина",
+   "category": "fruit-tea",
+   "description": "Чай каркаде со вкусом граната и малины, джус-болл гранат/кокосовый мармелад",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 360,
+     "L": 400
+    },
+    "arena": {
+     "M": 360,
+     "L": 400
+    },
+    "dolphin": {
+     "M": 360,
+     "L": 400
+    },
+    "ozerki": {
+     "M": 340,
+     "L": 380,
+     "description": "Чай каркаде со вкусом граната и малины, джус-болл гранат"
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "fruit-tea-mokhitka",
+   "name": "Мохитка",
+   "category": "fruit-tea",
+   "description": "Китайский зеленый чай со вкусом лайма и мяты, кокосовый мармелад",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 360,
+     "L": 400
+    },
+    "arena": {
+     "M": 360,
+     "L": 400
+    },
+    "maximir": {
+     "M": 360,
+     "L": 400
+    },
+    "dolphin": {
+     "M": 360,
+     "L": 400
+    },
+    "ozerki": {
+     "M": 340,
+     "L": 380,
+     "description": "Китайский зеленый чай со вкусом лайма и мяты"
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "fruit-tea-klubnichnyy-kivi",
+   "name": "Клубничный киви",
+   "category": "fruit-tea",
+   "description": "Китайский зеленый чай с жасмином со вкусом клубники и киви, джус-болл клубника",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 360,
+     "L": 400
+    },
+    "arena": {
+     "M": 360,
+     "L": 400
+    },
+    "maximir": {
+     "M": 360,
+     "L": 400
+    },
+    "dolphin": {
+     "M": 360,
+     "L": 400
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 0.5,
+     "fat": 0.2,
+     "carbs": 48.3,
+     "kcal": 216.1,
+     "source": "Клубничный Киви (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 0.5,
+     "fat": 0.2,
+     "carbs": 47.8,
+     "kcal": 214.1,
+     "source": "Тепл. Клубничный Киви (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 0.5,
+     "fat": 0.2,
+     "carbs": 57.1,
+     "kcal": 276.4,
+     "source": "Клубничный Киви (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 0.5,
+     "fat": 0.2,
+     "carbs": 56.6,
+     "kcal": 261.1,
+     "source": "Тепл. Клубничный Киви (L)"
+    }
+   ],
+   "kbzhuGroup": "Клубничный Киви",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "fruit-tea-cherlinka",
+   "name": "Черлинка",
+   "category": "fruit-tea",
+   "description": "Чай каркаде со вкусом черники и лайма, джус-болл черника/кокосовый мармелад",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 360,
+     "L": 400
+    },
+    "arena": {
+     "M": 360,
+     "L": 400
+    },
+    "maximir": {
+     "M": 360,
+     "L": 400
+    },
+    "dolphin": {
+     "M": 360,
+     "L": 400
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 0.8,
+     "fat": 0.3,
+     "carbs": 56.4,
+     "kcal": 203.4,
+     "source": "Черлинка (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 0.8,
+     "fat": 0.3,
+     "carbs": 78.7,
+     "kcal": 286.7,
+     "source": "Тепл. Черлинка (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 0.9,
+     "fat": 0.4,
+     "carbs": 72.8,
+     "kcal": 255.4,
+     "source": "Черлинка (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 0.9,
+     "fat": 0.4,
+     "carbs": 95.1,
+     "kcal": 338.7,
+     "source": "Тепл. Черлинка (L)"
+    }
+   ],
+   "kbzhuGroup": "Черлинка",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "fruit-tea-greypfrut-lichi",
+   "name": "Грейпфрут личи",
+   "category": "fruit-tea",
+   "description": "Китайский зеленый чай с жасмином со вкусом грейпфрута и личи, джус-болл вишня",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 360,
+     "L": 400
+    },
+    "arena": {
+     "M": 360,
+     "L": 400
+    },
+    "maximir": {
+     "M": 360,
+     "L": 400
+    },
+    "dolphin": {
+     "M": 360,
+     "L": 400
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 0,
+     "fat": 0,
+     "carbs": 55.2,
+     "kcal": 226.1,
+     "source": "Грейпфрут-Личи (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 0,
+     "fat": 0,
+     "carbs": 55.2,
+     "kcal": 226,
+     "source": "Тепл. Грейпфрут-Личи (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 0,
+     "fat": 0,
+     "carbs": 70.2,
+     "kcal": 288.3,
+     "source": "Грейпфрут-Личи (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 0,
+     "fat": 0,
+     "carbs": 70.2,
+     "kcal": 288.1,
+     "source": "Тепл. Грейпфрут-Личи (L)"
+    }
+   ],
+   "kbzhuGroup": "Грейпфрут-Личи",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "fruit-tea-tropi-trio",
+   "name": "Тропи трио",
+   "category": "fruit-tea",
+   "description": "Китайский зеленый чай со вкусом манго, киви и маракуйи, джус-боллы маракуйя/манго",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 360,
+     "L": 400
+    },
+    "arena": {
+     "M": 360,
+     "L": 400
+    },
+    "maximir": {
+     "M": 360,
+     "L": 400
+    },
+    "dolphin": {
+     "M": 360,
+     "L": 400
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 0.8,
+     "fat": 0.2,
+     "carbs": 59.1,
+     "kcal": 241.2,
+     "source": "Тропи Трио (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 0.8,
+     "fat": 0.2,
+     "carbs": 59.1,
+     "kcal": 241.1,
+     "source": "Тепл. Тропи Трио (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 0.8,
+     "fat": 0.2,
+     "carbs": 78.4,
+     "kcal": 317.4,
+     "source": "Тропи Трио (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 0.8,
+     "fat": 0.2,
+     "carbs": 78.4,
+     "kcal": 317.2,
+     "source": "Тепл. Тропи Трио (L)"
+    }
+   ],
+   "kbzhuGroup": "Тропи Трио",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "fruit-tea-siyanie",
+   "name": "Сияние",
+   "category": "fruit-tea",
+   "description": "Китайский зеленый чай с жасмином, с соком апельсина, блю кюрасао, юдзу и лаймом. Джус-болл апельсин",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 360,
+     "L": 400
+    },
+    "arena": {
+     "M": 360,
+     "L": 400
+    },
+    "maximir": {
+     "M": 360,
+     "L": 400
+    },
+    "dolphin": {
+     "M": 360,
+     "L": 400
+    },
+    "ozerki": {
+     "M": 340,
+     "L": 380
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 1,
+     "fat": 0.2,
+     "carbs": 52.1,
+     "kcal": 222.5,
+     "source": "Сияние (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 0.9,
+     "fat": 0.2,
+     "carbs": 51.4,
+     "kcal": 219.3,
+     "source": "Тепл. Сияние (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 1.3,
+     "fat": 0.3,
+     "carbs": 64.2,
+     "kcal": 275,
+     "source": "Сияние (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 1.3,
+     "fat": 0.3,
+     "carbs": 63.3,
+     "kcal": 272,
+     "source": "Тепл. Сияние (L)"
+    }
+   ],
+   "kbzhuGroup": "Сияние",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "fruit-tea-vinolaym",
+   "name": "Винолайм",
+   "category": "fruit-tea",
+   "description": "Чай каркаде со вкусом винограда и лайма, кокосовый мармелад",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 360,
+     "L": 400
+    },
+    "arena": {
+     "M": 360,
+     "L": 400
+    },
+    "maximir": {
+     "M": 360,
+     "L": 400
+    },
+    "dolphin": {
+     "M": 360,
+     "L": 400
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "fruit-tea-lesnye-yagody",
+   "name": "Лесные ягоды",
+   "category": "fruit-tea",
+   "description": "Красный чай каркаде со вкусом малины, клубники и черники. Джус-болл черника/кокосовый мармелад",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 360,
+     "L": 400
+    },
+    "arena": {
+     "M": 360,
+     "L": 400
+    },
+    "maximir": {
+     "M": 360,
+     "L": 400
+    },
+    "dolphin": {
+     "M": 360,
+     "L": 400
+    },
+    "ozerki": {
+     "M": 340,
+     "L": 380,
+     "description": "Красный чай каркаде со вкусом малины, клубники и черники. Джус-болл черника"
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 0.1,
+     "fat": 0,
+     "carbs": 36.8,
+     "kcal": 185.2,
+     "source": "Лесные Ягоды (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 0.1,
+     "fat": 0,
+     "carbs": 36.8,
+     "kcal": 185.2,
+     "source": "Тепл. Лесные Ягоды (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 0.1,
+     "fat": 0,
+     "carbs": 43.5,
+     "kcal": 224.5,
+     "source": "Лесные Ягоды (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 0.1,
+     "fat": 0,
+     "carbs": 43.5,
+     "kcal": 224.5,
+     "source": "Тепл. Лесные Ягоды (L)"
+    }
+   ],
+   "kbzhuGroup": "Лесные Ягоды",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "fruit-tea-kivikuyka",
+   "name": "Кивикуйка",
+   "category": "fruit-tea",
+   "description": "Китайский зеленый чай со вкусом киви, маракуйи и лайма, джус-болл маракуйя/кокосовый мармелад",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 360,
+     "L": 400
+    },
+    "arena": {
+     "M": 360,
+     "L": 400
+    },
+    "maximir": {
+     "M": 360,
+     "L": 400
+    },
+    "dolphin": {
+     "M": 360,
+     "L": 400
+    },
+    "ozerki": {
+     "M": 340,
+     "L": 380,
+     "description": "Китайский зеленый чай со вкусом киви, маракуйи и лайма, джус-болл маракуйя"
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "fruit-tea-ekzotik-frukt",
+   "name": "Экзотик фрукт",
+   "category": "fruit-tea",
+   "description": "Китайский зеленый чай с жасмином со вкусом манго и маракуйи, джус-болл маракуйя",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 360,
+     "L": 400
+    },
+    "arena": {
+     "M": 360,
+     "L": 400
+    },
+    "maximir": {
+     "M": 360,
+     "L": 400
+    },
+    "dolphin": {
+     "M": 360,
+     "L": 400
+    },
+    "ozerki": {
+     "M": 340,
+     "L": 380
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 0.4,
+     "fat": 0.1,
+     "carbs": 46.7,
+     "kcal": 230.1,
+     "source": "Экзотик Фрукт (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 0.4,
+     "fat": 0.1,
+     "carbs": 46.7,
+     "kcal": 230,
+     "source": "Тепл. Экзотик Фрукт (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 0.7,
+     "fat": 0.1,
+     "carbs": 58.2,
+     "kcal": 290.4,
+     "source": "Экзотик Фрукт (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 0.7,
+     "fat": 0.1,
+     "carbs": 58.2,
+     "kcal": 290.2,
+     "source": "Тепл. Экзотик Фрукт (L)"
+    }
+   ],
+   "kbzhuGroup": "Экзотик Фрукт",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "fruit-tea-smorsitrus",
+   "name": "Сморситрус",
+   "category": "fruit-tea",
+   "description": "Китайский черный чай со вкусом смородины, ананаса и апельсина, джус-болл апельсин/кокосовый мармелад",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 360,
+     "L": 400
+    },
+    "arena": {
+     "M": 360,
+     "L": 400
+    },
+    "dolphin": {
+     "M": 360,
+     "L": 400
+    },
+    "ozerki": {
+     "M": 340,
+     "L": 380,
+     "description": "Китайский черный чай со вкусом смородины, ананаса и апельсина, джус-болл апельсин"
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "fruit-tea-marakuyya",
+   "name": "Маракуйя",
+   "category": "fruit-tea",
+   "description": "Китайский зеленый чай с жасмином со вкусом маракуйи, джус-болл маракуйя",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "arena",
+    "maximir",
+    "dolphin"
+   ],
+   "offers": {
+    "arena": {
+     "M": 360,
+     "L": 400
+    },
+    "maximir": {
+     "M": 360,
+     "L": 400
+    },
+    "dolphin": {
+     "M": 360,
+     "L": 400
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 0.5,
+     "fat": 0.1,
+     "carbs": 44.2,
+     "kcal": 230.7,
+     "source": "Маракукуйя (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 0.5,
+     "fat": 0.1,
+     "carbs": 44.2,
+     "kcal": 216.8,
+     "source": "Тепл. Маракукуйя (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 0.6,
+     "fat": 0.1,
+     "carbs": 51,
+     "kcal": 271.1,
+     "source": "Маракукуйя (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 0.6,
+     "fat": 0.1,
+     "carbs": 51,
+     "kcal": 257.1,
+     "source": "Тепл. Маракукуйя (L)"
+    }
+   ],
+   "kbzhuGroup": "Маракукуйя",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "milk-cocktail-kakao-ti",
+   "name": "Какао ти",
+   "category": "milk-cocktail",
+   "description": "Молочный напиток на основе какао с добавлением сливочного крема и тапиоки",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 7.7,
+     "fat": 18.6,
+     "carbs": 52.7,
+     "kcal": 447.2,
+     "source": "Какао Ти (M)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 12,
+     "fat": 22.9,
+     "carbs": 62,
+     "kcal": 497.5,
+     "source": "Тепл. Какао Ти (M)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 9.9,
+     "fat": 23,
+     "carbs": 59.7,
+     "kcal": 535.4,
+     "source": "Какао Ти (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 14.8,
+     "fat": 27.8,
+     "carbs": 72.6,
+     "kcal": 591.7,
+     "source": "Тепл. Какао Ти (L)"
+    }
+   ],
+   "kbzhuGroup": "Какао Ти",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "milk-cocktail-bananovyy-snikers",
+   "name": "Банановый сникерс",
+   "category": "milk-cocktail",
+   "description": "Молочно-сливочный напиток со вкусом банана, какао, карамели, арахиса и сливочным кремом. Джус-болл манго/тапиока",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "maximir": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    },
+    "ozerki": {
+     "M": 370,
+     "L": 400
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 10.1,
+     "fat": 26.1,
+     "carbs": 82.5,
+     "kcal": 602.9,
+     "source": "Банановый Сникерс (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 14.9,
+     "fat": 22.7,
+     "carbs": 147.5,
+     "kcal": 825.1,
+     "source": "Тепл. Банановый Сникерс (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 12.4,
+     "fat": 31.2,
+     "carbs": 76.2,
+     "kcal": 630.4,
+     "source": "Банановый Сникерс (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 12.9,
+     "fat": 34.5,
+     "carbs": 72.2,
+     "kcal": 644.1,
+     "source": "Тепл. Банановый Сникерс (L)"
+    }
+   ],
+   "kbzhuGroup": "Банановый Сникерс",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "milk-cocktail-taro-oreo",
+   "name": "Таро-орео",
+   "category": "milk-cocktail",
+   "description": "Молочно-сливочный напиток со вкусом таро, крошкой орео и сливочным кремом с тапиокой",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "maximir": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    },
+    "ozerki": {
+     "M": 370,
+     "L": 400
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "milk-cocktail-dubayskaya-malina",
+   "name": "Дубайская малина",
+   "category": "milk-cocktail",
+   "description": "Молочно-сливочный напиток со вкусом шоколада, малины, фисташки и сливочным кремом. Джус-болл малина/тапиока",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "maximir": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    },
+    "ozerki": {
+     "M": 370,
+     "L": 400
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 9.1,
+     "fat": 26.2,
+     "carbs": 64.8,
+     "kcal": 488.8,
+     "source": "Дубайская Малина (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 9.3,
+     "fat": 28.7,
+     "carbs": 75.5,
+     "kcal": 557,
+     "source": "Тепл. Дубайская Малина (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 11.1,
+     "fat": 31.8,
+     "carbs": 81.6,
+     "kcal": 602.4,
+     "source": "Дубайская Малина (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 12.3,
+     "fat": 30.6,
+     "carbs": 191.8,
+     "kcal": 687.7,
+     "source": "Тепл. Дубайская Малина (L)"
+    }
+   ],
+   "kbzhuGroup": "Дубайская Малина",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "milk-cocktail-dubaysk",
+   "name": "Дубайск",
+   "category": "milk-cocktail",
+   "description": "Молочно-сливочный напиток со вкусом дубайского шоколада, крошкой фисташки и хрустящей гранолой с сливочным кремом и тапиокой",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    },
+    "ozerki": {
+     "M": 370,
+     "L": 400
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "milk-cocktail-vanilka-khrus",
+   "name": "Ванилька-хрусь",
+   "category": "milk-cocktail",
+   "description": "Молочно-сливочный напиток со вкусом ванили, хрустящей гранолой с сливочным кремом и тапиокой",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "maximir": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    },
+    "ozerki": {
+     "M": 370,
+     "L": 400
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "milk-cocktail-klubnyashka",
+   "name": "Клубняшка",
+   "category": "milk-cocktail",
+   "description": "Молочно-сливочный напиток со вкусом клубники, хрустящей гранолой с сливочным кремом. Джус-болл клубника/тапиока",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "maximir": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    },
+    "ozerki": {
+     "M": 370,
+     "L": 400
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "milk-cocktail-baunti",
+   "name": "Баунти",
+   "category": "milk-cocktail",
+   "description": "Кокосовое молоко со вкусом шоколадного батончика с кокосом, сливочным кремом и тапиокой",
+   "temp": "both",
+   "altMilkBase": true,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 420,
+     "L": 450
+    },
+    "arena": {
+     "M": 420,
+     "L": 450
+    },
+    "maximir": {
+     "M": 420,
+     "L": 450
+    },
+    "dolphin": {
+     "M": 420,
+     "L": 450
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 4.6,
+     "fat": 18.1,
+     "carbs": 69.8,
+     "kcal": 460.2,
+     "source": "Баунти (M)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 4.9,
+     "fat": 18.5,
+     "carbs": 74.7,
+     "kcal": 485,
+     "source": "Тепл. Баунти (M)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 6.1,
+     "fat": 24.2,
+     "carbs": 85.8,
+     "kcal": 584.9,
+     "source": "Баунти (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 6,
+     "fat": 21.9,
+     "carbs": 85.1,
+     "kcal": 560.4,
+     "source": "Тепл. Баунти (L)"
+    }
+   ],
+   "kbzhuGroup": "Баунти",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "matcha-zaklyate-lesa",
+   "name": "Заклятье леса",
+   "category": "matcha",
+   "description": "Голубая матча из анчана на молоке со сливками и вкусом малины, клубники и черники с сливочным кремом. Джус-болл малина/тапиока",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "maximir": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    },
+    "ozerki": {
+     "M": 370,
+     "L": 400
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "matcha-rozovaya-pantera",
+   "name": "Розовая пантера",
+   "category": "matcha",
+   "description": "Розовая матча из питахайи на молоке со сливками и вкусом клубники с сливочным кремом. Джус-болл клубника/тапиока",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "maximir": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    },
+    "ozerki": {
+     "M": 370,
+     "L": 400
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 6.7,
+     "fat": 22.9,
+     "carbs": 43.3,
+     "kcal": 405.6,
+     "source": "Розовая пантера (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 7.3,
+     "fat": 24.2,
+     "carbs": 40.4,
+     "kcal": 408,
+     "source": "Тепл. Розовая пантера (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 8.8,
+     "fat": 28.8,
+     "carbs": 58.1,
+     "kcal": 525.6,
+     "source": "Розовая пантера (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 9.3,
+     "fat": 30.1,
+     "carbs": 52.8,
+     "kcal": 518.7,
+     "source": "Тепл. Розовая пантера (L)"
+    }
+   ],
+   "kbzhuGroup": "Розовая Пантера",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "matcha-fistashechka",
+   "name": "Фисташечка",
+   "category": "matcha",
+   "description": "Церемониальная матча на молоке со сливками и вкусом фисташки с добавлением сливочного крема и тапиоки",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 365,
+     "L": 395
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "maximir": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 8.6,
+     "fat": 25.7,
+     "carbs": 69.2,
+     "kcal": 573.1,
+     "source": "Фисташечка (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 9.2,
+     "fat": 27,
+     "carbs": 62.6,
+     "kcal": 532.4,
+     "source": "Тепл. Фисташечка (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 10.9,
+     "fat": 31.6,
+     "carbs": 81.5,
+     "kcal": 699.5,
+     "source": "Фисташечка (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 11.5,
+     "fat": 32.9,
+     "carbs": 74.8,
+     "kcal": 645,
+     "source": "Тепл. Фисташечка (L)"
+    }
+   ],
+   "kbzhuGroup": "Фисташечка",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "matcha-goluboe-nebo",
+   "name": "Голубое небо",
+   "category": "matcha",
+   "description": "Голубая матча из анчана на молоке со сливками и вкусом черники с сливочным кремом. Джус-болл черника/тапиока",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    },
+    "ozerki": {
+     "M": 370,
+     "L": 400
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 6.8,
+     "fat": 22.7,
+     "carbs": 39.1,
+     "kcal": 387.1,
+     "source": "Голубое Небо (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 7.4,
+     "fat": 24,
+     "carbs": 40,
+     "kcal": 405,
+     "source": "Тепл. Голубое Небо (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 8.9,
+     "fat": 28.5,
+     "carbs": 51.4,
+     "kcal": 524.4,
+     "source": "Голубое Небо (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 9.5,
+     "fat": 29.9,
+     "carbs": 52.3,
+     "kcal": 514.7,
+     "source": "Тепл. Голубое Небо (L)"
+    }
+   ],
+   "kbzhuGroup": "Голубое Небо",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "matcha-matcha-ti",
+   "name": "Матча ти",
+   "category": "matcha",
+   "description": "Церемониальная матча на молоке со сливками и коричневым сахаром с добавлением сливочного крема и тапиоки",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    },
+    "ozerki": {
+     "M": 370,
+     "L": 400
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 7.1,
+     "fat": 22.7,
+     "carbs": 59.3,
+     "kcal": 475.5,
+     "source": "Матча Ти (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 8,
+     "fat": 24,
+     "carbs": 60.7,
+     "kcal": 496.4,
+     "source": "Тепл. Матча Ти (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 8.8,
+     "fat": 28.3,
+     "carbs": 66.6,
+     "kcal": 562.2,
+     "source": "Матча Ти (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 10.3,
+     "fat": 29.9,
+     "carbs": 65.4,
+     "kcal": 578,
+     "source": "Тепл. Матча Ти (L)"
+    }
+   ],
+   "kbzhuGroup": "Матча Ти",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "matcha-rubinovoe-serdtse",
+   "name": "Рубиновое сердце",
+   "category": "matcha",
+   "description": "Розовая матча из питахайи на молоке со сливками и вкусом гранат-смородина с сливочным кремом. Джус-болл гранат/тапиока",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 6.7,
+     "fat": 22.9,
+     "carbs": 41.4,
+     "kcal": 396.6,
+     "source": "Рубиновое Сердце (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 7.3,
+     "fat": 24.2,
+     "carbs": 42.3,
+     "kcal": 414.5,
+     "source": "Тепл. Рубиновое Сердце (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 8.8,
+     "fat": 28.8,
+     "carbs": 52.3,
+     "kcal": 501.1,
+     "source": "Рубиновое Сердце (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 9.3,
+     "fat": 30.1,
+     "carbs": 53.2,
+     "kcal": 519,
+     "source": "Тепл. Рубиновое Сердце (L)"
+    }
+   ],
+   "kbzhuGroup": "Рубиновое Сердце",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "matcha-smurfito",
+   "name": "Смурфито",
+   "category": "matcha",
+   "description": "Голубая матча из анчана на молоке со сливками и вкусом смородина-мята с сливочным кремом. Джус-болл черника/тапиока",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 390,
+     "L": 420
+    },
+    "arena": {
+     "M": 390,
+     "L": 420
+    },
+    "maximir": {
+     "M": 390,
+     "L": 420
+    },
+    "dolphin": {
+     "M": 390,
+     "L": 420
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 6.8,
+     "fat": 22.7,
+     "carbs": 41.2,
+     "kcal": 393.6,
+     "source": "Смурфито (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 7.4,
+     "fat": 24,
+     "carbs": 42.1,
+     "kcal": 411.5,
+     "source": "Тепл. Смурфито (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 8.9,
+     "fat": 28.5,
+     "carbs": 52,
+     "kcal": 497.1,
+     "source": "Смурфито (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 9.5,
+     "fat": 29.9,
+     "carbs": 52.9,
+     "kcal": 515,
+     "source": "Тепл. Смурфито (L)"
+    }
+   ],
+   "kbzhuGroup": "Смурфито",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "matcha-sensey-klubnika",
+   "name": "Сенсей клубника",
+   "category": "matcha",
+   "description": "Церемониальная матча на молоке со сливками и вкусом клубники с сливочным кремом. Джус-болл клубника/тапиока",
+   "temp": "both",
+   "altMilkBase": false,
+   "locationIds": [
+    "maximir",
+    "ozerki"
+   ],
+   "offers": {
+    "maximir": {
+     "M": 390,
+     "L": 420
+    },
+    "ozerki": {
+     "M": 370,
+     "L": 400
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 7.8,
+     "fat": 18.6,
+     "carbs": 44.4,
+     "kcal": 372.6,
+     "source": "Сенсей Клубника (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 8.4,
+     "fat": 19.3,
+     "carbs": 45.3,
+     "kcal": 384.6,
+     "source": "Тепл. Сенсей Клубника (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 10.2,
+     "fat": 23.1,
+     "carbs": 55,
+     "kcal": 464.3,
+     "source": "Сенсей Клубника (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 10.8,
+     "fat": 23.8,
+     "carbs": 56.9,
+     "kcal": 479.8,
+     "source": "Тепл. Сенсей Клубника (L)"
+    }
+   ],
+   "kbzhuGroup": "Сенсей Клубника",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "matcha-flamingo",
+   "name": "Фламинго",
+   "category": "matcha",
+   "description": "Розовая матча из питахайи на кокосовом молоке со вкусом малины и сливочным кремом. Джус-болл малина/тапиока",
+   "temp": "both",
+   "altMilkBase": true,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 420,
+     "L": 450
+    },
+    "arena": {
+     "M": 420,
+     "L": 450
+    },
+    "maximir": {
+     "M": 420,
+     "L": 450
+    },
+    "dolphin": {
+     "M": 420,
+     "L": 450
+    },
+    "ozerki": {
+     "M": 400,
+     "L": 430
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 3.4,
+     "fat": 15.5,
+     "carbs": 46.5,
+     "kcal": 299.3,
+     "source": "Фламинго (М)"
+    },
+    {
+     "size": "M",
+     "temp": "hot",
+     "protein": 3.5,
+     "fat": 15.8,
+     "carbs": 47.3,
+     "kcal": 305.5,
+     "source": "Тепл. Фламинго (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 4.3,
+     "fat": 18.9,
+     "carbs": 61,
+     "kcal": 378.7,
+     "source": "Фламинго (L)"
+    },
+    {
+     "size": "L",
+     "temp": "hot",
+     "protein": 4.5,
+     "fat": 19.2,
+     "carbs": 67.5,
+     "kcal": 406.9,
+     "source": "Тепл. Фламинго (L)"
+    }
+   ],
+   "kbzhuGroup": "Фламинго",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "frappe-yudzu-apelsin",
+   "name": "Юдзу-апельсин",
+   "category": "frappe",
+   "description": "Ледяная крошка на китайском зеленом чае с соком апельсина, вкусом апельсина и юдзу",
+   "temp": "cold",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 300,
+     "L": 330
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 0.7,
+     "fat": 0.2,
+     "carbs": 44.6,
+     "kcal": 225.6,
+     "source": "Юдзу Апельсин (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 0.9,
+     "fat": 0.2,
+     "carbs": 59.3,
+     "kcal": 300.3,
+     "source": "Юдзу Апельсин (L)"
+    }
+   ],
+   "kbzhuGroup": "Юдзу Апельсин",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "frappe-grasmur",
+   "name": "Грасмур",
+   "category": "frappe",
+   "description": "Ледяная крошка на китайском зеленом чае с жасмином со вкусом гранат, смородина, мята",
+   "temp": "cold",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 300,
+     "L": 330
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 0.2,
+     "fat": 0.1,
+     "carbs": 25.6,
+     "kcal": 104.6,
+     "source": "Грасмур (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 0.3,
+     "fat": 0.1,
+     "carbs": 37.4,
+     "kcal": 152.2,
+     "source": "Грасмур (L)"
+    }
+   ],
+   "kbzhuGroup": "Грасмур",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "frappe-tropiko-yabloko",
+   "name": "Тропико яблоко",
+   "category": "frappe",
+   "description": "Ледяная крошка на китайском зеленом чае с жасмином со вкусом яблока с маракуйей",
+   "temp": "cold",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 300,
+     "L": 330
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 0.5,
+     "fat": 0.1,
+     "carbs": 43.4,
+     "kcal": 177.5,
+     "source": "Тропико Яблоко (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 0.7,
+     "fat": 0.1,
+     "carbs": 63,
+     "kcal": 255.3,
+     "source": "Тропико Яблоко (L)"
+    }
+   ],
+   "kbzhuGroup": "Тропико Яблоко",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "frappe-klubnika-marakuyya",
+   "name": "Клубника маракуйя",
+   "category": "frappe",
+   "description": "Ледяная крошка на китайском зеленом чае со вкусом маракуйи с клубникой",
+   "temp": "cold",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 300,
+     "L": 330
+    },
+    "arena": {
+     "M": 300,
+     "L": 330
+    },
+    "dolphin": {
+     "M": 300,
+     "L": 330
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 0.6,
+     "fat": 0.1,
+     "carbs": 38.9,
+     "kcal": 179.4,
+     "source": "Клубника Маракуйя (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 0.9,
+     "fat": 0.2,
+     "carbs": 54.6,
+     "kcal": 254.7,
+     "source": "Клубника Маракуйя (L)"
+    }
+   ],
+   "kbzhuGroup": "Клубника Маракуйя",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "frappe-greypi-blyu",
+   "name": "Грейпи блю",
+   "category": "frappe",
+   "description": "Ледяная крошка на китайском зеленом чае с жасмином и синим чаем со вкусом грейпфрут, блю-кюрасао",
+   "temp": "cold",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 300,
+     "L": 330
+    },
+    "arena": {
+     "M": 300,
+     "L": 330
+    },
+    "dolphin": {
+     "M": 300,
+     "L": 330
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 2,
+     "fat": 0,
+     "carbs": 83.1,
+     "kcal": 336.7,
+     "source": "Грейпи Блю (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 2,
+     "fat": 0,
+     "carbs": 98.1,
+     "kcal": 398.8,
+     "source": "Грейпи Блю (L)"
+    }
+   ],
+   "kbzhuGroup": "Грейпи Блю",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "frappe-krem-kiss",
+   "name": "Крем кисс",
+   "category": "frappe",
+   "description": "Ледяная крошка на китайском зеленом чае с жасмином со вкусом малины с клубникой и сливочным кремом",
+   "temp": "cold",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 300,
+     "L": 330
+    },
+    "arena": {
+     "M": 300,
+     "L": 330
+    },
+    "maximir": {
+     "M": 300,
+     "L": 330
+    },
+    "dolphin": {
+     "M": 300,
+     "L": 330
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 0.8,
+     "fat": 5.2,
+     "carbs": 47.6,
+     "kcal": 208.8,
+     "source": "Крем кисс (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 1.3,
+     "fat": 7.9,
+     "carbs": 65.7,
+     "kcal": 291.2,
+     "source": "Крем кисс (L)"
+    }
+   ],
+   "kbzhuGroup": "Крем Кисс",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "frappe-ays-vishnya",
+   "name": "Айс-вишня",
+   "category": "frappe",
+   "description": "Ледяная крошка на китайском черном чае со вкусом вишни, лайма с мятой",
+   "temp": "cold",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 300,
+     "L": 330
+    },
+    "arena": {
+     "M": 300,
+     "L": 330
+    },
+    "dolphin": {
+     "M": 300,
+     "L": 330
+    },
+    "ozerki": {
+     "M": 250,
+     "L": 280
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 0.4,
+     "fat": 0.1,
+     "carbs": 38.7,
+     "kcal": 197.9,
+     "source": "Айс Вишня (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 0.8,
+     "fat": 0.3,
+     "carbs": 58.3,
+     "kcal": 291.8,
+     "source": "Айс Вишня (L)"
+    }
+   ],
+   "kbzhuGroup": "Айс Вишня",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "frappe-ledyanoy-oreo",
+   "name": "Ледяной орео",
+   "category": "frappe",
+   "description": "Ледяная крошка на молоке с какао, сливочным кремом и печеньем орео",
+   "temp": "cold",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 300,
+     "L": 330
+    },
+    "arena": {
+     "M": 300,
+     "L": 330
+    },
+    "dolphin": {
+     "M": 300,
+     "L": 330
+    },
+    "ozerki": {
+     "M": 250,
+     "L": 280
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "frappe-shokika",
+   "name": "Шокика",
+   "category": "frappe",
+   "description": "Ледяная крошка на молоке со сливками со вкусом шоколад с карамелью и сливочным кремом",
+   "temp": "cold",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 300,
+     "L": 330
+    },
+    "arena": {
+     "M": 300,
+     "L": 330
+    },
+    "dolphin": {
+     "M": 300,
+     "L": 330
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 6.6,
+     "fat": 20.3,
+     "carbs": 62.7,
+     "kcal": 463,
+     "source": "Шокика (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 8.5,
+     "fat": 26,
+     "carbs": 80.5,
+     "kcal": 594.4,
+     "source": "Шокика (L)"
+    }
+   ],
+   "kbzhuGroup": "Шокика",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "frappe-krasnaya-furiya",
+   "name": "Красная фурия",
+   "category": "frappe",
+   "description": "Ледяная крошка на китайском зеленом чае со вкусом черники с малиной",
+   "temp": "cold",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 300,
+     "L": 330
+    },
+    "arena": {
+     "M": 300,
+     "L": 330
+    },
+    "dolphin": {
+     "M": 300,
+     "L": 330
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 0.3,
+     "fat": 0.2,
+     "carbs": 31.5,
+     "kcal": 100.6,
+     "source": "Красная Фурия (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 0.4,
+     "fat": 0.3,
+     "carbs": 46.9,
+     "kcal": 149.4,
+     "source": "Красная Фурия (L)"
+    }
+   ],
+   "kbzhuGroup": "Красная Фурия",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "frappe-fistashka-ays",
+   "name": "Фисташка айс",
+   "category": "frappe",
+   "description": "Ледяная крошка на китайском зеленом чае с молоком, со вкусом фисташки и сливочным кремом",
+   "temp": "cold",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 300,
+     "L": 330
+    },
+    "arena": {
+     "M": 300,
+     "L": 330
+    },
+    "dolphin": {
+     "M": 300,
+     "L": 330
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 3.4,
+     "fat": 11.4,
+     "carbs": 37.9,
+     "kcal": 311.5,
+     "source": "Фисташка Айс (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 4.3,
+     "fat": 14.6,
+     "carbs": 51.6,
+     "kcal": 414.5,
+     "source": "Фисташка Айс (L)"
+    }
+   ],
+   "kbzhuGroup": "Фисташка Айс",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "frappe-vinogradnyy-led",
+   "name": "Виноградный лед",
+   "category": "frappe",
+   "description": "Ледяная крошка на чае каркаде со вкусом винограда",
+   "temp": "cold",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 300,
+     "L": 330
+    },
+    "arena": {
+     "M": 300,
+     "L": 330
+    },
+    "dolphin": {
+     "M": 300,
+     "L": 330
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "frappe-kofeynyy-krash",
+   "name": "Кофейный краш",
+   "category": "frappe",
+   "description": "Ледяная крошка на молоке с эспрессо со сливочным кремом и хрустящей гранолой",
+   "temp": "cold",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 300,
+     "L": 330
+    },
+    "arena": {
+     "M": 300,
+     "L": 330
+    },
+    "maximir": {
+     "M": 300,
+     "L": 330
+    },
+    "dolphin": {
+     "M": 300,
+     "L": 330
+    },
+    "ozerki": {
+     "M": 250,
+     "L": 280
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "frappe-kakao-banel",
+   "name": "Какао банэль",
+   "category": "frappe",
+   "description": "Ледяная крошка на банановом молоке со вкусом шоколад, банан, карамель и сливочным кремом",
+   "temp": "cold",
+   "altMilkBase": true,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 300,
+     "L": 330
+    },
+    "arena": {
+     "M": 300,
+     "L": 330
+    },
+    "maximir": {
+     "M": 300,
+     "L": 330
+    },
+    "dolphin": {
+     "M": 300,
+     "L": 330
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 4.4,
+     "fat": 7.8,
+     "carbs": 59.5,
+     "kcal": 322.4,
+     "source": "Какао Банель (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 6.7,
+     "fat": 11.3,
+     "carbs": 90,
+     "kcal": 481,
+     "source": "Какао Банель (L)"
+    }
+   ],
+   "kbzhuGroup": "Какао Банель",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "frappe-malikoko",
+   "name": "Маликоко",
+   "category": "frappe",
+   "description": "Ледяная крошка на кокосовом молоке со вкусом малины с кокосом и сливочным кремом",
+   "temp": "cold",
+   "altMilkBase": true,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 300,
+     "L": 330
+    },
+    "arena": {
+     "M": 300,
+     "L": 330
+    },
+    "maximir": {
+     "M": 300,
+     "L": 330
+    },
+    "dolphin": {
+     "M": 300,
+     "L": 330
+    },
+    "ozerki": {
+     "M": 250,
+     "L": 280
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 2.4,
+     "fat": 7.3,
+     "carbs": 67.2,
+     "kcal": 278.3,
+     "source": "Маликоко (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 3.2,
+     "fat": 10.5,
+     "carbs": 80.4,
+     "kcal": 350.5,
+     "source": "Маликоко (L)"
+    }
+   ],
+   "kbzhuGroup": "Маликоко",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "lemonade-myatnaya-vishnya",
+   "name": "Мятная вишня",
+   "category": "lemonade",
+   "description": "Газ. вода с соком вишни, со вкусом вишни и мяты",
+   "temp": "cold",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 280,
+     "L": 330
+    },
+    "arena": {
+     "M": 280,
+     "L": 330
+    },
+    "maximir": {
+     "M": 280,
+     "L": 330
+    },
+    "dolphin": {
+     "M": 280,
+     "L": 330
+    },
+    "ozerki": {
+     "M": 240,
+     "L": 270
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 1.1,
+     "fat": 0.3,
+     "carbs": 44.2,
+     "kcal": 209.4,
+     "source": "Мятная Вишня (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 1.3,
+     "fat": 0.4,
+     "carbs": 60.5,
+     "kcal": 289.5,
+     "source": "Мятная Вишня (L)"
+    }
+   ],
+   "kbzhuGroup": "Мятная вишня",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "lemonade-kitayskiy-limon",
+   "name": "Китайский лимон",
+   "category": "lemonade",
+   "description": "Газ. вода со вкусом апельсина с юдзу (гибрид мандарина и лимона)",
+   "temp": "cold",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 280,
+     "L": 330
+    },
+    "arena": {
+     "M": 280,
+     "L": 330
+    },
+    "maximir": {
+     "M": 280,
+     "L": 330
+    },
+    "dolphin": {
+     "M": 280,
+     "L": 330
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "lemonade-klubnichnyy-modzhito",
+   "name": "Клубничный моджито",
+   "category": "lemonade",
+   "description": "Газ. вода со вкусом клубники, мяты с лимоном и лаймом",
+   "temp": "cold",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 280,
+     "L": 330
+    },
+    "arena": {
+     "M": 280,
+     "L": 330
+    },
+    "maximir": {
+     "M": 280,
+     "L": 330
+    },
+    "dolphin": {
+     "M": 280,
+     "L": 330
+    },
+    "ozerki": {
+     "M": 240,
+     "L": 270
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 0.9,
+     "fat": 0.2,
+     "carbs": 52.2,
+     "kcal": 220.5,
+     "source": "Клубничный Мохито (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 0.9,
+     "fat": 0.2,
+     "carbs": 65.5,
+     "kcal": 273.5,
+     "source": "Клубничный Моджито (L)"
+    }
+   ],
+   "kbzhuGroup": "Клубничный Моджито",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "lemonade-kryzhivik",
+   "name": "Крыживик",
+   "category": "lemonade",
+   "description": "Газ. вода со вкусом киви, крыжовника и базилика с мятой",
+   "temp": "cold",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 280,
+     "L": 330
+    },
+    "arena": {
+     "M": 280,
+     "L": 330
+    },
+    "maximir": {
+     "M": 280,
+     "L": 330
+    },
+    "dolphin": {
+     "M": 280,
+     "L": 330
+    },
+    "ozerki": {
+     "M": 240,
+     "L": 270
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "lemonade-tropik-lav",
+   "name": "Тропик лав",
+   "category": "lemonade",
+   "description": "Газ. вода со вкусом маракуйя с клубникой",
+   "temp": "cold",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 280,
+     "L": 330
+    },
+    "arena": {
+     "M": 280,
+     "L": 330
+    },
+    "maximir": {
+     "M": 280,
+     "L": 330
+    },
+    "dolphin": {
+     "M": 280,
+     "L": 330
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 0.4,
+     "fat": 0.1,
+     "carbs": 43.5,
+     "kcal": 172.6,
+     "source": "Тропик Лав (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 0.5,
+     "fat": 0.1,
+     "carbs": 65.6,
+     "kcal": 260.6,
+     "source": "Тропик Лав (L)"
+    }
+   ],
+   "kbzhuGroup": "Тропик Лав",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "lemonade-epl-kivi",
+   "name": "Эпл киви",
+   "category": "lemonade",
+   "description": "Газ. вода со вкусом яблока, киви и лайма",
+   "temp": "cold",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 280,
+     "L": 330
+    },
+    "arena": {
+     "M": 280,
+     "L": 330
+    },
+    "dolphin": {
+     "M": 280,
+     "L": 330
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 0.4,
+     "fat": 0.1,
+     "carbs": 36.1,
+     "kcal": 141.4,
+     "source": "Эпл Киви (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 0.5,
+     "fat": 0.2,
+     "carbs": 253.3,
+     "kcal": 982,
+     "source": "Эпл Киви (L)"
+    }
+   ],
+   "kbzhuGroup": "Эпл Киви",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "lemonade-malinichi",
+   "name": "Малиничи",
+   "category": "lemonade",
+   "description": "Газ. вода со вкусом малина с личи и синим чаем",
+   "temp": "cold",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 280,
+     "L": 330
+    },
+    "arena": {
+     "M": 280,
+     "L": 330
+    },
+    "maximir": {
+     "M": 280,
+     "L": 330
+    },
+    "dolphin": {
+     "M": 280,
+     "L": 330
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 1,
+     "fat": 0.1,
+     "carbs": 55.5,
+     "kcal": 196.4,
+     "source": "Малиничи (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 1.4,
+     "fat": 0.1,
+     "carbs": 80.4,
+     "kcal": 283.6,
+     "source": "Малиничи (L)"
+    }
+   ],
+   "kbzhuGroup": "Малиничи",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "lemonade-smorgrad",
+   "name": "Сморград",
+   "category": "lemonade",
+   "description": "Газ. вода со вкусом граната, смородины и мяты",
+   "temp": "cold",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 280,
+     "L": 330
+    },
+    "arena": {
+     "M": 280,
+     "L": 330
+    },
+    "dolphin": {
+     "M": 280,
+     "L": 330
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "lemonade-kislo-dynka",
+   "name": "Кисло-дынька",
+   "category": "lemonade",
+   "description": "Газ. вода со вкусом лимона, дыни и мяты",
+   "temp": "cold",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 280,
+     "L": 330
+    },
+    "arena": {
+     "M": 280,
+     "L": 330
+    },
+    "maximir": {
+     "M": 280,
+     "L": 330
+    },
+    "dolphin": {
+     "M": 280,
+     "L": 330
+    },
+    "ozerki": {
+     "M": 240,
+     "L": 270
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "lemonade-malinovaya-svezhest",
+   "name": "Малиновая свежесть",
+   "category": "lemonade",
+   "description": "Газ. вода со вкусом малины с мятой",
+   "temp": "cold",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 280,
+     "L": 330
+    },
+    "arena": {
+     "M": 280,
+     "L": 330
+    },
+    "maximir": {
+     "M": 280,
+     "L": 330
+    },
+    "dolphin": {
+     "M": 280,
+     "L": 330
+    },
+    "ozerki": {
+     "M": 240,
+     "L": 270
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 0.9,
+     "fat": 0.2,
+     "carbs": 55,
+     "kcal": 211.8,
+     "source": "Малиновая свежесть (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 1,
+     "fat": 0.2,
+     "carbs": 70,
+     "kcal": 273.6,
+     "source": "Малиновая свежесть (L)"
+    }
+   ],
+   "kbzhuGroup": "Малиновая Свежесть",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "lemonade-laguna",
+   "name": "Лагуна",
+   "category": "lemonade",
+   "description": "Газ. вода со вкусом апельсина, лимона и лайма с цедрой",
+   "temp": "cold",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 280,
+     "L": 330
+    },
+    "arena": {
+     "M": 280,
+     "L": 330
+    },
+    "maximir": {
+     "M": 280,
+     "L": 330
+    },
+    "dolphin": {
+     "M": 280,
+     "L": 330
+    },
+    "ozerki": {
+     "M": 240,
+     "L": 270
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 1.3,
+     "fat": 0.3,
+     "carbs": 45,
+     "kcal": 197.1,
+     "source": "Лагуна (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 1.3,
+     "fat": 0.3,
+     "carbs": 64.6,
+     "kcal": 278.6,
+     "source": "Лагуна (L)"
+    }
+   ],
+   "kbzhuGroup": "Лагуна",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "lemonade-chernika-laym",
+   "name": "Черника лайм",
+   "category": "lemonade",
+   "description": "Газ. вода со вкусом черники, лайма и мяты",
+   "temp": "cold",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 280,
+     "L": 330
+    },
+    "arena": {
+     "M": 280,
+     "L": 330
+    },
+    "maximir": {
+     "M": 280,
+     "L": 330
+    },
+    "dolphin": {
+     "M": 280,
+     "L": 330
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 1,
+     "fat": 0.3,
+     "carbs": 32.2,
+     "kcal": 135.9,
+     "source": "Черника Лайм (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 1.1,
+     "fat": 0.4,
+     "carbs": 42.6,
+     "kcal": 177.3,
+     "source": "Черника Лайм (L)"
+    }
+   ],
+   "kbzhuGroup": "Черника Лайм",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "lemonade-dyusheska",
+   "name": "Дюшеска",
+   "category": "lemonade",
+   "description": "Газ. вода со вкусом персика, лимона и груши с мятой",
+   "temp": "cold",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 280,
+     "L": 330
+    },
+    "arena": {
+     "M": 280,
+     "L": 330
+    },
+    "dolphin": {
+     "M": 280,
+     "L": 330
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "lemonade-vinogradnyy-mokhito",
+   "name": "Виноградный мохито",
+   "category": "lemonade",
+   "description": "Газ. вода со вкусом винограда, лайма и мяты",
+   "temp": "cold",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 280,
+     "L": 330
+    },
+    "arena": {
+     "M": 280,
+     "L": 330
+    },
+    "maximir": {
+     "M": 280,
+     "L": 330
+    },
+    "dolphin": {
+     "M": 280,
+     "L": 330
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "lemonade-modzhito",
+   "name": "Моджито",
+   "category": "lemonade",
+   "description": "Газ. вода со вкусом лимона, мяты и лайма",
+   "temp": "cold",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 280,
+     "L": 330
+    },
+    "arena": {
+     "M": 280,
+     "L": 330
+    },
+    "maximir": {
+     "M": 280,
+     "L": 330
+    },
+    "dolphin": {
+     "M": 280,
+     "L": 330
+    },
+    "ozerki": {
+     "M": 240,
+     "L": 270
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 0.4,
+     "fat": 0.1,
+     "carbs": 39,
+     "kcal": 163.4,
+     "source": "Моджито (М)"
+    },
+    {
+     "size": "L",
+     "temp": "cold",
+     "protein": 0.5,
+     "fat": 0.1,
+     "carbs": 51.6,
+     "kcal": 214.5,
+     "source": "Моджито (L)"
+    }
+   ],
+   "kbzhuGroup": "Моджито",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "lemonade-tri-lya-lya",
+   "name": "Три-ля-ля",
+   "category": "lemonade",
+   "description": "Газ. вода со вкусом смородины, апельсина и ананаса",
+   "temp": "cold",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 280,
+     "L": 330
+    },
+    "arena": {
+     "M": 280,
+     "L": 330
+    },
+    "dolphin": {
+     "M": 280,
+     "L": 330
+    },
+    "ozerki": {
+     "M": 240,
+     "L": 270
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "hot-tea-limon-malina",
+   "name": "Лимон-малина",
+   "category": "hot-tea",
+   "description": "Китайский зеленый чай с добавлением малины и лимона, с медом",
+   "temp": "hot",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 350,
+     "L": null
+    },
+    "arena": {
+     "M": 350,
+     "L": null
+    },
+    "maximir": {
+     "M": 350,
+     "L": null
+    },
+    "dolphin": {
+     "M": 350,
+     "L": null
+    },
+    "ozerki": {
+     "M": 350,
+     "L": null
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  },
+  {
+   "id": "hot-tea-mango-marakuyya",
+   "name": "Манго-маракуйя",
+   "category": "hot-tea",
+   "description": "Китайский зеленый чай с добавлением манго и маракуйи, с медом",
+   "temp": "hot",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 350,
+     "L": null
+    },
+    "arena": {
+     "M": 350,
+     "L": null
+    },
+    "maximir": {
+     "M": 350,
+     "L": null
+    },
+    "dolphin": {
+     "M": 350,
+     "L": null
+    },
+    "ozerki": {
+     "M": 350,
+     "L": null
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 1.3,
+     "fat": 0.2,
+     "carbs": 45.1,
+     "kcal": 188.3,
+     "source": "Манго-Маракуйя (М)"
+    }
+   ],
+   "kbzhuGroup": "Манго-Маракуйя",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "hot-tea-smorodina-myata",
+   "name": "Смородина-мята",
+   "category": "hot-tea",
+   "description": "Китайский зеленый чай с добавлением смородины и мяты, с медом",
+   "temp": "hot",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 350,
+     "L": null
+    },
+    "arena": {
+     "M": 350,
+     "L": null
+    },
+    "maximir": {
+     "M": 350,
+     "L": null
+    },
+    "dolphin": {
+     "M": 350,
+     "L": null
+    },
+    "ozerki": {
+     "M": 350,
+     "L": null
+    }
+   },
+   "kbzhu": [
+    {
+     "size": "M",
+     "temp": "cold",
+     "protein": 0.7,
+     "fat": 0.2,
+     "carbs": 45.4,
+     "kcal": 189.1,
+     "source": "Смородина Мята (М)"
+    }
+   ],
+   "kbzhuGroup": "Смородина Мята",
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu",
+    "kbzhu": "https://vk.ru/@tapiti_vrn-kbzhu"
+   }
+  },
+  {
+   "id": "hot-tea-vishnya-apelsin",
+   "name": "Вишня-апельсин",
+   "category": "hot-tea",
+   "description": "Китайский зеленый чай с добавлением вишни и апельсина, с медом",
+   "temp": "hot",
+   "altMilkBase": false,
+   "locationIds": [
+    "chizhova",
+    "arena",
+    "maximir",
+    "dolphin",
+    "ozerki"
+   ],
+   "offers": {
+    "chizhova": {
+     "M": 350,
+     "L": null
+    },
+    "arena": {
+     "M": 350,
+     "L": null
+    },
+    "maximir": {
+     "M": 350,
+     "L": null
+    },
+    "dolphin": {
+     "M": 350,
+     "L": null
+    },
+    "ozerki": {
+     "M": 350,
+     "L": null
+    }
+   },
+   "kbzhu": null,
+   "kbzhuGroup": null,
+   "source": {
+    "menu": "https://vk.ru/@tapiti_vrn-menu"
+   }
+  }
+ ]
+}

@@ -1,0 +1,3910 @@
+[
+ {
+  "type": "header",
+  "text": "Таблица калорийности"
+ },
+ {
+  "type": "header",
+  "text": "Модификаторы"
+ },
+ {
+  "type": "header",
+  "text": "Крепкий Орешек"
+ },
+ {
+  "type": "row",
+  "name": "Крепкий Орешек АРАХИС (М)",
+  "protein": 1.3,
+  "fat": 2.5,
+  "carbs": 23.3,
+  "kcal": 121.3
+ },
+ {
+  "type": "row",
+  "name": "Крепкий орешек АРАХИС (L)",
+  "protein": 1.3,
+  "fat": 2.5,
+  "carbs": 30.8,
+  "kcal": 152.4
+ },
+ {
+  "type": "row",
+  "name": "Крепкий Орешек ЛЕСНОЙ ОРЕХ (М)",
+  "protein": 0.9,
+  "fat": 3,
+  "carbs": 23,
+  "kcal": 124.4
+ },
+ {
+  "type": "row",
+  "name": "Крепкий орешек ЛЕСНОЙ ОРЕХ (L)",
+  "protein": 0.9,
+  "fat": 3,
+  "carbs": 30.5,
+  "kcal": 155.4
+ },
+ {
+  "type": "row",
+  "name": "Крепкий Орешек МИНДАЛЬ (М)",
+  "protein": 1.1,
+  "fat": 2.5,
+  "carbs": 23.6,
+  "kcal": 122
+ },
+ {
+  "type": "row",
+  "name": "Крепкий орешек МИНДАЛЬ (L)",
+  "protein": 1.1,
+  "fat": 2.5,
+  "carbs": 31.1,
+  "kcal": 152.9
+ },
+ {
+  "type": "row",
+  "name": "Тапиока Добавка",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 25.1,
+  "kcal": 101.6
+ },
+ {
+  "type": "row",
+  "name": "Джус-боллы Вишня",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 17.6,
+  "kcal": 70.7
+ },
+ {
+  "type": "row",
+  "name": "Джус-боллы Манго",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 17.6,
+  "kcal": 70.7
+ },
+ {
+  "type": "row",
+  "name": "Джус-боллы Черника",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 17.6,
+  "kcal": 70.7
+ },
+ {
+  "type": "row",
+  "name": "Джус-боллы Персик",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 17.6,
+  "kcal": 70.7
+ },
+ {
+  "type": "row",
+  "name": "Джус-боллы Малина",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 17.6,
+  "kcal": 70.7
+ },
+ {
+  "type": "row",
+  "name": "Джус-боллы Апельсин",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 17.6,
+  "kcal": 70.7
+ },
+ {
+  "type": "row",
+  "name": "Джус-боллы Яблоко",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 17.6,
+  "kcal": 70.7
+ },
+ {
+  "type": "row",
+  "name": "Джус-боллы Гранат",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 17.6,
+  "kcal": 70.7
+ },
+ {
+  "type": "row",
+  "name": "Джус-боллы Маракуйя",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 17.6,
+  "kcal": 70.7
+ },
+ {
+  "type": "row",
+  "name": "Джус-боллы Клубника",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 17.6,
+  "kcal": 70.7
+ },
+ {
+  "type": "header",
+  "text": "Кофейные"
+ },
+ {
+  "type": "header",
+  "text": "Кофейный Тапи"
+ },
+ {
+  "type": "row",
+  "name": "Кофейный Тапи (М)",
+  "protein": 6,
+  "fat": 17.6,
+  "carbs": 97.2,
+  "kcal": 579.4
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Кофейный Тапи (М)",
+  "protein": 9.6,
+  "fat": 21.5,
+  "carbs": 99.4,
+  "kcal": 637.2
+ },
+ {
+  "type": "row",
+  "name": "Кофейный Тапи (L)",
+  "protein": 7.8,
+  "fat": 21.8,
+  "carbs": 108.1,
+  "kcal": 668.4
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Кофейный Тапи (L)",
+  "protein": 10.8,
+  "fat": 25,
+  "carbs": 105.8,
+  "kcal": 700
+ },
+ {
+  "type": "header",
+  "text": "Кофейный Банан"
+ },
+ {
+  "type": "row",
+  "name": "Кофейный Банан (М)",
+  "protein": 4,
+  "fat": 14.1,
+  "carbs": 43.5,
+  "kcal": 346.5
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Кофейный Банан (М)",
+  "protein": 4.1,
+  "fat": 14.2,
+  "carbs": 48,
+  "kcal": 338.6
+ },
+ {
+  "type": "row",
+  "name": "Кофейный Банан (L)",
+  "protein": 4.9,
+  "fat": 17,
+  "carbs": 56.3,
+  "kcal": 456.7
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Кофейный Банан (L)",
+  "protein": 6.1,
+  "fat": 17.7,
+  "carbs": 67.7,
+  "kcal": 459
+ },
+ {
+  "type": "header",
+  "text": "Крепкий Орешек"
+ },
+ {
+  "type": "row",
+  "name": "Крепкий Орешек (М)",
+  "protein": 6,
+  "fat": 17.6,
+  "carbs": 46.7,
+  "kcal": 401.1
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Крепкий Орешек (М)",
+  "protein": 6.3,
+  "fat": 18,
+  "carbs": 47.2,
+  "kcal": 379.5
+ },
+ {
+  "type": "row",
+  "name": "Крепкий Орешек (L)",
+  "protein": 7.8,
+  "fat": 21.8,
+  "carbs": 50.6,
+  "kcal": 489.4
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Крепкий Орешек (L)",
+  "protein": 8.1,
+  "fat": 22.1,
+  "carbs": 51.1,
+  "kcal": 440.2
+ },
+ {
+  "type": "header",
+  "text": "Шоколадный Батончик"
+ },
+ {
+  "type": "row",
+  "name": "Шоколадный Батончик (М)",
+  "protein": 7.5,
+  "fat": 20.3,
+  "carbs": 69.6,
+  "kcal": 494.5
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Шоколадный Батончик (М)",
+  "protein": 11.1,
+  "fat": 24.1,
+  "carbs": 75.3,
+  "kcal": 566.5
+ },
+ {
+  "type": "row",
+  "name": "Шоколадный Батончик (L)",
+  "protein": 9.4,
+  "fat": 24.5,
+  "carbs": 84.3,
+  "kcal": 641.5
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Шоколадный Батончик (L)",
+  "protein": 12.4,
+  "fat": 27.7,
+  "carbs": 85.2,
+  "kcal": 644.6
+ },
+ {
+  "type": "header",
+  "text": "Коконас"
+ },
+ {
+  "type": "row",
+  "name": "Коконас (M)",
+  "protein": 3.1,
+  "fat": 16.7,
+  "carbs": 70.4,
+  "kcal": 472.4
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Коконас (M)",
+  "protein": 4.2,
+  "fat": 18.3,
+  "carbs": 78.7,
+  "kcal": 496.5
+ },
+ {
+  "type": "row",
+  "name": "Коконас (L)",
+  "protein": 3.9,
+  "fat": 19.9,
+  "carbs": 86.7,
+  "kcal": 597.1
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Коконас (L)",
+  "protein": 4.8,
+  "fat": 21.2,
+  "carbs": 87.8,
+  "kcal": 562.4
+ },
+ {
+  "type": "header",
+  "text": "Халва Миндаль"
+ },
+ {
+  "type": "row",
+  "name": "Халва Миндаль (М)",
+  "protein": 6.7,
+  "fat": 19.1,
+  "carbs": 70.4,
+  "kcal": 486.5
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Халва Миндаль (М)",
+  "protein": 9.6,
+  "fat": 21.5,
+  "carbs": 75.4,
+  "kcal": 541.1
+ },
+ {
+  "type": "row",
+  "name": "Халва Миндаль (L)",
+  "protein": 7.8,
+  "fat": 21.8,
+  "carbs": 84.8,
+  "kcal": 631.5
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Халва Миндаль (L)",
+  "protein": 10.8,
+  "fat": 25,
+  "carbs": 85.8,
+  "kcal": 620.8
+ },
+ {
+  "type": "header",
+  "text": "Кофейная Жвачка"
+ },
+ {
+  "type": "row",
+  "name": "Кофейная Жвачка (М)",
+  "protein": 6,
+  "fat": 17.6,
+  "carbs": 47,
+  "kcal": 371.6
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Кофейная Жвачка (М)",
+  "protein": 9.6,
+  "fat": 21.5,
+  "carbs": 52.7,
+  "kcal": 443.6
+ },
+ {
+  "type": "row",
+  "name": "Кофейная Жвачка (L)",
+  "protein": 7.8,
+  "fat": 21.8,
+  "carbs": 64.2,
+  "kcal": 485.2
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Кофейная Жвачка (L)",
+  "protein": 10.8,
+  "fat": 25,
+  "carbs": 68.9,
+  "kcal": 545.2
+ },
+ {
+  "type": "header",
+  "text": "Шоколад Карамель"
+ },
+ {
+  "type": "row",
+  "name": "Шоколад Карамель (М)",
+  "protein": 6.4,
+  "fat": 17.9,
+  "carbs": 67.9,
+  "kcal": 463.1
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Шоколад Карамель (М)",
+  "protein": 10.1,
+  "fat": 21.9,
+  "carbs": 84.4,
+  "kcal": 580.1
+ },
+ {
+  "type": "row",
+  "name": "Шоколад Карамель (L)",
+  "protein": 8.3,
+  "fat": 22.2,
+  "carbs": 82.6,
+  "kcal": 568.8
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Шоколад Карамель (L)",
+  "protein": 12.9,
+  "fat": 27.1,
+  "carbs": 96.7,
+  "kcal": 688.3
+ },
+ {
+  "type": "header",
+  "text": "Меланоно"
+ },
+ {
+  "type": "row",
+  "name": "Мелонано (М)",
+  "protein": 6.5,
+  "fat": 17.8,
+  "carbs": 52.1,
+  "kcal": 395.9
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Мелонано (М)",
+  "protein": 9.3,
+  "fat": 20.9,
+  "carbs": 61.2,
+  "kcal": 472.3
+ },
+ {
+  "type": "row",
+  "name": "Мелонано (L)",
+  "protein": 8.5,
+  "fat": 22,
+  "carbs": 72.9,
+  "kcal": 525
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Мелонано (L)",
+  "protein": 11.5,
+  "fat": 25.2,
+  "carbs": 80,
+  "kcal": 593.5
+ },
+ {
+  "type": "header",
+  "text": "Темное Желание"
+ },
+ {
+  "type": "row",
+  "name": "Темное Желание (М)",
+  "protein": 5.7,
+  "fat": 28,
+  "carbs": 47.9,
+  "kcal": 467.9
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Темное Желание (М)",
+  "protein": 7.9,
+  "fat": 36,
+  "carbs": 58.8,
+  "kcal": 594.1
+ },
+ {
+  "type": "row",
+  "name": "Темное Желание (L)",
+  "protein": 7.4,
+  "fat": 35.6,
+  "carbs": 61.8,
+  "kcal": 599.5
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Темное Желание (L)",
+  "protein": 9.6,
+  "fat": 43.6,
+  "carbs": 72.7,
+  "kcal": 725.7
+ },
+ {
+  "type": "header",
+  "text": "Ванильный Персик"
+ },
+ {
+  "type": "row",
+  "name": "Ванильный Персик (М)",
+  "protein": 6,
+  "fat": 17.6,
+  "carbs": 47,
+  "kcal": 371.6
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Ванильный Персик (М)",
+  "protein": 9,
+  "fat": 20.8,
+  "carbs": 51.7,
+  "kcal": 431.6
+ },
+ {
+  "type": "row",
+  "name": "Ванильный Персик (L)",
+  "protein": 7.8,
+  "fat": 21.8,
+  "carbs": 60.4,
+  "kcal": 469.7
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Ванильный Персик (L)",
+  "protein": 10.8,
+  "fat": 25,
+  "carbs": 65.1,
+  "kcal": 529.7
+ },
+ {
+  "type": "header",
+  "text": "Бархатная Малина"
+ },
+ {
+  "type": "row",
+  "name": "Бархатная Малина (М)",
+  "protein": 6.3,
+  "fat": 17.8,
+  "carbs": 49.9,
+  "kcal": 343.9
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Бархатная Малина (М)",
+  "protein": 8.7,
+  "fat": 20.3,
+  "carbs": 53.7,
+  "kcal": 391.9
+ },
+ {
+  "type": "row",
+  "name": "Бархатная Малина (L)",
+  "protein": 8.1,
+  "fat": 21.9,
+  "carbs": 65.3,
+  "kcal": 448.5
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Бархатная Малина (L)",
+  "protein": 11.1,
+  "fat": 25.1,
+  "carbs": 70,
+  "kcal": 508.5
+ },
+ {
+  "type": "header",
+  "text": "Клубничное Облако"
+ },
+ {
+  "type": "row",
+  "name": "Клубничное облако (М)",
+  "protein": 6.1,
+  "fat": 17.7,
+  "carbs": 39.7,
+  "kcal": 338.6
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Клубничное облако (М)",
+  "protein": 8.5,
+  "fat": 20.2,
+  "carbs": 43.4,
+  "kcal": 386.6
+ },
+ {
+  "type": "row",
+  "name": "Клубничное облако (L)",
+  "protein": 8,
+  "fat": 21.8,
+  "carbs": 50.2,
+  "kcal": 424.7
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Клубничное облако (L)",
+  "protein": 11,
+  "fat": 25,
+  "carbs": 54.9,
+  "kcal": 484.7
+ },
+ {
+  "type": "header",
+  "text": "Карибская Черника"
+ },
+ {
+  "type": "row",
+  "name": "Карибская Черника (М)",
+  "protein": 3.2,
+  "fat": 16.8,
+  "carbs": 39,
+  "kcal": 315.7
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Карибская Черника (М)",
+  "protein": 3.9,
+  "fat": 17.9,
+  "carbs": 42.1,
+  "kcal": 340.5
+ },
+ {
+  "type": "row",
+  "name": "Карибская Черника (L)",
+  "protein": 4,
+  "fat": 20.1,
+  "carbs": 49,
+  "kcal": 387.8
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Карибская Черника (L)",
+  "protein": 4.9,
+  "fat": 21.4,
+  "carbs": 52.9,
+  "kcal": 418.8
+ },
+ {
+  "type": "header",
+  "text": "Молочный чай"
+ },
+ {
+  "type": "header",
+  "text": "Любовь Это"
+ },
+ {
+  "type": "row",
+  "name": "Любовь Это (М)",
+  "protein": 4.5,
+  "fat": 16,
+  "carbs": 44.7,
+  "kcal": 341.4
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Любовь Это (М)",
+  "protein": 5.4,
+  "fat": 17,
+  "carbs": 46.1,
+  "kcal": 359.5
+ },
+ {
+  "type": "row",
+  "name": "Любовь Это (L)",
+  "protein": 5.7,
+  "fat": 19.6,
+  "carbs": 60.9,
+  "kcal": 443.1
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Любовь Это (L)",
+  "protein": 7.5,
+  "fat": 21.5,
+  "carbs": 63.8,
+  "kcal": 479.3
+ },
+ {
+  "type": "header",
+  "text": "Персиковая Маракуйя"
+ },
+ {
+  "type": "row",
+  "name": "Персиковая Маракуйя (М)",
+  "protein": 4.8,
+  "fat": 16.4,
+  "carbs": 47.7,
+  "kcal": 355.9
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Персиковая Маракуйя (М)",
+  "protein": 5.4,
+  "fat": 17,
+  "carbs": 48.6,
+  "kcal": 367.9
+ },
+ {
+  "type": "row",
+  "name": "Персиковая Маракуйя (L)",
+  "protein": 5.7,
+  "fat": 19.6,
+  "carbs": 55.9,
+  "kcal": 420.6
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Персиковая Маракуйя (L)",
+  "protein": 7.5,
+  "fat": 21.5,
+  "carbs": 58.7,
+  "kcal": 456.6
+ },
+ {
+  "type": "header",
+  "text": "Банана-Папа"
+ },
+ {
+  "type": "row",
+  "name": "Банана-Папа (М)",
+  "protein": 3.4,
+  "fat": 12.2,
+  "carbs": 49.9,
+  "kcal": 318.4
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Банана-Папа (М)",
+  "protein": 3.4,
+  "fat": 12.3,
+  "carbs": 50.5,
+  "kcal": 321.8
+ },
+ {
+  "type": "row",
+  "name": "Банана-Папа (L)",
+  "protein": 4,
+  "fat": 15,
+  "carbs": 60.2,
+  "kcal": 386.9
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Банана-Папа (L)",
+  "protein": 4.8,
+  "fat": 15.8,
+  "carbs": 65.8,
+  "kcal": 419.4
+ },
+ {
+  "type": "header",
+  "text": "Лес Чудес"
+ },
+ {
+  "type": "row",
+  "name": "Лес Чудес (М)",
+  "protein": 4.5,
+  "fat": 16,
+  "carbs": 35.4,
+  "kcal": 301.2
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Лес Чудес (М)",
+  "protein": 5.4,
+  "fat": 17,
+  "carbs": 36.8,
+  "kcal": 319.2
+ },
+ {
+  "type": "row",
+  "name": "Лес Чудес (L)",
+  "protein": 5.7,
+  "fat": 19.6,
+  "carbs": 44.2,
+  "kcal": 371.9
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Лес Чудес (L)",
+  "protein": 7.5,
+  "fat": 21.5,
+  "carbs": 47,
+  "kcal": 407.9
+ },
+ {
+  "type": "header",
+  "text": "Мальвиша"
+ },
+ {
+  "type": "row",
+  "name": "Мальвиша (М)",
+  "protein": 4.5,
+  "fat": 16,
+  "carbs": 35.7,
+  "kcal": 303.4
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Мальвиша (М)",
+  "protein": 5.4,
+  "fat": 17,
+  "carbs": 37.1,
+  "kcal": 321.4
+ },
+ {
+  "type": "row",
+  "name": "Мальвиша (L)",
+  "protein": 5.7,
+  "fat": 19.6,
+  "carbs": 50.3,
+  "kcal": 397.1
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Мальвиша (L)",
+  "protein": 7.5,
+  "fat": 21.5,
+  "carbs": 53.2,
+  "kcal": 433.3
+ },
+ {
+  "type": "header",
+  "text": "Ягодная Жвачка"
+ },
+ {
+  "type": "row",
+  "name": "Ягодная Жвачка (М)",
+  "protein": 4.5,
+  "fat": 16,
+  "carbs": 49.6,
+  "kcal": 359
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Ягодная Жвачка (М)",
+  "protein": 5.4,
+  "fat": 17,
+  "carbs": 51,
+  "kcal": 377.1
+ },
+ {
+  "type": "row",
+  "name": "Ягодная Жвачка (L)",
+  "protein": 5.7,
+  "fat": 19.6,
+  "carbs": 62.1,
+  "kcal": 445.2
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Ягодная Жвачка (L)",
+  "protein": 7.5,
+  "fat": 21.5,
+  "carbs": 64.9,
+  "kcal": 481.4
+ },
+ {
+  "type": "header",
+  "text": "Дынный Банан"
+ },
+ {
+  "type": "row",
+  "name": "Дынный Банан (М)",
+  "protein": 2.7,
+  "fat": 13.5,
+  "carbs": 38.9,
+  "kcal": 289.9
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Дынный Банан (М)",
+  "protein": 3.1,
+  "fat": 13.8,
+  "carbs": 41.2,
+  "kcal": 302.6
+ },
+ {
+  "type": "row",
+  "name": "Дынный Банан (L)",
+  "protein": 3.4,
+  "fat": 16.3,
+  "carbs": 52.6,
+  "kcal": 372.7
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Дынный Банан (L)",
+  "protein": 4.1,
+  "fat": 16.7,
+  "carbs": 57.2,
+  "kcal": 398.1
+ },
+ {
+  "type": "header",
+  "text": "Мананас"
+ },
+ {
+  "type": "row",
+  "name": "Мананас (М)",
+  "protein": 4.8,
+  "fat": 16.4,
+  "carbs": 35.7,
+  "kcal": 309.4
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Мананас (М)",
+  "protein": 5.4,
+  "fat": 17,
+  "carbs": 36.6,
+  "kcal": 321.5
+ },
+ {
+  "type": "row",
+  "name": "Мананас (L)",
+  "protein": 5.7,
+  "fat": 19.6,
+  "carbs": 49.7,
+  "kcal": 398.1
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Мананас (L)",
+  "protein": 7.5,
+  "fat": 21.5,
+  "carbs": 52.6,
+  "kcal": 434.3
+ },
+ {
+  "type": "header",
+  "text": "Банничка"
+ },
+ {
+  "type": "row",
+  "name": "Банничка (М)",
+  "protein": 3.2,
+  "fat": 13.7,
+  "carbs": 48.5,
+  "kcal": 326.1
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Банничка (М)",
+  "protein": 3.9,
+  "fat": 16.5,
+  "carbs": 46.5,
+  "kcal": 347.4
+ },
+ {
+  "type": "row",
+  "name": "Банничка (L)",
+  "protein": 4,
+  "fat": 16.5,
+  "carbs": 55.4,
+  "kcal": 382.3
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Банничка (L)",
+  "protein": 4.4,
+  "fat": 14.4,
+  "carbs": 58.5,
+  "kcal": 376.8
+ },
+ {
+  "type": "header",
+  "text": "Клубника в Шоколаде"
+ },
+ {
+  "type": "row",
+  "name": "Клубника в Шоколаде (М)",
+  "protein": 5.7,
+  "fat": 16.6,
+  "carbs": 44.7,
+  "kcal": 343.3
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Клубника в Шоколаде (М)",
+  "protein": 5.7,
+  "fat": 16.6,
+  "carbs": 44.7,
+  "kcal": 343.3
+ },
+ {
+  "type": "row",
+  "name": "Клубника в Шоколаде (L)",
+  "protein": 7.3,
+  "fat": 20.3,
+  "carbs": 61.4,
+  "kcal": 446.8
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Клубника в Шоколаде (L)",
+  "protein": 9.1,
+  "fat": 22.2,
+  "carbs": 64.2,
+  "kcal": 482.9
+ },
+ {
+  "type": "header",
+  "text": "Лав Малина"
+ },
+ {
+  "type": "row",
+  "name": "Лав Малина (М)",
+  "protein": 2.7,
+  "fat": 14.3,
+  "carbs": 50.7,
+  "kcal": 288.8
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Лав Малина (М)",
+  "protein": 2.9,
+  "fat": 14.6,
+  "carbs": 51.5,
+  "kcal": 295.1
+ },
+ {
+  "type": "row",
+  "name": "Лав Малина (L)",
+  "protein": 3.4,
+  "fat": 17.3,
+  "carbs": 63.2,
+  "kcal": 354.9
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Лав Малина (L)",
+  "protein": 3.5,
+  "fat": 15.4,
+  "carbs": 63.7,
+  "kcal": 339.9
+ },
+ {
+  "type": "header",
+  "text": "Коко Манго"
+ },
+ {
+  "type": "row",
+  "name": "Коко манго (М)",
+  "protein": 2.7,
+  "fat": 14.8,
+  "carbs": 46.8,
+  "kcal": 334.6
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Коко манго (М)",
+  "protein": 3,
+  "fat": 15.2,
+  "carbs": 48,
+  "kcal": 343.9
+ },
+ {
+  "type": "row",
+  "name": "Коко манго (L)",
+  "protein": 3.4,
+  "fat": 17.8,
+  "carbs": 61,
+  "kcal": 421.4
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Коко манго (L)",
+  "protein": 3.9,
+  "fat": 18.6,
+  "carbs": 63.3,
+  "kcal": 440.1
+ },
+ {
+  "type": "header",
+  "text": "Тапи Шок"
+ },
+ {
+  "type": "row",
+  "name": "Тапи Шок (М)",
+  "protein": 3,
+  "fat": 15.3,
+  "carbs": 41.4,
+  "kcal": 318
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Тапи Шок (М)",
+  "protein": 3.3,
+  "fat": 15.7,
+  "carbs": 67.7,
+  "kcal": 428.9
+ },
+ {
+  "type": "row",
+  "name": "Тапи Шок (L)",
+  "protein": 3.8,
+  "fat": 18.4,
+  "carbs": 108.4,
+  "kcal": 620.1
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Тапи Шок (L)",
+  "protein": 4.3,
+  "fat": 19.2,
+  "carbs": 85.6,
+  "kcal": 537.1
+ },
+ {
+  "type": "header",
+  "text": "Клубничный Орео"
+ },
+ {
+  "type": "row",
+  "name": "Клубничный Орео (М)",
+  "protein": 6.5,
+  "fat": 20.4,
+  "carbs": 65.4,
+  "kcal": 470.2
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Клубничный Орео (М)",
+  "protein": 7.4,
+  "fat": 21.4,
+  "carbs": 66.8,
+  "kcal": 488.2
+ },
+ {
+  "type": "row",
+  "name": "Клубничный Орео (L)",
+  "protein": 8.4,
+  "fat": 25.4,
+  "carbs": 86.1,
+  "kcal": 604.5
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Клубничный Орео (L)",
+  "protein": 9.3,
+  "fat": 26.4,
+  "carbs": 87.5,
+  "kcal": 622.5
+ },
+ {
+  "type": "header",
+  "text": "Розовое Солнце"
+ },
+ {
+  "type": "row",
+  "name": "Розовое Солнце (М)",
+  "protein": 6,
+  "fat": 17.6,
+  "carbs": 41.7,
+  "kcal": 346.9
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Розовое Солнце (М)",
+  "protein": 5.4,
+  "fat": 17,
+  "carbs": 40.8,
+  "kcal": 335
+ },
+ {
+  "type": "row",
+  "name": "Розовое Солнце (L)",
+  "protein": 7.8,
+  "fat": 21.8,
+  "carbs": 61,
+  "kcal": 467.1
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Розовое Солнце (L)",
+  "protein": 7.5,
+  "fat": 21.5,
+  "carbs": 44.9,
+  "kcal": 401.9
+ },
+ {
+  "type": "header",
+  "text": "Черный Жемчуг"
+ },
+ {
+  "type": "row",
+  "name": "Черный жемчуг (М)",
+  "protein": 5.1,
+  "fat": 18.9,
+  "carbs": 53.2,
+  "kcal": 407.9
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Черный жемчуг (М)",
+  "protein": 5.4,
+  "fat": 17,
+  "carbs": 70.2,
+  "kcal": 460.6
+ },
+ {
+  "type": "row",
+  "name": "Черный жемчуг (L)",
+  "protein": 6.2,
+  "fat": 20.1,
+  "carbs": 61.9,
+  "kcal": 457.6
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Черный жемчуг (L)",
+  "protein": 7.5,
+  "fat": 21.5,
+  "carbs": 71.1,
+  "kcal": 513
+ },
+ {
+  "type": "header",
+  "text": "Малиновый Тапи"
+ },
+ {
+  "type": "row",
+  "name": "Малиновый Тапи (M)",
+  "protein": 6.2,
+  "fat": 17.7,
+  "carbs": 45.6,
+  "kcal": 367
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Малиновый Тапи (M)",
+  "protein": 7.7,
+  "fat": 19.3,
+  "carbs": 53.6,
+  "kcal": 391.4
+ },
+ {
+  "type": "row",
+  "name": "Малиновый Тапи (L)",
+  "protein": 8.1,
+  "fat": 21.9,
+  "carbs": 59.2,
+  "kcal": 467.6
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Малиновый Тапи (L)",
+  "protein": 9.3,
+  "fat": 23.4,
+  "carbs": 81.4,
+  "kcal": 573.3
+ },
+ {
+  "type": "header",
+  "text": "Тапи Блю"
+ },
+ {
+  "type": "row",
+  "name": "Тапи Блю (М)",
+  "protein": 6.1,
+  "fat": 17.8,
+  "carbs": 39,
+  "kcal": 341.6
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Тапи Блю (M)",
+  "protein": 7.6,
+  "fat": 19.4,
+  "carbs": 48.9,
+  "kcal": 402.6
+ },
+ {
+  "type": "row",
+  "name": "Тапи Блю (L)",
+  "protein": 8,
+  "fat": 22,
+  "carbs": 57,
+  "kcal": 459.2
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Тапи Блю (L)",
+  "protein": 9.5,
+  "fat": 23.6,
+  "carbs": 66.8,
+  "kcal": 520.2
+ },
+ {
+  "type": "header",
+  "text": "Кокосовый Таро"
+ },
+ {
+  "type": "row",
+  "name": "Кокосовый Таро (М)",
+  "protein": 7.9,
+  "fat": 22.5,
+  "carbs": 81.7,
+  "kcal": 566
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Кокосовый Таро (М)",
+  "protein": 6.3,
+  "fat": 20.6,
+  "carbs": 75.2,
+  "kcal": 516.4
+ },
+ {
+  "type": "row",
+  "name": "Кокосовый Таро (L)",
+  "protein": 8.5,
+  "fat": 25.4,
+  "carbs": 91.1,
+  "kcal": 633.6
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Кокосовый Таро (L)",
+  "protein": 9.7,
+  "fat": 27,
+  "carbs": 97.1,
+  "kcal": 677.2
+ },
+ {
+  "type": "header",
+  "text": "Орео"
+ },
+ {
+  "type": "row",
+  "name": "Орео (М)",
+  "protein": 7.1,
+  "fat": 22,
+  "carbs": 79,
+  "kcal": 548.7
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Орео (М)",
+  "protein": 8.6,
+  "fat": 23.6,
+  "carbs": 81.4,
+  "kcal": 578.7
+ },
+ {
+  "type": "row",
+  "name": "Орео (L)",
+  "protein": 9.3,
+  "fat": 27.3,
+  "carbs": 93.4,
+  "kcal": 663.4
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Орео (L)",
+  "protein": 10.8,
+  "fat": 28.9,
+  "carbs": 95.8,
+  "kcal": 693.4
+ },
+ {
+  "type": "header",
+  "text": "Вишневый Тапи"
+ },
+ {
+  "type": "row",
+  "name": "Вишневый Тапи (M)",
+  "protein": 2.9,
+  "fat": 14.9,
+  "carbs": 54.3,
+  "kcal": 364.9
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Вишневый Тапи (M)",
+  "protein": 3.3,
+  "fat": 15.4,
+  "carbs": 48.4,
+  "kcal": 346.4
+ },
+ {
+  "type": "row",
+  "name": "Вишневый Тапи (L)",
+  "protein": 3.7,
+  "fat": 18.1,
+  "carbs": 71.3,
+  "kcal": 465.1
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Вишневый Тапи (L)",
+  "protein": 4.1,
+  "fat": 18.7,
+  "carbs": 65.4,
+  "kcal": 446.6
+ },
+ {
+  "type": "header",
+  "text": "Матча"
+ },
+ {
+  "type": "header",
+  "text": "Матча Ти"
+ },
+ {
+  "type": "row",
+  "name": "Матча Ти (М)",
+  "protein": 7.1,
+  "fat": 22.7,
+  "carbs": 59.3,
+  "kcal": 475.5
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Матча Ти (М)",
+  "protein": 8,
+  "fat": 24,
+  "carbs": 60.7,
+  "kcal": 496.4
+ },
+ {
+  "type": "row",
+  "name": "Матча Ти (L)",
+  "protein": 8.8,
+  "fat": 28.3,
+  "carbs": 66.6,
+  "kcal": 562.2
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Матча Ти (L)",
+  "protein": 10.3,
+  "fat": 29.9,
+  "carbs": 65.4,
+  "kcal": 578
+ },
+ {
+  "type": "header",
+  "text": "Розовая Пантера"
+ },
+ {
+  "type": "row",
+  "name": "Розовая пантера (М)",
+  "protein": 6.7,
+  "fat": 22.9,
+  "carbs": 43.3,
+  "kcal": 405.6
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Розовая пантера (М)",
+  "protein": 7.3,
+  "fat": 24.2,
+  "carbs": 40.4,
+  "kcal": 408
+ },
+ {
+  "type": "row",
+  "name": "Розовая пантера (L)",
+  "protein": 8.8,
+  "fat": 28.8,
+  "carbs": 58.1,
+  "kcal": 525.6
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Розовая пантера (L)",
+  "protein": 9.3,
+  "fat": 30.1,
+  "carbs": 52.8,
+  "kcal": 518.7
+ },
+ {
+  "type": "header",
+  "text": "Фисташечка"
+ },
+ {
+  "type": "row",
+  "name": "Фисташечка (М)",
+  "protein": 8.6,
+  "fat": 25.7,
+  "carbs": 69.2,
+  "kcal": 573.1
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Фисташечка (М)",
+  "protein": 9.2,
+  "fat": 27,
+  "carbs": 62.6,
+  "kcal": 532.4
+ },
+ {
+  "type": "row",
+  "name": "Фисташечка (L)",
+  "protein": 10.9,
+  "fat": 31.6,
+  "carbs": 81.5,
+  "kcal": 699.5
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Фисташечка (L)",
+  "protein": 11.5,
+  "fat": 32.9,
+  "carbs": 74.8,
+  "kcal": 645
+ },
+ {
+  "type": "header",
+  "text": "Голубое Небо"
+ },
+ {
+  "type": "row",
+  "name": "Голубое Небо (М)",
+  "protein": 6.8,
+  "fat": 22.7,
+  "carbs": 39.1,
+  "kcal": 387.1
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Голубое Небо (М)",
+  "protein": 7.4,
+  "fat": 24,
+  "carbs": 40,
+  "kcal": 405
+ },
+ {
+  "type": "row",
+  "name": "Голубое Небо (L)",
+  "protein": 8.9,
+  "fat": 28.5,
+  "carbs": 51.4,
+  "kcal": 524.4
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Голубое Небо (L)",
+  "protein": 9.5,
+  "fat": 29.9,
+  "carbs": 52.3,
+  "kcal": 514.7
+ },
+ {
+  "type": "header",
+  "text": "Сенсей Клубника"
+ },
+ {
+  "type": "row",
+  "name": "Сенсей Клубника (М)",
+  "protein": 7.8,
+  "fat": 18.6,
+  "carbs": 44.4,
+  "kcal": 372.6
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Сенсей Клубника (М)",
+  "protein": 8.4,
+  "fat": 19.3,
+  "carbs": 45.3,
+  "kcal": 384.6
+ },
+ {
+  "type": "row",
+  "name": "Сенсей Клубника (L)",
+  "protein": 10.2,
+  "fat": 23.1,
+  "carbs": 55,
+  "kcal": 464.3
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Сенсей Клубника (L)",
+  "protein": 10.8,
+  "fat": 23.8,
+  "carbs": 56.9,
+  "kcal": 479.8
+ },
+ {
+  "type": "header",
+  "text": "Смурфито"
+ },
+ {
+  "type": "row",
+  "name": "Смурфито (М)",
+  "protein": 6.8,
+  "fat": 22.7,
+  "carbs": 41.2,
+  "kcal": 393.6
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Смурфито (М)",
+  "protein": 7.4,
+  "fat": 24,
+  "carbs": 42.1,
+  "kcal": 411.5
+ },
+ {
+  "type": "row",
+  "name": "Смурфито (L)",
+  "protein": 8.9,
+  "fat": 28.5,
+  "carbs": 52,
+  "kcal": 497.1
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Смурфито (L)",
+  "protein": 9.5,
+  "fat": 29.9,
+  "carbs": 52.9,
+  "kcal": 515
+ },
+ {
+  "type": "header",
+  "text": "Рубиновое Сердце"
+ },
+ {
+  "type": "row",
+  "name": "Рубиновое Сердце (М)",
+  "protein": 6.7,
+  "fat": 22.9,
+  "carbs": 41.4,
+  "kcal": 396.6
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Рубиновое Сердце (М)",
+  "protein": 7.3,
+  "fat": 24.2,
+  "carbs": 42.3,
+  "kcal": 414.5
+ },
+ {
+  "type": "row",
+  "name": "Рубиновое Сердце (L)",
+  "protein": 8.8,
+  "fat": 28.8,
+  "carbs": 52.3,
+  "kcal": 501.1
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Рубиновое Сердце (L)",
+  "protein": 9.3,
+  "fat": 30.1,
+  "carbs": 53.2,
+  "kcal": 519
+ },
+ {
+  "type": "header",
+  "text": "Фламинго"
+ },
+ {
+  "type": "row",
+  "name": "Фламинго (М)",
+  "protein": 3.4,
+  "fat": 15.5,
+  "carbs": 46.5,
+  "kcal": 299.3
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Фламинго (М)",
+  "protein": 3.5,
+  "fat": 15.8,
+  "carbs": 47.3,
+  "kcal": 305.5
+ },
+ {
+  "type": "row",
+  "name": "Фламинго (L)",
+  "protein": 4.3,
+  "fat": 18.9,
+  "carbs": 61,
+  "kcal": 378.7
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Фламинго (L)",
+  "protein": 4.5,
+  "fat": 19.2,
+  "carbs": 67.5,
+  "kcal": 406.9
+ },
+ {
+  "type": "header",
+  "text": "Милкшейки"
+ },
+ {
+  "type": "header",
+  "text": "Дубайская Малина"
+ },
+ {
+  "type": "row",
+  "name": "Дубайская Малина (М)",
+  "protein": 9.1,
+  "fat": 26.2,
+  "carbs": 64.8,
+  "kcal": 488.8
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Дубайская Малина (М)",
+  "protein": 9.3,
+  "fat": 28.7,
+  "carbs": 75.5,
+  "kcal": 557
+ },
+ {
+  "type": "row",
+  "name": "Дубайская Малина (L)",
+  "protein": 11.1,
+  "fat": 31.8,
+  "carbs": 81.6,
+  "kcal": 602.4
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Дубайская Малина (L)",
+  "protein": 12.3,
+  "fat": 30.6,
+  "carbs": 191.8,
+  "kcal": 687.7
+ },
+ {
+  "type": "header",
+  "text": "Чоко Бам"
+ },
+ {
+  "type": "row",
+  "name": "Чоко Бам (М)",
+  "protein": 4.4,
+  "fat": 14.5,
+  "carbs": 68.1,
+  "kcal": 417.8
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Чоко Бам (М)",
+  "protein": 5.2,
+  "fat": 15,
+  "carbs": 72,
+  "kcal": 443.1
+ },
+ {
+  "type": "row",
+  "name": "Чоко Бам (L)",
+  "protein": 5.7,
+  "fat": 16.7,
+  "carbs": 83.3,
+  "kcal": 504.4
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Чоко Бам (L)",
+  "protein": 6.9,
+  "fat": 18.4,
+  "carbs": 99.1,
+  "kcal": 588.6
+ },
+ {
+  "type": "header",
+  "text": "Какао Ти"
+ },
+ {
+  "type": "row",
+  "name": "Какао Ти (M)",
+  "protein": 7.7,
+  "fat": 18.6,
+  "carbs": 52.7,
+  "kcal": 447.2
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Какао Ти (M)",
+  "protein": 12,
+  "fat": 22.9,
+  "carbs": 62,
+  "kcal": 497.5
+ },
+ {
+  "type": "row",
+  "name": "Какао Ти (L)",
+  "protein": 9.9,
+  "fat": 23,
+  "carbs": 59.7,
+  "kcal": 535.4
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Какао Ти (L)",
+  "protein": 14.8,
+  "fat": 27.8,
+  "carbs": 72.6,
+  "kcal": 591.7
+ },
+ {
+  "type": "header",
+  "text": "Банановый Сникерс"
+ },
+ {
+  "type": "row",
+  "name": "Банановый Сникерс (М)",
+  "protein": 10.1,
+  "fat": 26.1,
+  "carbs": 82.5,
+  "kcal": 602.9
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Банановый Сникерс (М)",
+  "protein": 14.9,
+  "fat": 22.7,
+  "carbs": 147.5,
+  "kcal": 825.1
+ },
+ {
+  "type": "row",
+  "name": "Банановый Сникерс (L)",
+  "protein": 12.4,
+  "fat": 31.2,
+  "carbs": 76.2,
+  "kcal": 630.4
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Банановый Сникерс (L)",
+  "protein": 12.9,
+  "fat": 34.5,
+  "carbs": 72.2,
+  "kcal": 644.1
+ },
+ {
+  "type": "header",
+  "text": "Баунти"
+ },
+ {
+  "type": "row",
+  "name": "Баунти (M)",
+  "protein": 4.6,
+  "fat": 18.1,
+  "carbs": 69.8,
+  "kcal": 460.2
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Баунти (M)",
+  "protein": 4.9,
+  "fat": 18.5,
+  "carbs": 74.7,
+  "kcal": 485
+ },
+ {
+  "type": "row",
+  "name": "Баунти (L)",
+  "protein": 6.1,
+  "fat": 24.2,
+  "carbs": 85.8,
+  "kcal": 584.9
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Баунти (L)",
+  "protein": 6,
+  "fat": 21.9,
+  "carbs": 85.1,
+  "kcal": 560.4
+ },
+ {
+  "type": "header",
+  "text": "Фруктовый Чай"
+ },
+ {
+  "type": "header",
+  "text": "Китайская Малина"
+ },
+ {
+  "type": "row",
+  "name": "Китайская Малина (М)",
+  "protein": 0.4,
+  "fat": 0.2,
+  "carbs": 67.4,
+  "kcal": 276.7
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Китайская Малина (М)",
+  "protein": 0.4,
+  "fat": 0.2,
+  "carbs": 67.4,
+  "kcal": 262.8
+ },
+ {
+  "type": "row",
+  "name": "Китайская Малина (L)",
+  "protein": 0.4,
+  "fat": 0.2,
+  "carbs": 82.9,
+  "kcal": 353
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Китайская Малина (L)",
+  "protein": 0.4,
+  "fat": 0.2,
+  "carbs": 82.9,
+  "kcal": 339
+ },
+ {
+  "type": "header",
+  "text": "Маракукуйя"
+ },
+ {
+  "type": "row",
+  "name": "Маракукуйя (М)",
+  "protein": 0.5,
+  "fat": 0.1,
+  "carbs": 44.2,
+  "kcal": 230.7
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Маракукуйя (М)",
+  "protein": 0.5,
+  "fat": 0.1,
+  "carbs": 44.2,
+  "kcal": 216.8
+ },
+ {
+  "type": "row",
+  "name": "Маракукуйя (L)",
+  "protein": 0.6,
+  "fat": 0.1,
+  "carbs": 51,
+  "kcal": 271.1
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Маракукуйя (L)",
+  "protein": 0.6,
+  "fat": 0.1,
+  "carbs": 51,
+  "kcal": 257.1
+ },
+ {
+  "type": "header",
+  "text": "Гранатик"
+ },
+ {
+  "type": "row",
+  "name": "Гранатик (М)",
+  "protein": 0.8,
+  "fat": 0.4,
+  "carbs": 52.1,
+  "kcal": 259.1
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Гранатик (М)",
+  "protein": 0.8,
+  "fat": 0.4,
+  "carbs": 51.7,
+  "kcal": 256.8
+ },
+ {
+  "type": "row",
+  "name": "Гранатик (L)",
+  "protein": 0.8,
+  "fat": 0.4,
+  "carbs": 59.8,
+  "kcal": 304.4
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Гранатик (L)",
+  "protein": 0.8,
+  "fat": 0.4,
+  "carbs": 59.4,
+  "kcal": 302.2
+ },
+ {
+  "type": "header",
+  "text": "Клубничный Киви"
+ },
+ {
+  "type": "row",
+  "name": "Клубничный Киви (М)",
+  "protein": 0.5,
+  "fat": 0.2,
+  "carbs": 48.3,
+  "kcal": 216.1
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Клубничный Киви (М)",
+  "protein": 0.5,
+  "fat": 0.2,
+  "carbs": 47.8,
+  "kcal": 214.1
+ },
+ {
+  "type": "row",
+  "name": "Клубничный Киви (L)",
+  "protein": 0.5,
+  "fat": 0.2,
+  "carbs": 57.1,
+  "kcal": 276.4
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Клубничный Киви (L)",
+  "protein": 0.5,
+  "fat": 0.2,
+  "carbs": 56.6,
+  "kcal": 261.1
+ },
+ {
+  "type": "header",
+  "text": "Яблочность Ананаса"
+ },
+ {
+  "type": "row",
+  "name": "Яблочность Ананаса (М)",
+  "protein": 0.1,
+  "fat": 0,
+  "carbs": 37.7,
+  "kcal": 189.9
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Яблочность Ананаса (М)",
+  "protein": 0.1,
+  "fat": 0,
+  "carbs": 43.2,
+  "kcal": 210.8
+ },
+ {
+  "type": "row",
+  "name": "Яблочность Ананаса (L)",
+  "protein": 0.1,
+  "fat": 0,
+  "carbs": 48.8,
+  "kcal": 245.9
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Яблочность Ананаса (L)",
+  "protein": 0.1,
+  "fat": 0,
+  "carbs": 48.7,
+  "kcal": 245.7
+ },
+ {
+  "type": "header",
+  "text": "Вишня Личи"
+ },
+ {
+  "type": "row",
+  "name": "Вишня-Личи (М)",
+  "protein": 0.3,
+  "fat": 0.1,
+  "carbs": 54,
+  "kcal": 257.3
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Вишня-Личи (М)",
+  "protein": 0.3,
+  "fat": 0.1,
+  "carbs": 54,
+  "kcal": 257.2
+ },
+ {
+  "type": "row",
+  "name": "Вишня-Личи (L)",
+  "protein": 0.3,
+  "fat": 0.1,
+  "carbs": 67.6,
+  "kcal": 325.3
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Вишня-Личи (L)",
+  "protein": 0.3,
+  "fat": 0.1,
+  "carbs": 67.5,
+  "kcal": 325.1
+ },
+ {
+  "type": "header",
+  "text": "Смородинка"
+ },
+ {
+  "type": "row",
+  "name": "Смородинка (М)",
+  "protein": 1.6,
+  "fat": 0.1,
+  "carbs": 65.5,
+  "kcal": 303.6
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Смородинка (М)",
+  "protein": 1.6,
+  "fat": 0.1,
+  "carbs": 65.5,
+  "kcal": 303.6
+ },
+ {
+  "type": "row",
+  "name": "Смородинка (L)",
+  "protein": 1.8,
+  "fat": 0.2,
+  "carbs": 71.7,
+  "kcal": 343.8
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Смородинка (L)",
+  "protein": 1.8,
+  "fat": 0.2,
+  "carbs": 71.7,
+  "kcal": 343.8
+ },
+ {
+  "type": "header",
+  "text": "Жасминовый Персик"
+ },
+ {
+  "type": "row",
+  "name": "Жасминовый Персик (М)",
+  "protein": 0.3,
+  "fat": 0.1,
+  "carbs": 38,
+  "kcal": 179.8
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Жасминовый Персик (М)",
+  "protein": 0.3,
+  "fat": 0.1,
+  "carbs": 38,
+  "kcal": 179.7
+ },
+ {
+  "type": "row",
+  "name": "Жасминовый Персик (L)",
+  "protein": 0.3,
+  "fat": 0.1,
+  "carbs": 43.9,
+  "kcal": 215.7
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Жасминовый Персик (L)",
+  "protein": 0.3,
+  "fat": 0.1,
+  "carbs": 43.8,
+  "kcal": 215.6
+ },
+ {
+  "type": "header",
+  "text": "Сияние"
+ },
+ {
+  "type": "row",
+  "name": "Сияние (М)",
+  "protein": 1,
+  "fat": 0.2,
+  "carbs": 52.1,
+  "kcal": 222.5
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Сияние (М)",
+  "protein": 0.9,
+  "fat": 0.2,
+  "carbs": 51.4,
+  "kcal": 219.3
+ },
+ {
+  "type": "row",
+  "name": "Сияние (L)",
+  "protein": 1.3,
+  "fat": 0.3,
+  "carbs": 64.2,
+  "kcal": 275
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Сияние (L)",
+  "protein": 1.3,
+  "fat": 0.3,
+  "carbs": 63.3,
+  "kcal": 272
+ },
+ {
+  "type": "header",
+  "text": "Лесные Ягоды"
+ },
+ {
+  "type": "row",
+  "name": "Лесные Ягоды (М)",
+  "protein": 0.1,
+  "fat": 0,
+  "carbs": 36.8,
+  "kcal": 185.2
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Лесные Ягоды (М)",
+  "protein": 0.1,
+  "fat": 0,
+  "carbs": 36.8,
+  "kcal": 185.2
+ },
+ {
+  "type": "row",
+  "name": "Лесные Ягоды (L)",
+  "protein": 0.1,
+  "fat": 0,
+  "carbs": 43.5,
+  "kcal": 224.5
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Лесные Ягоды (L)",
+  "protein": 0.1,
+  "fat": 0,
+  "carbs": 43.5,
+  "kcal": 224.5
+ },
+ {
+  "type": "header",
+  "text": "Экзотик Фрукт"
+ },
+ {
+  "type": "row",
+  "name": "Экзотик Фрукт (М)",
+  "protein": 0.4,
+  "fat": 0.1,
+  "carbs": 46.7,
+  "kcal": 230.1
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Экзотик Фрукт (М)",
+  "protein": 0.4,
+  "fat": 0.1,
+  "carbs": 46.7,
+  "kcal": 230
+ },
+ {
+  "type": "row",
+  "name": "Экзотик Фрукт (L)",
+  "protein": 0.7,
+  "fat": 0.1,
+  "carbs": 58.2,
+  "kcal": 290.4
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Экзотик Фрукт (L)",
+  "protein": 0.7,
+  "fat": 0.1,
+  "carbs": 58.2,
+  "kcal": 290.2
+ },
+ {
+  "type": "header",
+  "text": "Зелебоба"
+ },
+ {
+  "type": "row",
+  "name": "Зелебоба (М)",
+  "protein": 0.4,
+  "fat": 0.1,
+  "carbs": 49.6,
+  "kcal": 204.5
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Зелебоба (М)",
+  "protein": 0.4,
+  "fat": 0.1,
+  "carbs": 49.3,
+  "kcal": 203.6
+ },
+ {
+  "type": "row",
+  "name": "Зелебоба (L)",
+  "protein": 0.5,
+  "fat": 0.2,
+  "carbs": 58.1,
+  "kcal": 239.6
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Зелебоба (L)",
+  "protein": 0.5,
+  "fat": 0.2,
+  "carbs": 57.8,
+  "kcal": 238.3
+ },
+ {
+  "type": "header",
+  "text": "Грейпфрут-Личи"
+ },
+ {
+  "type": "row",
+  "name": "Грейпфрут-Личи (М)",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 55.2,
+  "kcal": 226.1
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Грейпфрут-Личи (М)",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 55.2,
+  "kcal": 226
+ },
+ {
+  "type": "row",
+  "name": "Грейпфрут-Личи (L)",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 70.2,
+  "kcal": 288.3
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Грейпфрут-Личи (L)",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 70.2,
+  "kcal": 288.1
+ },
+ {
+  "type": "header",
+  "text": "Барбарис-Клубника"
+ },
+ {
+  "type": "row",
+  "name": "Барбарис-Клубника (М)",
+  "protein": 0.2,
+  "fat": 0.1,
+  "carbs": 46.2,
+  "kcal": 213.9
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Барбарис-Клубника (М)",
+  "protein": 0.2,
+  "fat": 0.1,
+  "carbs": 46.2,
+  "kcal": 213.8
+ },
+ {
+  "type": "row",
+  "name": "Барбарис-Клубника (L)",
+  "protein": 0.3,
+  "fat": 0.1,
+  "carbs": 53.5,
+  "kcal": 250.9
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Барбарис-Клубника (L)",
+  "protein": 0.3,
+  "fat": 0.1,
+  "carbs": 53.8,
+  "kcal": 252.2
+ },
+ {
+  "type": "header",
+  "text": "Цитрусовый Взрыв"
+ },
+ {
+  "type": "row",
+  "name": "Цитрусовый Взрыв (М)",
+  "protein": 1.1,
+  "fat": 0.2,
+  "carbs": 42.4,
+  "kcal": 207.7
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Цитрусовый Взрыв (М)",
+  "protein": 1.1,
+  "fat": 0.2,
+  "carbs": 41.6,
+  "kcal": 204.2
+ },
+ {
+  "type": "row",
+  "name": "Цитрусовый Взрыв (L)",
+  "protein": 1.3,
+  "fat": 0.3,
+  "carbs": 50.9,
+  "kcal": 252.3
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Цитрусовый Взрыв (L)",
+  "protein": 1.3,
+  "fat": 0.3,
+  "carbs": 50,
+  "kcal": 247.9
+ },
+ {
+  "type": "header",
+  "text": "Лиморанж"
+ },
+ {
+  "type": "row",
+  "name": "Лиморанж (М)",
+  "protein": 2.1,
+  "fat": 0.2,
+  "carbs": 69.9,
+  "kcal": 291.2
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Лиморанж (М)",
+  "protein": 2.6,
+  "fat": 0.3,
+  "carbs": 75.7,
+  "kcal": 317
+ },
+ {
+  "type": "row",
+  "name": "Лиморанж (L)",
+  "protein": 2.3,
+  "fat": 0.2,
+  "carbs": 83.5,
+  "kcal": 348.6
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Лиморанж (L)",
+  "protein": 2.6,
+  "fat": 0.3,
+  "carbs": 88.8,
+  "kcal": 371
+ },
+ {
+  "type": "header",
+  "text": "Черлинка"
+ },
+ {
+  "type": "row",
+  "name": "Черлинка (М)",
+  "protein": 0.8,
+  "fat": 0.3,
+  "carbs": 56.4,
+  "kcal": 203.4
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Черлинка (М)",
+  "protein": 0.8,
+  "fat": 0.3,
+  "carbs": 78.7,
+  "kcal": 286.7
+ },
+ {
+  "type": "row",
+  "name": "Черлинка (L)",
+  "protein": 0.9,
+  "fat": 0.4,
+  "carbs": 72.8,
+  "kcal": 255.4
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Черлинка (L)",
+  "protein": 0.9,
+  "fat": 0.4,
+  "carbs": 95.1,
+  "kcal": 338.7
+ },
+ {
+  "type": "header",
+  "text": "Минта Пич"
+ },
+ {
+  "type": "row",
+  "name": "Минта Пич (М)",
+  "protein": 1.3,
+  "fat": 0.3,
+  "carbs": 73.9,
+  "kcal": 299
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Минта Пич (М)",
+  "protein": 1.3,
+  "fat": 0.3,
+  "carbs": 50.8,
+  "kcal": 215.7
+ },
+ {
+  "type": "row",
+  "name": "Минта Пич (L)",
+  "protein": 1.3,
+  "fat": 0.3,
+  "carbs": 64.1,
+  "kcal": 268.7
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Минта Пич (L)",
+  "protein": 1,
+  "fat": 0.2,
+  "carbs": 64,
+  "kcal": 264.3
+ },
+ {
+  "type": "header",
+  "text": "Грэйклюк"
+ },
+ {
+  "type": "row",
+  "name": "Грэйклюк (М)",
+  "protein": 1.3,
+  "fat": 0.4,
+  "carbs": 56.8,
+  "kcal": 239.2
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Грэйклюк (М)",
+  "protein": 1.3,
+  "fat": 0.4,
+  "carbs": 64.3,
+  "kcal": 270.2
+ },
+ {
+  "type": "row",
+  "name": "Грэйклюк (L)",
+  "protein": 1.3,
+  "fat": 0.4,
+  "carbs": 72.8,
+  "kcal": 306
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Грэйклюк (L)",
+  "protein": 1,
+  "fat": 0.4,
+  "carbs": 72.7,
+  "kcal": 301.6
+ },
+ {
+  "type": "header",
+  "text": "Тропи Трио"
+ },
+ {
+  "type": "row",
+  "name": "Тропи Трио (М)",
+  "protein": 0.8,
+  "fat": 0.2,
+  "carbs": 59.1,
+  "kcal": 241.2
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Тропи Трио (М)",
+  "protein": 0.8,
+  "fat": 0.2,
+  "carbs": 59.1,
+  "kcal": 241.1
+ },
+ {
+  "type": "row",
+  "name": "Тропи Трио (L)",
+  "protein": 0.8,
+  "fat": 0.2,
+  "carbs": 78.4,
+  "kcal": 317.4
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Тропи Трио (L)",
+  "protein": 0.8,
+  "fat": 0.2,
+  "carbs": 78.4,
+  "kcal": 317.2
+ },
+ {
+  "type": "header",
+  "text": "Апельгранчик"
+ },
+ {
+  "type": "row",
+  "name": "Апельгранчик (М)",
+  "protein": 2.7,
+  "fat": 0.8,
+  "carbs": 72.9,
+  "kcal": 323.6
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Апельгранчик (М)",
+  "protein": 2,
+  "fat": 0.6,
+  "carbs": 69.7,
+  "kcal": 305.3
+ },
+ {
+  "type": "row",
+  "name": "Апельгранчик (L)",
+  "protein": 2.6,
+  "fat": 0.8,
+  "carbs": 94.4,
+  "kcal": 411.2
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Апельгранчик (L)",
+  "protein": 2.4,
+  "fat": 0.7,
+  "carbs": 92.9,
+  "kcal": 403.7
+ },
+ {
+  "type": "header",
+  "text": "Анананго"
+ },
+ {
+  "type": "row",
+  "name": "Анананго (М)",
+  "protein": 2.1,
+  "fat": 0.2,
+  "carbs": 72.4,
+  "kcal": 293.6
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Анананго (М)",
+  "protein": 2.1,
+  "fat": 0.2,
+  "carbs": 72.3,
+  "kcal": 293.5
+ },
+ {
+  "type": "row",
+  "name": "Анананго (L)",
+  "protein": 2.1,
+  "fat": 0.2,
+  "carbs": 84,
+  "kcal": 339.8
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Анананго (L)",
+  "protein": 2.1,
+  "fat": 0.2,
+  "carbs": 84,
+  "kcal": 339.6
+ },
+ {
+  "type": "header",
+  "text": "Классические"
+ },
+ {
+  "type": "header",
+  "text": "Эспрессо"
+ },
+ {
+  "type": "row",
+  "name": "Эспрессо",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 0.1,
+  "kcal": 0.4
+ },
+ {
+  "type": "header",
+  "text": "Американо"
+ },
+ {
+  "type": "row",
+  "name": "Американо 250 мл",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 0.1,
+  "kcal": 0.4
+ },
+ {
+  "type": "header",
+  "text": "Капучино"
+ },
+ {
+  "type": "row",
+  "name": "Капучино 350 мл",
+  "protein": 6.6,
+  "fat": 7,
+  "carbs": 10.4,
+  "kcal": 132.4
+ },
+ {
+  "type": "row",
+  "name": "Капучино 450 мл",
+  "protein": 9,
+  "fat": 9.6,
+  "carbs": 14.2,
+  "kcal": 180.4
+ },
+ {
+  "type": "header",
+  "text": "Капучино Банан"
+ },
+ {
+  "type": "row",
+  "name": "Капучино Банан 350 мл",
+  "protein": 2.7,
+  "fat": 1.5,
+  "carbs": 16.8,
+  "kcal": 92.8
+ },
+ {
+  "type": "row",
+  "name": "Капучино Банан 450 мл",
+  "protein": 3.6,
+  "fat": 2.1,
+  "carbs": 22.9,
+  "kcal": 126.4
+ },
+ {
+  "type": "header",
+  "text": "Капучино Кокос"
+ },
+ {
+  "type": "row",
+  "name": "Капучино Кокос 350 мл",
+  "protein": 2,
+  "fat": 2.9,
+  "carbs": 8.6,
+  "kcal": 68.6
+ },
+ {
+  "type": "row",
+  "name": "Капучино Кокос 450 мл",
+  "protein": 2.7,
+  "fat": 3.9,
+  "carbs": 11.8,
+  "kcal": 93.4
+ },
+ {
+  "type": "header",
+  "text": "Латте"
+ },
+ {
+  "type": "row",
+  "name": "Латте 450 мл",
+  "protein": 9.8,
+  "fat": 10.4,
+  "carbs": 15.3,
+  "kcal": 195.4
+ },
+ {
+  "type": "row",
+  "name": "Латте 350 мл",
+  "protein": 7.1,
+  "fat": 7.5,
+  "carbs": 11.1,
+  "kcal": 141.4
+ },
+ {
+  "type": "header",
+  "text": "Латте Банан"
+ },
+ {
+  "type": "row",
+  "name": "Латте Банан 350 мл",
+  "protein": 2.9,
+  "fat": 1.6,
+  "carbs": 17.9,
+  "kcal": 99.1
+ },
+ {
+  "type": "row",
+  "name": "Латте Банан 450 мл",
+  "protein": 3.9,
+  "fat": 2.3,
+  "carbs": 24.8,
+  "kcal": 136.9
+ },
+ {
+  "type": "header",
+  "text": "Латте Кокос"
+ },
+ {
+  "type": "row",
+  "name": "Латте Кокос 350 мл",
+  "protein": 2.2,
+  "fat": 3.1,
+  "carbs": 9.2,
+  "kcal": 73.2
+ },
+ {
+  "type": "row",
+  "name": "Латте Кокос 450 мл",
+  "protein": 3,
+  "fat": 4.2,
+  "carbs": 12.7,
+  "kcal": 101.1
+ },
+ {
+  "type": "header",
+  "text": "Раф"
+ },
+ {
+  "type": "row",
+  "name": "Раф 350 мл",
+  "protein": 6.5,
+  "fat": 24,
+  "carbs": 10.1,
+  "kcal": 286
+ },
+ {
+  "type": "row",
+  "name": "Раф 450 мл",
+  "protein": 8.9,
+  "fat": 33,
+  "carbs": 13.9,
+  "kcal": 393.1
+ },
+ {
+  "type": "header",
+  "text": "Айс Латте"
+ },
+ {
+  "type": "row",
+  "name": "Айс Латте 500 мл",
+  "protein": 9,
+  "fat": 9.6,
+  "carbs": 14.2,
+  "kcal": 180.4
+ },
+ {
+  "type": "header",
+  "text": "Бамбл"
+ },
+ {
+  "type": "row",
+  "name": "Бамбл Апельсин",
+  "protein": 1.3,
+  "fat": 0.3,
+  "carbs": 22.4,
+  "kcal": 104.3
+ },
+ {
+  "type": "row",
+  "name": "Бамбл Вишня",
+  "protein": 0.9,
+  "fat": 0.2,
+  "carbs": 36.2,
+  "kcal": 154.6
+ },
+ {
+  "type": "header",
+  "text": "Матча Латте"
+ },
+ {
+  "type": "row",
+  "name": "Матча Латте (М)",
+  "protein": 7.9,
+  "fat": 7.4,
+  "carbs": 27.9,
+  "kcal": 212.5
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Матча Латте (М)",
+  "protein": 7.9,
+  "fat": 7.4,
+  "carbs": 35.4,
+  "kcal": 243.5
+ },
+ {
+  "type": "header",
+  "text": "Матча Латте Кокос"
+ },
+ {
+  "type": "row",
+  "name": "Матча Латте Кокос (М)",
+  "protein": 3.1,
+  "fat": 3,
+  "carbs": 26,
+  "kcal": 145.8
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Матча Латте Кокос (М)",
+  "protein": 3.1,
+  "fat": 3,
+  "carbs": 33.5,
+  "kcal": 176.8
+ },
+ {
+  "type": "header",
+  "text": "Матча Латте Банан"
+ },
+ {
+  "type": "row",
+  "name": "Матча Латте Банан (М)",
+  "protein": 3.8,
+  "fat": 1.6,
+  "carbs": 34.5,
+  "kcal": 171.1
+ },
+ {
+  "type": "row",
+  "name": "Тепл. Матча Латте Банан (М)",
+  "protein": 4.4,
+  "fat": 2,
+  "carbs": 38.3,
+  "kcal": 192.1
+ },
+ {
+  "type": "header",
+  "text": "Авторский Чай"
+ },
+ {
+  "type": "row",
+  "name": "Облепиха Апельсин (М)",
+  "protein": 1.5,
+  "fat": 1.5,
+  "carbs": 37.3,
+  "kcal": 173.7
+ },
+ {
+  "type": "row",
+  "name": "Клюква Апельсин (М)",
+  "protein": 1.4,
+  "fat": 0.3,
+  "carbs": 37.6,
+  "kcal": 162.6
+ },
+ {
+  "type": "row",
+  "name": "Манго-Маракуйя (М)",
+  "protein": 1.3,
+  "fat": 0.2,
+  "carbs": 45.1,
+  "kcal": 188.3
+ },
+ {
+  "type": "row",
+  "name": "Смородина Мята (М)",
+  "protein": 0.7,
+  "fat": 0.2,
+  "carbs": 45.4,
+  "kcal": 189.1
+ },
+ {
+  "type": "header",
+  "text": "Лимонады"
+ },
+ {
+  "type": "header",
+  "text": "Мятная вишня"
+ },
+ {
+  "type": "row",
+  "name": "Мятная Вишня (М)",
+  "protein": 1.1,
+  "fat": 0.3,
+  "carbs": 44.2,
+  "kcal": 209.4
+ },
+ {
+  "type": "row",
+  "name": "Мятная Вишня (L)",
+  "protein": 1.3,
+  "fat": 0.4,
+  "carbs": 60.5,
+  "kcal": 289.5
+ },
+ {
+  "type": "header",
+  "text": "Моджито"
+ },
+ {
+  "type": "row",
+  "name": "Моджито (М)",
+  "protein": 0.4,
+  "fat": 0.1,
+  "carbs": 39,
+  "kcal": 163.4
+ },
+ {
+  "type": "row",
+  "name": "Моджито (L)",
+  "protein": 0.5,
+  "fat": 0.1,
+  "carbs": 51.6,
+  "kcal": 214.5
+ },
+ {
+  "type": "header",
+  "text": "Черника Лайм"
+ },
+ {
+  "type": "row",
+  "name": "Черника Лайм (М)",
+  "protein": 1,
+  "fat": 0.3,
+  "carbs": 32.2,
+  "kcal": 135.9
+ },
+ {
+  "type": "row",
+  "name": "Черника Лайм (L)",
+  "protein": 1.1,
+  "fat": 0.4,
+  "carbs": 42.6,
+  "kcal": 177.3
+ },
+ {
+  "type": "header",
+  "text": "Грейпма"
+ },
+ {
+  "type": "row",
+  "name": "Грейпма (М)",
+  "protein": 0.5,
+  "fat": 0.1,
+  "carbs": 25.2,
+  "kcal": 108.3
+ },
+ {
+  "type": "row",
+  "name": "Грейпма (L)",
+  "protein": 0.6,
+  "fat": 0.1,
+  "carbs": 47,
+  "kcal": 199.9
+ },
+ {
+  "type": "header",
+  "text": "Юдзу"
+ },
+ {
+  "type": "row",
+  "name": "Юдзу (М)",
+  "protein": 1.2,
+  "fat": 0.3,
+  "carbs": 36.5,
+  "kcal": 160.4
+ },
+ {
+  "type": "row",
+  "name": "Юдзу (L)",
+  "protein": 0.5,
+  "fat": 0.1,
+  "carbs": 47.6,
+  "kcal": 200.1
+ },
+ {
+  "type": "header",
+  "text": "Клубничный Моджито"
+ },
+ {
+  "type": "row",
+  "name": "Клубничный Мохито (М)",
+  "protein": 0.9,
+  "fat": 0.2,
+  "carbs": 52.2,
+  "kcal": 220.5
+ },
+ {
+  "type": "row",
+  "name": "Клубничный Моджито (L)",
+  "protein": 0.9,
+  "fat": 0.2,
+  "carbs": 65.5,
+  "kcal": 273.5
+ },
+ {
+  "type": "header",
+  "text": "Лагуна"
+ },
+ {
+  "type": "row",
+  "name": "Лагуна (М)",
+  "protein": 1.3,
+  "fat": 0.3,
+  "carbs": 45,
+  "kcal": 197.1
+ },
+ {
+  "type": "row",
+  "name": "Лагуна (L)",
+  "protein": 1.3,
+  "fat": 0.3,
+  "carbs": 64.6,
+  "kcal": 278.6
+ },
+ {
+  "type": "header",
+  "text": "Конфетка Барбара"
+ },
+ {
+  "type": "row",
+  "name": "Конфетка Барбара (М)",
+  "protein": 1,
+  "fat": 0.3,
+  "carbs": 58.8,
+  "kcal": 212
+ },
+ {
+  "type": "row",
+  "name": "Конфетка Барбара (L)",
+  "protein": 1.1,
+  "fat": 0.3,
+  "carbs": 82.3,
+  "kcal": 295.8
+ },
+ {
+  "type": "header",
+  "text": "Тропик Лав"
+ },
+ {
+  "type": "row",
+  "name": "Тропик Лав (М)",
+  "protein": 0.4,
+  "fat": 0.1,
+  "carbs": 43.5,
+  "kcal": 172.6
+ },
+ {
+  "type": "row",
+  "name": "Тропик Лав (L)",
+  "protein": 0.5,
+  "fat": 0.1,
+  "carbs": 65.6,
+  "kcal": 260.6
+ },
+ {
+  "type": "header",
+  "text": "Гуава"
+ },
+ {
+  "type": "row",
+  "name": "Гуава (М)",
+  "protein": 0.3,
+  "fat": 0.1,
+  "carbs": 38.9,
+  "kcal": 160.8
+ },
+ {
+  "type": "row",
+  "name": "Гуава (L)",
+  "protein": 0.3,
+  "fat": 0.1,
+  "carbs": 46.4,
+  "kcal": 192.1
+ },
+ {
+  "type": "header",
+  "text": "Малиновая Свежесть"
+ },
+ {
+  "type": "row",
+  "name": "Малиновая свежесть (М)",
+  "protein": 0.9,
+  "fat": 0.2,
+  "carbs": 55,
+  "kcal": 211.8
+ },
+ {
+  "type": "row",
+  "name": "Малиновая свежесть (L)",
+  "protein": 1,
+  "fat": 0.2,
+  "carbs": 70,
+  "kcal": 273.6
+ },
+ {
+  "type": "header",
+  "text": "Эпл Киви"
+ },
+ {
+  "type": "row",
+  "name": "Эпл Киви (М)",
+  "protein": 0.4,
+  "fat": 0.1,
+  "carbs": 36.1,
+  "kcal": 141.4
+ },
+ {
+  "type": "row",
+  "name": "Эпл Киви (L)",
+  "protein": 0.5,
+  "fat": 0.2,
+  "carbs": 253.3,
+  "kcal": 982
+ },
+ {
+  "type": "header",
+  "text": "Ежевичный Кокос"
+ },
+ {
+  "type": "row",
+  "name": "Ежевичный Кокос (М)",
+  "protein": 1.1,
+  "fat": 0.4,
+  "carbs": 44.1,
+  "kcal": 188.9
+ },
+ {
+  "type": "row",
+  "name": "Ежевичный Кокос (L)",
+  "protein": 1.1,
+  "fat": 0.4,
+  "carbs": 59.6,
+  "kcal": 253.7
+ },
+ {
+  "type": "header",
+  "text": "Малиничи"
+ },
+ {
+  "type": "row",
+  "name": "Малиничи (М)",
+  "protein": 1,
+  "fat": 0.1,
+  "carbs": 55.5,
+  "kcal": 196.4
+ },
+ {
+  "type": "row",
+  "name": "Малиничи (L)",
+  "protein": 1.4,
+  "fat": 0.1,
+  "carbs": 80.4,
+  "kcal": 283.6
+ },
+ {
+  "type": "header",
+  "text": "Фраппе"
+ },
+ {
+  "type": "header",
+  "text": "Юдзу Апельсин"
+ },
+ {
+  "type": "row",
+  "name": "Юдзу Апельсин (М)",
+  "protein": 0.7,
+  "fat": 0.2,
+  "carbs": 44.6,
+  "kcal": 225.6
+ },
+ {
+  "type": "row",
+  "name": "Юдзу Апельсин (L)",
+  "protein": 0.9,
+  "fat": 0.2,
+  "carbs": 59.3,
+  "kcal": 300.3
+ },
+ {
+  "type": "header",
+  "text": "СанРайз"
+ },
+ {
+  "type": "row",
+  "name": "СанРайз (М)",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 45.1,
+  "kcal": 241.4
+ },
+ {
+  "type": "row",
+  "name": "СанРайз (L)",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 56.3,
+  "kcal": 301.8
+ },
+ {
+  "type": "header",
+  "text": "Айс Вишня"
+ },
+ {
+  "type": "row",
+  "name": "Айс Вишня (М)",
+  "protein": 0.4,
+  "fat": 0.1,
+  "carbs": 38.7,
+  "kcal": 197.9
+ },
+ {
+  "type": "row",
+  "name": "Айс Вишня (L)",
+  "protein": 0.8,
+  "fat": 0.3,
+  "carbs": 58.3,
+  "kcal": 291.8
+ },
+ {
+  "type": "header",
+  "text": "Клюквина"
+ },
+ {
+  "type": "row",
+  "name": "Клюквина (М)",
+  "protein": 0.2,
+  "fat": 0.1,
+  "carbs": 47.8,
+  "kcal": 229.7
+ },
+ {
+  "type": "row",
+  "name": "Клюквина (L)",
+  "protein": 0.2,
+  "fat": 0.2,
+  "carbs": 64.1,
+  "kcal": 307.8
+ },
+ {
+  "type": "header",
+  "text": "Клубника Маракуйя"
+ },
+ {
+  "type": "row",
+  "name": "Клубника Маракуйя (М)",
+  "protein": 0.6,
+  "fat": 0.1,
+  "carbs": 38.9,
+  "kcal": 179.4
+ },
+ {
+  "type": "row",
+  "name": "Клубника Маракуйя (L)",
+  "protein": 0.9,
+  "fat": 0.2,
+  "carbs": 54.6,
+  "kcal": 254.7
+ },
+ {
+  "type": "header",
+  "text": "Фисташка Айс"
+ },
+ {
+  "type": "row",
+  "name": "Фисташка Айс (М)",
+  "protein": 3.4,
+  "fat": 11.4,
+  "carbs": 37.9,
+  "kcal": 311.5
+ },
+ {
+  "type": "row",
+  "name": "Фисташка Айс (L)",
+  "protein": 4.3,
+  "fat": 14.6,
+  "carbs": 51.6,
+  "kcal": 414.5
+ },
+ {
+  "type": "header",
+  "text": "Шокика"
+ },
+ {
+  "type": "row",
+  "name": "Шокика (М)",
+  "protein": 6.6,
+  "fat": 20.3,
+  "carbs": 62.7,
+  "kcal": 463
+ },
+ {
+  "type": "row",
+  "name": "Шокика (L)",
+  "protein": 8.5,
+  "fat": 26,
+  "carbs": 80.5,
+  "kcal": 594.4
+ },
+ {
+  "type": "header",
+  "text": "Красная Фурия"
+ },
+ {
+  "type": "row",
+  "name": "Красная Фурия (М)",
+  "protein": 0.3,
+  "fat": 0.2,
+  "carbs": 31.5,
+  "kcal": 100.6
+ },
+ {
+  "type": "row",
+  "name": "Красная Фурия (L)",
+  "protein": 0.4,
+  "fat": 0.3,
+  "carbs": 46.9,
+  "kcal": 149.4
+ },
+ {
+  "type": "header",
+  "text": "Манго-Банго"
+ },
+ {
+  "type": "row",
+  "name": "Манго-Банго (М)",
+  "protein": 1.8,
+  "fat": 7.5,
+  "carbs": 41.8,
+  "kcal": 237.3
+ },
+ {
+  "type": "row",
+  "name": "Манго-Банго (L)",
+  "protein": 2.3,
+  "fat": 10,
+  "carbs": 58.7,
+  "kcal": 328.1
+ },
+ {
+  "type": "header",
+  "text": "Маликоко"
+ },
+ {
+  "type": "row",
+  "name": "Маликоко (М)",
+  "protein": 2.4,
+  "fat": 7.3,
+  "carbs": 67.2,
+  "kcal": 278.3
+ },
+ {
+  "type": "row",
+  "name": "Маликоко (L)",
+  "protein": 3.2,
+  "fat": 10.5,
+  "carbs": 80.4,
+  "kcal": 350.5
+ },
+ {
+  "type": "header",
+  "text": "Грасмур"
+ },
+ {
+  "type": "row",
+  "name": "Грасмур (М)",
+  "protein": 0.2,
+  "fat": 0.1,
+  "carbs": 25.6,
+  "kcal": 104.6
+ },
+ {
+  "type": "row",
+  "name": "Грасмур (L)",
+  "protein": 0.3,
+  "fat": 0.1,
+  "carbs": 37.4,
+  "kcal": 152.2
+ },
+ {
+  "type": "header",
+  "text": "Облепиховый Шок"
+ },
+ {
+  "type": "row",
+  "name": "Облепиховый Шок (М)",
+  "protein": 0.2,
+  "fat": 1.1,
+  "carbs": 27.2,
+  "kcal": 133.4
+ },
+ {
+  "type": "row",
+  "name": "Облепиховый Шок (L)",
+  "protein": 0.3,
+  "fat": 1.6,
+  "carbs": 47.7,
+  "kcal": 234.8
+ },
+ {
+  "type": "header",
+  "text": "Тропико Яблоко"
+ },
+ {
+  "type": "row",
+  "name": "Тропико Яблоко (М)",
+  "protein": 0.5,
+  "fat": 0.1,
+  "carbs": 43.4,
+  "kcal": 177.5
+ },
+ {
+  "type": "row",
+  "name": "Тропико Яблоко (L)",
+  "protein": 0.7,
+  "fat": 0.1,
+  "carbs": 63,
+  "kcal": 255.3
+ },
+ {
+  "type": "header",
+  "text": "Грейпи Блю"
+ },
+ {
+  "type": "row",
+  "name": "Грейпи Блю (М)",
+  "protein": 2,
+  "fat": 0,
+  "carbs": 83.1,
+  "kcal": 336.7
+ },
+ {
+  "type": "row",
+  "name": "Грейпи Блю (L)",
+  "protein": 2,
+  "fat": 0,
+  "carbs": 98.1,
+  "kcal": 398.8
+ },
+ {
+  "type": "header",
+  "text": "Крем Кисс"
+ },
+ {
+  "type": "row",
+  "name": "Крем кисс (М)",
+  "protein": 0.8,
+  "fat": 5.2,
+  "carbs": 47.6,
+  "kcal": 208.8
+ },
+ {
+  "type": "row",
+  "name": "Крем кисс (L)",
+  "protein": 1.3,
+  "fat": 7.9,
+  "carbs": 65.7,
+  "kcal": 291.2
+ },
+ {
+  "type": "header",
+  "text": "Коконапа"
+ },
+ {
+  "type": "row",
+  "name": "Коконапа (М)",
+  "protein": 2,
+  "fat": 7.1,
+  "carbs": 36.4,
+  "kcal": 216.2
+ },
+ {
+  "type": "row",
+  "name": "Коконапа (L)",
+  "protein": 2.8,
+  "fat": 10.3,
+  "carbs": 50.3,
+  "kcal": 303.6
+ },
+ {
+  "type": "header",
+  "text": "Клуба Нана"
+ },
+ {
+  "type": "row",
+  "name": "Клуба Нана (М)",
+  "protein": 1.2,
+  "fat": 5.3,
+  "carbs": 42.6,
+  "kcal": 214.4
+ },
+ {
+  "type": "row",
+  "name": "Клуба Нана (L)",
+  "protein": 1.7,
+  "fat": 8,
+  "carbs": 53.1,
+  "kcal": 280.3
+ },
+ {
+  "type": "header",
+  "text": "Какао Банель"
+ },
+ {
+  "type": "row",
+  "name": "Какао Банель (М)",
+  "protein": 4.4,
+  "fat": 7.8,
+  "carbs": 59.5,
+  "kcal": 322.4
+ },
+ {
+  "type": "row",
+  "name": "Какао Банель (L)",
+  "protein": 6.7,
+  "fat": 11.3,
+  "carbs": 90,
+  "kcal": 481
+ },
+ {
+  "type": "header",
+  "text": "Добавки"
+ },
+ {
+  "type": "row",
+  "name": "Стик Сахар",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 0,
+  "kcal": 0
+ },
+ {
+  "type": "row",
+  "name": "Доб. Корица",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 0,
+  "kcal": 0
+ },
+ {
+  "type": "row",
+  "name": "Доп. Тапиока",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 25.1,
+  "kcal": 101.6
+ },
+ {
+  "type": "header",
+  "text": "Доб. Сиропы"
+ },
+ {
+  "type": "row",
+  "name": "Доб. Сироп Карамель",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 15,
+  "kcal": 62
+ },
+ {
+  "type": "row",
+  "name": "Доб. Сироп Брауни",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 16,
+  "kcal": 66
+ },
+ {
+  "type": "row",
+  "name": "Доб. Сироп Ваниль",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 15,
+  "kcal": 62
+ },
+ {
+  "type": "row",
+  "name": "Доб. Сироп Арахис в Карамели",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 15,
+  "kcal": 62
+ },
+ {
+  "type": "row",
+  "name": "Доб. Сироп Кленовый",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 15,
+  "kcal": 62
+ },
+ {
+  "type": "row",
+  "name": "Доб. Сироп Кокос",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 15,
+  "kcal": 62
+ },
+ {
+  "type": "row",
+  "name": "Доб. Сироп Лаванда",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 15,
+  "kcal": 62
+ },
+ {
+  "type": "row",
+  "name": "Доб. Сироп Лесной Орех",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 15,
+  "kcal": 62
+ },
+ {
+  "type": "row",
+  "name": "Доб. Сироп Миндаль",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 15,
+  "kcal": 62
+ },
+ {
+  "type": "row",
+  "name": "Доб. Сироп Мята",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 15,
+  "kcal": 62
+ },
+ {
+  "type": "row",
+  "name": "Доб. Сироп Попкорн",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 15,
+  "kcal": 62
+ },
+ {
+  "type": "row",
+  "name": "Доб. Сироп Соленая Карамель",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 15,
+  "kcal": 62
+ },
+ {
+  "type": "row",
+  "name": "Доб. Сироп Фисташка",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 15,
+  "kcal": 62
+ },
+ {
+  "type": "row",
+  "name": "Доб. Сироп Халва",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 15,
+  "kcal": 62
+ },
+ {
+  "type": "row",
+  "name": "Доб. Сироп Черничный Мафин",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 15,
+  "kcal": 62
+ },
+ {
+  "type": "row",
+  "name": "Доб. Сироп Шоколадный Батончик",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 15,
+  "kcal": 62
+ },
+ {
+  "type": "row",
+  "name": "Доб. Сироп Клубника",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 15.4,
+  "kcal": 62
+ },
+ {
+  "type": "row",
+  "name": "Доб. Сироп Ежевика",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 15,
+  "kcal": 62
+ },
+ {
+  "type": "row",
+  "name": "Доб. Сироп Малина",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 15,
+  "kcal": 62
+ },
+ {
+  "type": "row",
+  "name": "Доб. Зеленый банан",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 15,
+  "kcal": 62
+ },
+ {
+  "type": "header",
+  "text": "Доб. Джус-боллы"
+ },
+ {
+  "type": "row",
+  "name": "Доб. Джус-боллы Вишня",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 12.6,
+  "kcal": 50.5
+ },
+ {
+  "type": "row",
+  "name": "Доб. Джус-боллы Персик",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 12.6,
+  "kcal": 50.5
+ },
+ {
+  "type": "row",
+  "name": "Доб. Джус-боллы Апельсин",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 12.6,
+  "kcal": 50.5
+ },
+ {
+  "type": "row",
+  "name": "Доб. Джус-боллы Клубника",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 12.6,
+  "kcal": 50.5
+ },
+ {
+  "type": "row",
+  "name": "Доб. Джус-боллы Малина",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 12.6,
+  "kcal": 50.5
+ },
+ {
+  "type": "row",
+  "name": "Доб. Джус-боллы Манго",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 12.6,
+  "kcal": 50.5
+ },
+ {
+  "type": "row",
+  "name": "Доб. Джус-боллы Маракуйя",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 12.6,
+  "kcal": 50.5
+ },
+ {
+  "type": "row",
+  "name": "Доб. Джус-боллы Черника",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 12.6,
+  "kcal": 50.5
+ },
+ {
+  "type": "row",
+  "name": "Доб. Джус-боллы Яблоко",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 12.6,
+  "kcal": 50.5
+ },
+ {
+  "type": "row",
+  "name": "Доб. Джус-боллы Гранат",
+  "protein": 0,
+  "fat": 0,
+  "carbs": 12.6,
+  "kcal": 50.5
+ }
+]

@@ -1,0 +1,207 @@
+/* ───── Scene 05 · Menu teaser */
+.tz {
+  background: var(--color-paper);
+  padding-block: clamp(56px, 8vw, 130px) clamp(72px, 10vw, 150px);
+}
+.tz__head {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 0.55fr);
+  gap: 24px 48px;
+  align-items: end;
+  margin-bottom: clamp(32px, 5vw, 72px);
+}
+.tz__eyebrow {
+  color: var(--violet-ink);
+  margin-bottom: 14px;
+}
+.tz__title {
+  font-size: clamp(2.1rem, 5vw, 4.8rem);
+  max-width: 11em;
+}
+.tz__note {
+  color: var(--color-ink-2);
+  font-size: 0.9375rem;
+  max-width: 26em;
+}
+.tz__note a {
+  color: var(--violet-ink);
+}
+
+.tz__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(14px, 2.2vw, 36px) clamp(12px, 2vw, 32px);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* asymmetric rhythm: vertical offsets per column */
+.tz__card:nth-child(4n + 2) {
+  margin-top: clamp(24px, 5vw, 80px);
+}
+.tz__card:nth-child(4n + 3) {
+  margin-top: clamp(8px, 1.6vw, 24px);
+}
+.tz__card:nth-child(4n + 4) {
+  margin-top: clamp(32px, 7vw, 112px);
+}
+.tz__card {
+  min-width: 0;
+}
+.tz__link {
+  position: relative;
+  min-width: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto auto auto auto;
+  gap: 4px;
+  text-decoration: none;
+  padding-bottom: 6px;
+}
+.tz__disc {
+  grid-area: 1 / 1;
+  aspect-ratio: 1 / 1.08;
+  border-radius: 46% 54% 50% 50% / 56% 52% 48% 44%;
+  background: hsl(var(--h) 86% 88%);
+  transition:
+    transform var(--dur-large) var(--ease-out),
+    border-radius var(--dur-large) var(--ease-out);
+}
+.tz__cup {
+  grid-area: 1 / 1;
+  display: grid;
+  place-items: end center;
+  overflow: visible;
+  padding-bottom: 8%;
+  z-index: 1;
+}
+.tz__cup {
+  min-width: 0;
+  overflow: hidden;
+}
+.tz__cup img {
+  width: auto;
+  height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: 50% 100%;
+  filter: drop-shadow(0 16px 14px hsl(var(--h) 60% 20% / 0.35));
+  transition: transform var(--dur-large) var(--ease-out);
+  transform-origin: 50% 90%;
+}
+.tz__cat {
+  margin-top: 14px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: hsl(var(--h) 62% 22%);
+}
+.tz__name {
+  font-size: clamp(1.05rem, 1.6vw, 1.55rem);
+  line-height: 1.08;
+  overflow-wrap: anywhere;
+}
+.tz__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+  align-items: center;
+  margin-top: 4px;
+}
+.tz__price {
+  background: var(--color-ink);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.875rem;
+  padding: 5px 12px;
+  border-radius: var(--radius-pill);
+}
+.tz__kcal {
+  font-size: 0.8125rem;
+  color: var(--color-muted);
+  font-weight: 600;
+}
+@media (hover: hover) {
+  .tz__link:hover .tz__cup img {
+    transform: rotate(-5deg) scale(1.07);
+  }
+  .tz__link:hover .tz__disc {
+    transform: scale(1.05) rotate(4deg);
+    border-radius: 54% 46% 44% 56% / 48% 56% 44% 52%;
+  }
+}
+
+.tz__card--cta {
+  align-self: stretch;
+  margin-top: clamp(8px, 2vw, 32px);
+}
+.tz__cta {
+  position: relative;
+  height: 100%;
+  min-height: 260px;
+  display: grid;
+  align-content: space-between;
+  gap: 12px;
+  padding: clamp(18px, 2.4vw, 32px);
+  border-radius: var(--radius-l);
+  background: var(--violet-deep);
+  color: #fff;
+  text-decoration: none;
+  overflow: hidden;
+  transition:
+    background-color var(--dur-ui) var(--ease),
+    transform var(--dur-micro) var(--ease-out);
+}
+.tz__cta:active {
+  transform: scale(0.98);
+}
+.tz__cta .display {
+  font-size: clamp(1.7rem, 3.2vw, 3.1rem);
+}
+.tz__cta-sub {
+  font-size: 0.9375rem;
+  opacity: 0.9;
+  max-width: 14em;
+}
+.tz__cta-arrow {
+  justify-self: end;
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--teal);
+  color: var(--color-ink);
+  transition: transform var(--dur-ui) var(--ease-out);
+}
+@media (hover: hover) {
+  .tz__cta:hover {
+    background: var(--violet-ink);
+  }
+  .tz__cta:hover .tz__cta-arrow {
+    transform: translateX(6px) rotate(-8deg);
+  }
+}
+
+@media (max-width: 899px) {
+  .tz__head {
+    grid-template-columns: 1fr;
+  }
+  .tz__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .tz__card:nth-child(n) {
+    margin-top: 0;
+  }
+  .tz__card:nth-child(even) {
+    margin-top: 36px;
+  }
+  .tz__card--cta {
+    grid-column: 1 / -1;
+    margin-top: 12px !important;
+  }
+  .tz__cta {
+    min-height: 180px;
+  }
+}

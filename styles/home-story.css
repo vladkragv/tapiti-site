@@ -1,0 +1,132 @@
+/* ───── Scene 03 · Story («Перемешай») — mask reveal */
+.story {
+  background: var(--color-paper);
+  padding-block: clamp(80px, 12vw, 180px);
+  overflow: clip;
+}
+.story__words {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  align-content: center;
+  gap: 0;
+  z-index: -1;
+  pointer-events: none;
+  user-select: none;
+}
+.story__w1,
+.story__w2 {
+  display: block;
+  font-size: clamp(6rem, 24vw, 22rem);
+  line-height: 0.82;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: clamp(1.5px, 0.18vw, 3px) var(--violet);
+  white-space: nowrap;
+  opacity: 0.22;
+  letter-spacing: -0.045em;
+}
+.story__w2 {
+  text-align: right;
+}
+.story__in {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 0.8fr) minmax(0, 1fr);
+  grid-template-areas: 'text media quotes';
+  gap: clamp(20px, 3vw, 56px);
+  align-items: center;
+}
+.story__text {
+  grid-area: text;
+}
+.story__media {
+  grid-area: media;
+}
+.story__quotes {
+  grid-area: quotes;
+  display: grid;
+  gap: 18px;
+  align-self: end;
+}
+.story__eyebrow {
+  color: var(--violet-ink);
+  margin-bottom: 14px;
+}
+.story__title {
+  font-size: clamp(2.1rem, 3.8vw, 3.9rem);
+  margin-bottom: 18px;
+}
+.story__lead {
+  max-width: 28em;
+  color: var(--color-ink-2);
+}
+.story__arch {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin-inline: auto;
+  aspect-ratio: 9 / 15.5;
+  border-radius: 999px 999px 32px 32px;
+  overflow: hidden;
+  background: var(--color-ink-2);
+  box-shadow: 0 40px 70px -34px rgb(27 10 58 / 0.7);
+}
+.story__arch video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.story__quote {
+  background: #fff;
+  border-radius: var(--radius-m);
+  padding: 18px 20px 16px;
+  box-shadow: var(--shadow-soft);
+  rotate: -1.2deg;
+}
+.story__quote--b {
+  rotate: 1.4deg;
+  margin-left: clamp(0px, 3vw, 40px);
+  background: var(--mint);
+}
+.story__quote blockquote {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1rem, 1.35vw, 1.3rem);
+  line-height: 1.22;
+  text-wrap: pretty;
+}
+.story__quote figcaption {
+  margin-top: 10px;
+  font-size: 0.8125rem;
+}
+.story__quote a {
+  color: var(--violet-ink);
+}
+
+@media (max-width: 899px) {
+  .story {
+    padding-block: 72px 80px;
+  }
+  .story__in {
+    grid-template-columns: 1fr;
+    grid-template-areas: 'text' 'media' 'quotes';
+    gap: 24px;
+  }
+  .story__words {
+    align-content: start;
+    padding-top: 40px;
+  }
+  .story__w1,
+  .story__w2 {
+    font-size: 27vw;
+  }
+  .story__arch {
+    max-width: 260px;
+  }
+  .story__quote,
+  .story__quote--b {
+    margin-left: 0;
+  }
+}
+

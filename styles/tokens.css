@@ -1,0 +1,63 @@
+/* ───────────────────────────────────────────────
+   TapiTi design tokens
+   Source: brand posters/logo/menus from the Telegram + VK export
+   - aqua-teal wordmark outline + violet detail (logo)
+   - lilac→mint poster backdrops, translucent 3D «bubbles»
+   - hot-pink staff shirts (#E5329E-ish) and the plum→teal menu boards
+   ─────────────────────────────────────────────── */
+:root {
+  --color-ink: #1b0a3a;
+  --color-ink-2: #2e1766;
+  --color-paper: #fbf7ff;
+  --color-paper-2: #f2e8ff;
+  --color-surface: #ffffff;
+  --color-brand-primary: #2fd0c4; /* aqua teal – wordmark */
+  --color-brand-secondary: #7b35e8; /* violet – logo detail / poster type */
+  --color-accent: #d12790; /* magenta – staff shirts, accents */
+  --color-muted: #6a5a8e;
+  --color-line: rgb(27 10 58 / 0.14);
+
+  --teal: var(--color-brand-primary);
+  --teal-ink: #07706b;
+  --mint: #d4f8f3;
+  --violet: var(--color-brand-secondary);
+  --violet-ink: #4a1fb0;
+  --violet-deep: #6a2bd8; /* violet panels that carry small light text (AA) */
+  --lilac: #e6d8ff;
+  --pink: #ff82c8;
+  --plum: #6f0f78;
+
+  --font-display: var(--font-unbounded), 'Arial Black', system-ui, sans-serif;
+  --font-body: var(--font-onest), system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+  --dur-micro: 140ms;
+  --dur-ui: 220ms;
+  --dur-large: 420ms;
+
+  --radius-s: 10px;
+  --radius-m: 18px;
+  --radius-l: 32px;
+  --radius-pill: 999px;
+
+  --gutter: clamp(16px, 4.4vw, 64px);
+  --header-h: 64px;
+  --bar-h: 0px; /* mobile bottom bar height, set in layout.css */
+  --maxw: 1480px;
+
+  --shadow-pop: 0 18px 40px -18px rgb(27 10 58 / 0.45);
+  --shadow-soft: 0 10px 30px -16px rgb(27 10 58 / 0.28);
+
+  /* motion state defaults (overridden by reduced-motion) */
+  --float-dur: 7s;
+}
+
+@media (max-width: 899px) {
+  :root {
+    --header-h: 56px;
+    --bar-h: calc(64px + env(safe-area-inset-bottom, 0px));
+  }
+}

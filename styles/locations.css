@@ -1,0 +1,327 @@
+/* ═══════════════ LOCATIONS (shared pieces + /locations page) ═══════════════ */
+
+/* visual: photo or typographic tile */
+.lv {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.lv--photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.lv__note {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: rgb(27 10 58 / 0.7);
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: var(--radius-pill);
+}
+.lv--tile {
+  display: grid;
+  place-items: center;
+  background: var(--color-ink-2);
+  color: #fff;
+  isolation: isolate;
+}
+.lv--tile::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--ac, var(--violet));
+  opacity: 0.9;
+  z-index: -2;
+}
+.lv--tile::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Ccircle cx='20' cy='20' r='6' fill='%23fff' fill-opacity='.18'/%3E%3Ccircle cx='80' cy='70' r='9' fill='%23fff' fill-opacity='.12'/%3E%3C/svg%3E");
+}
+.lv__big {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-size: clamp(4rem, 16vw, 12rem);
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 2px rgb(255 255 255 / 0.55);
+  letter-spacing: -0.04em;
+}
+.lv__cups {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  gap: 2%;
+  height: 74%;
+  align-self: end;
+  padding-bottom: 4%;
+}
+.lv__cups img {
+  width: auto;
+  height: 100%;
+  max-height: 300px;
+  filter: drop-shadow(0 18px 16px rgb(0 0 0 / 0.3));
+}
+.lv__cups img:nth-child(2) {
+  height: 120%;
+  max-height: 360px;
+}
+.lv__cap {
+  position: absolute;
+  left: 16px;
+  bottom: 14px;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  background: rgb(27 10 58 / 0.55);
+  padding: 4px 12px;
+  border-radius: var(--radius-pill);
+}
+
+/* facts, open-now, actions */
+.lc__facts {
+  display: grid;
+  gap: 14px;
+  margin-bottom: 22px;
+}
+.lc__facts > div {
+  display: grid;
+  grid-template-columns: 5.2em 1fr;
+  gap: 12px;
+}
+.lc__facts dt {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.85;
+  padding-top: 0.2em;
+}
+.lc__facts dd {
+  font-weight: 600;
+  display: grid;
+  gap: 2px;
+}
+.lc__facts dd span {
+  font-weight: 400;
+  opacity: 0.85;
+}
+.lc__facts dd .open {
+  opacity: 1;
+  font-weight: 700;
+}
+.open {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.875rem;
+}
+.open i {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: currentColor;
+}
+.open--on {
+  color: #1d7f3b;
+}
+.on-dark .open--on {
+  color: #6ee79b;
+}
+.open--off {
+  color: #a02c5c;
+}
+.on-dark .open--off {
+  color: #ffa3c8;
+}
+.open--idle {
+  opacity: 0;
+}
+.lc__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.lc__actions .btn {
+  min-height: 48px;
+}
+@media (max-width: 899px) {
+  .lc__actions .btn:first-child {
+    flex: 1 1 100%;
+  }
+  .lc__actions .btn:not(:first-child) {
+    flex: 1 1 auto;
+  }
+}
+
+/* ═════ /locations page ═════ */
+.ls-page {
+  background: var(--color-paper);
+  padding-top: var(--header-h);
+}
+.ls__head {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 0.7fr);
+  gap: 20px 56px;
+  align-items: end;
+  padding-block: clamp(28px, 4vw, 64px) clamp(24px, 3vw, 48px);
+}
+.ls__eyebrow {
+  color: var(--violet-ink);
+  margin-bottom: 10px;
+}
+.ls__title {
+  font-size: clamp(2.6rem, 7vw, 6.4rem);
+}
+.ls__lead {
+  display: grid;
+  gap: 16px;
+  color: var(--color-ink-2);
+  max-width: 34em;
+}
+.ls__lead a {
+  color: var(--violet-ink);
+}
+.ls__jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.ls__jump .chip[aria-current='true'] {
+  background: var(--color-ink);
+  color: #fff;
+}
+.ls__body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 0.9fr);
+  gap: clamp(24px, 5vw, 96px);
+  padding-bottom: clamp(56px, 8vw, 120px);
+  align-items: start;
+}
+.ls__stage {
+  position: sticky;
+  top: calc(var(--header-h) + 18px);
+  display: grid;
+  gap: 12px;
+}
+.ls__frame {
+  position: relative;
+  aspect-ratio: 4 / 4.4;
+  max-height: calc(100svh - var(--header-h) - 90px);
+  width: 100%;
+  border-radius: var(--radius-l);
+  overflow: hidden;
+  background: var(--color-ink);
+  box-shadow: 0 40px 70px -34px rgb(27 10 58 / 0.6);
+}
+.ls__v {
+  position: absolute;
+  inset: 0;
+  clip-path: inset(100% 0 0 0);
+  transition: clip-path 0.75s var(--ease-in-out);
+}
+.ls__v[data-active='true'] {
+  clip-path: inset(0 0 0 0);
+  z-index: 1;
+}
+.ls__v .lv--photo img {
+  transform: scale(1.12);
+  transition: transform 1.2s var(--ease-out);
+}
+.ls__v[data-active='true'] .lv--photo img {
+  transform: scale(1);
+}
+.ls__counter {
+  font-size: 1.1rem;
+  color: var(--violet-ink);
+}
+.ls__counter span {
+  color: var(--color-muted);
+}
+.ls__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0;
+}
+.ls__ch {
+  display: grid;
+  align-content: center;
+  gap: 14px;
+  min-height: min(76svh, 640px);
+  padding-block: 28px;
+  border-top: 1px solid var(--color-line);
+  scroll-margin-top: calc(var(--header-h) + 8px);
+  border-left: 4px solid transparent;
+  padding-left: 18px;
+  transition: border-color var(--dur-large) var(--ease);
+}
+.ls__ch[data-active='true'] {
+  border-left-color: var(--ac);
+}
+.ls__inline {
+  display: none;
+}
+.ls__n {
+  font-size: 0.9rem;
+  color: var(--violet-ink);
+  font-weight: 800;
+}
+.ls__venue {
+  font-size: clamp(1.9rem, 3.6vw, 3.4rem);
+  overflow-wrap: anywhere;
+}
+.ls__opened {
+  color: var(--color-ink-2);
+  font-size: 0.9375rem;
+}
+.ls__menu {
+  font-size: 0.875rem;
+  color: var(--color-ink-2);
+}
+@media (max-width: 899px) {
+  .ls__head {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  .ls__title {
+    font-size: clamp(2.5rem, 13vw, 3.6rem);
+  }
+  .ls__body {
+    grid-template-columns: 1fr;
+  }
+  .ls__stage {
+    display: none;
+  }
+  .ls__ch {
+    min-height: 0;
+    padding-block: 26px;
+    padding-left: 0;
+    border-left: 0;
+  }
+  .ls__inline {
+    display: block;
+    aspect-ratio: 4 / 3;
+    border-radius: 24px;
+    overflow: hidden;
+    margin-bottom: 6px;
+  }
+  .ls__venue {
+    font-size: 1.9rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ls__v,
+  .ls__v .lv--photo img {
+    transition: none;
+  }
+}

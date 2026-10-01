@@ -1,0 +1,188 @@
+/* ───── Scene 02 · Assemble (pinned video scrub) */
+.asm {
+  position: relative;
+  background: var(--color-ink);
+  color: #fff;
+  min-height: 100svh;
+  display: grid;
+  align-items: center;
+  overflow: clip;
+}
+.asm.is-wipe {
+  background: var(--teal); /* continues the hero; the ink wipe grows out of it (set by JS only when the wipe runs) */
+}
+.asm__bg {
+  position: absolute;
+  inset: 0;
+  background: var(--color-ink);
+  z-index: -1;
+}
+.asm__in {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 0.9fr);
+  gap: clamp(24px, 5vw, 96px);
+  align-items: center;
+  padding-block: calc(var(--header-h) + 16px) 32px;
+}
+.asm__eyebrow {
+  color: var(--teal);
+  margin-bottom: 14px;
+}
+.asm__title {
+  font-size: clamp(2.4rem, 5.4vw, 5rem);
+  margin-bottom: clamp(24px, 3.4vw, 48px);
+}
+.asm__steps {
+  display: grid;
+  gap: clamp(12px, 1.8vw, 22px);
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.asm__step {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 18px;
+  align-items: start;
+  opacity: 0.38;
+  transform: translateX(0);
+  transition:
+    opacity var(--dur-large) var(--ease-out),
+    transform var(--dur-large) var(--ease-out);
+}
+.asm__step.is-active {
+  opacity: 1;
+  transform: translateX(14px);
+}
+.asm__n {
+  font-size: 0.95rem;
+  color: var(--ink, var(--color-ink));
+  background: var(--teal);
+  color: var(--color-ink);
+  border-radius: var(--radius-pill);
+  min-width: 52px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+  letter-spacing: 0;
+  transition: background-color var(--dur-ui) var(--ease);
+}
+.asm__step:not(.is-active) .asm__n {
+  background: rgb(255 255 255 / 0.2);
+  color: #fff;
+}
+.asm__step h3 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1.1rem, 1.7vw, 1.6rem);
+  line-height: 1.12;
+  margin-bottom: 6px;
+}
+.asm__step p {
+  color: rgb(255 255 255 / 0.78);
+  max-width: 28em;
+}
+
+.asm__stage {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  gap: 14px;
+}
+.asm__window {
+  position: relative;
+  height: min(74svh, 700px);
+  aspect-ratio: 9 / 16;
+  border-radius: 28px;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 40px 90px -30px rgb(0 0 0 / 0.8);
+  will-change: transform;
+}
+.asm__window video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 62%;
+}
+.asm__bar {
+  width: min(280px, 60%);
+  height: 4px;
+  border-radius: 2px;
+  background: rgb(255 255 255 / 0.2);
+  overflow: hidden;
+}
+.asm__bar i {
+  display: block;
+  height: 100%;
+  background: var(--teal);
+  transform: scaleX(0);
+  transform-origin: left;
+}
+.asm__credit {
+  font-size: 0.75rem;
+  color: rgb(255 255 255 / 0.7);
+}
+
+@media (max-width: 899px) {
+  .asm__in {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    padding-block: calc(var(--header-h) + 8px) calc(var(--bar-h) + 6px);
+    align-content: center;
+  }
+  .asm__title {
+    font-size: clamp(2rem, 9vw, 2.8rem);
+    margin-bottom: 10px;
+  }
+  .asm__copy {
+    display: grid;
+  }
+  .asm__steps {
+    position: relative;
+    min-height: 92px;
+    order: 3;
+  }
+  .asm__step {
+    position: absolute;
+    inset: 0 0 auto 0;
+    opacity: 0;
+    transform: translateY(10px);
+    pointer-events: none;
+  }
+  .asm__step.is-active {
+    opacity: 1;
+    transform: none;
+  }
+  .asm__stage {
+    order: 2;
+  }
+  .asm__window {
+    height: min(52svh, 440px);
+  }
+  .asm__credit {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .asm {
+    background: var(--color-ink);
+    min-height: 0;
+  }
+  .asm__in {
+    padding-block: 72px;
+  }
+  .asm__step {
+    position: static;
+    opacity: 1;
+    transform: none;
+  }
+  .asm__steps {
+    min-height: 0;
+  }
+  .asm__step:not(.is-active) .asm__n {
+    background: var(--teal);
+    color: var(--color-ink);
+  }
+}

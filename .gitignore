@@ -1,0 +1,26 @@
+.next
+node_modules
+*.log
+.env*.local
+next-env.d.ts
+tsconfig.tsbuildinfo
+.vercel
+
+# raw client exports (≈2.1 GB) — kept locally, processed into public/media by scripts/
+/photos/
+/video_files/
+/round_video_messages/
+/messages.html
+/css/
+/js/
+/images/
+/меню/
+
+# agent tooling
+/.agents/
+/.claude/
+/skills-lock.json
+/qa-out/
+
+# contains third-party handles from giveaway posts
+/research/data/telegram-messages.json

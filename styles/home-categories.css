@@ -1,0 +1,422 @@
+/* ───── Scene 04 · Categories (pinned horizontal on desktop; sticky stack on phones) */
+.cats {
+  background: var(--color-paper);
+  padding-bottom: clamp(40px, 6vw, 80px);
+}
+.cats__intro {
+  padding-block: clamp(72px, 10vw, 150px) clamp(28px, 4vw, 56px);
+}
+.cats__eyebrow {
+  color: var(--violet-ink);
+  margin-bottom: 14px;
+}
+.cats__title {
+  font-size: clamp(2.2rem, 5.4vw, 5.2rem);
+  max-width: 14em;
+}
+.cats__track {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 14px;
+}
+
+/* ── card (default: stacked) */
+.cat {
+  --sz: 1;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background: var(--pbg);
+  color: var(--pfg);
+  border-radius: var(--radius-l);
+  margin-inline: var(--gutter);
+  padding: clamp(24px, 4vw, 48px);
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 1fr;
+  min-height: 560px;
+}
+.cat__num {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  opacity: 1;
+  margin-bottom: 10px;
+  letter-spacing: 0;
+}
+.cat__name {
+  font-size: clamp(2.1rem, 8.5vw, 3.2rem);
+  margin-bottom: 12px;
+  overflow-wrap: anywhere;
+}
+.cat__lead {
+  max-width: 24em;
+  margin-bottom: 14px;
+}
+.cat__count {
+  margin-bottom: 18px;
+  font-weight: 600;
+}
+.cat__count strong {
+  font-family: var(--font-display);
+  font-size: 1.5em;
+  margin-right: 0.2em;
+}
+.cat[data-motif='dark'] .cat__btn {
+  --bg: #ffe9d2;
+  --fg: #2b1a16;
+}
+.cat__art {
+  position: relative;
+  min-height: 250px;
+}
+.cat__ring {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 2%;
+  height: 100%;
+  min-height: 250px;
+}
+.cat__cup {
+  position: relative;
+  flex: 0 0 auto;
+}
+.cat__cup:nth-child(1) {
+  --sz: 0.82;
+}
+.cat__cup:nth-child(2) {
+  --sz: 1;
+  order: 0;
+}
+.cat__cup:nth-child(3) {
+  --sz: 0.9;
+}
+.cat__cup img {
+  width: auto;
+  height: calc(var(--sz) * 210px);
+  filter: drop-shadow(0 18px 16px rgb(0 0 0 / 0.25));
+}
+.cat__deco {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+.cat__words {
+  display: grid;
+  gap: 2px;
+  align-content: center;
+  height: 100%;
+}
+.cat__word {
+  font-size: clamp(2rem, 9vw, 3.4rem);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  color: transparent;
+  -webkit-text-stroke: 2px var(--pfg);
+}
+.cat__word:nth-child(odd) {
+  color: var(--pfg);
+  -webkit-text-stroke: 0;
+}
+
+/* sticky stack on phones */
+@media (max-width: 899px) and (prefers-reduced-motion: no-preference) {
+  .cats__track {
+    display: block;
+  }
+  .cat {
+    position: sticky;
+    top: calc(var(--header-h) + 10px + var(--i) * 7px);
+    margin-bottom: 18px;
+    min-height: min(76svh, 590px);
+    will-change: transform;
+  }
+}
+.cats__dots {
+  display: none;
+}
+
+/* ── desktop horizontal */
+@media (min-width: 900px) {
+  .cat {
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    align-items: center;
+    gap: clamp(16px, 3vw, 48px);
+    min-height: 560px;
+  }
+  .cat__name {
+    font-size: clamp(2.2rem, 4.6vw, 4.8rem);
+  }
+  .cat__cup img {
+    height: calc(var(--sz) * min(44svh, 360px));
+  }
+  .cat__art {
+    min-height: 360px;
+    height: 100%;
+  }
+  .cat__ring {
+    min-height: 360px;
+    gap: 3%;
+  }
+  .cat__word {
+    font-size: clamp(2.6rem, 6vw, 5.6rem);
+  }
+
+  .cats.is-h .cats__pin {
+    position: relative;
+    height: 100svh;
+    overflow: hidden;
+    background: var(--color-ink);
+  }
+  .cats.is-h .cats__track {
+    display: flex;
+    width: max-content;
+    height: 100%;
+    gap: 0;
+  }
+  .cats.is-h .cat {
+    width: 100vw;
+    height: 100%;
+    min-height: 0;
+    margin: 0;
+    border-radius: 0;
+    padding: calc(var(--header-h) + 24px) var(--gutter) 64px;
+    grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
+    flex: 0 0 auto;
+  }
+  .cats.is-h .cat__ring {
+    height: min(66svh, 600px);
+  }
+  .cats.is-h .cat__cup img {
+    height: calc(var(--sz) * min(52svh, 440px));
+  }
+  .cats.is-h .cats__dots {
+    position: absolute;
+    left: 50%;
+    bottom: 22px;
+    translate: -50% 0;
+    display: flex;
+    gap: 6px;
+    z-index: 5;
+    list-style: none;
+    margin: 0;
+    padding: 6px 10px;
+    background: rgb(27 10 58 / 0.78);
+    border-radius: var(--radius-pill);
+  }
+  .cats__dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background: rgb(255 255 255 / 0.4);
+    transition:
+      width var(--dur-ui) var(--ease-out),
+      background-color var(--dur-ui) var(--ease);
+  }
+  .cats__dot.is-on {
+    width: 28px;
+    background: var(--teal);
+  }
+}
+
+/* ── motif layout + decoration ───────────────────── */
+.cat[data-motif='bubble'] .cat__ring {
+  position: relative;
+}
+@media (min-width: 900px) {
+  .cat[data-motif='bubble'] .cat__ring {
+    display: block;
+    width: min(60svh, 560px);
+    aspect-ratio: 1;
+    margin-inline: auto;
+    height: auto;
+  }
+  .cat[data-motif='bubble'] .cat__cup {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 0;
+    height: 0;
+    transform: rotate(calc(var(--k) * 120deg)) translateY(calc(min(60svh, 560px) * -0.36));
+  }
+  .cat[data-motif='bubble'] .cat__cup-in {
+    width: max-content;
+    max-width: none;
+  }
+  .cat[data-motif='bubble'] .cat__cup-in img {
+    max-width: none;
+  }
+  .cat[data-motif='bubble'] .cat__cup img {
+    height: min(30svh, 260px);
+  }
+  .cat[data-motif='bubble'] .cat__ring::before {
+    content: '';
+    position: absolute;
+    inset: 4%;
+    border-radius: 50%;
+    border: 3px dashed rgb(27 10 58 / 0.22);
+  }
+}
+.cat[data-motif='bubble'] .cat__deco > i {
+  position: absolute;
+  left: 72%;
+  top: 48%;
+}
+
+.slice {
+  position: absolute;
+  width: 96px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: repeating-conic-gradient(from 8deg, #ffb703 0 26deg, #fff4cc 26deg 30deg);
+  box-shadow:
+    inset 0 0 0 8px #ff9f1c,
+    0 10px 20px -8px rgb(0 0 0 / 0.3);
+}
+.slice--pink {
+  background: repeating-conic-gradient(from 8deg, #ff6f91 0 26deg, #ffe0ea 26deg 30deg);
+  box-shadow:
+    inset 0 0 0 8px #e5326b,
+    0 10px 20px -8px rgb(0 0 0 / 0.3);
+  width: 70px;
+}
+.slice--lime {
+  background: repeating-conic-gradient(from 8deg, #b6e234 0 26deg, #f3ffd0 26deg 30deg);
+  box-shadow:
+    inset 0 0 0 7px #6fb21b,
+    0 10px 20px -8px rgb(0 0 0 / 0.3);
+  width: 58px;
+}
+.cat[data-motif='fruit'] .slice:nth-child(1) {
+  left: 52%;
+  top: 70%;
+}
+.cat[data-motif='fruit'] .slice:nth-child(2) {
+  left: 85%;
+  top: 80%;
+}
+.cat[data-motif='fruit'] .slice:nth-child(3) {
+  left: 38%;
+  top: 92%;
+}
+.slice--big {
+  width: clamp(220px, 28vw, 420px);
+  right: -6%;
+  top: 8%;
+  box-shadow:
+    inset 0 0 0 clamp(14px, 2vw, 26px) #d6b800,
+    0 10px 20px -8px rgb(0 0 0 / 0.2);
+  background: repeating-conic-gradient(from 8deg, #f6ee3b 0 26deg, #fffbd0 26deg 30deg);
+}
+
+.drip {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: clamp(60px, 14svh, 130px);
+}
+.drip path {
+  fill: #fff;
+}
+.cat[data-motif='calm'] .cat__deco {
+  display: flex;
+  justify-content: space-around;
+}
+.bar {
+  flex: 1;
+  margin-inline: 1px;
+  background: color-mix(in srgb, var(--pfg) 12%, transparent);
+}
+.bar:nth-child(even) {
+  background: color-mix(in srgb, var(--pfg) 6%, transparent);
+}
+
+.steam {
+  position: absolute;
+  width: 40px;
+  opacity: 0.7;
+}
+.steam svg {
+  width: 100%;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 5;
+  stroke-linecap: round;
+}
+.cat[data-motif='warm'] .steam:nth-child(1),
+.cat[data-motif='dark'] .steam:nth-child(1) {
+  left: 48%;
+  top: 8%;
+}
+.cat[data-motif='warm'] .steam:nth-child(2),
+.cat[data-motif='dark'] .steam:nth-child(2) {
+  left: 64%;
+  top: 4%;
+}
+.cat[data-motif='warm'] .steam:nth-child(3),
+.cat[data-motif='dark'] .steam:nth-child(3) {
+  left: 80%;
+  top: 10%;
+}
+.shard {
+  position: absolute;
+  width: clamp(40px, 6vw, 90px);
+  aspect-ratio: 1;
+  background: rgb(255 255 255 / 0.7);
+  clip-path: polygon(50% 0, 100% 62%, 40% 100%, 0 40%);
+}
+.shard:nth-child(1) {
+  left: 52%;
+  top: 14%;
+}
+.shard:nth-child(2) {
+  left: 84%;
+  top: 22%;
+  rotate: 40deg;
+}
+.shard:nth-child(3) {
+  left: 60%;
+  top: 70%;
+  rotate: 120deg;
+}
+.shard:nth-child(4) {
+  left: 92%;
+  top: 62%;
+  rotate: 200deg;
+}
+.shard:nth-child(5) {
+  left: 46%;
+  top: 48%;
+  rotate: 80deg;
+}
+
+@media (max-width: 899px) {
+  .cat__deco {
+    opacity: 0.8;
+  }
+  .cat[data-motif='bubble'] .cat__deco > i,
+  .cat[data-motif='fruit'] .slice {
+    opacity: 0.9;
+  }
+  .slice {
+    width: 64px;
+  }
+  .slice--big {
+    width: 200px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cat[data-motif='bubble'] .cat__cup {
+    position: relative;
+    left: auto;
+    top: auto;
+    transform: none;
+  }
+}
+
+
