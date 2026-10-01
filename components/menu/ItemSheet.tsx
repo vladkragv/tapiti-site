@@ -80,7 +80,9 @@ export function ItemSheet({
 
           <div className="isheet__art" aria-hidden="true">
             <span className="isheet__disc" />
-            <CupImage id={it.id} height={420} sizes="(min-width: 900px) 280px, 180px" priority />
+            <div key={it.id} className="isheet__cup">
+              <CupImage id={it.id} height={420} sizes="(min-width: 900px) 280px, 180px" priority />
+            </div>
           </div>
 
           <div className="isheet__scroll">
@@ -91,23 +93,29 @@ export function ItemSheet({
                 {available === 5 ? 'Во всех 5 точках' : `Есть в ${pluralPoints(available)} из 5`}
               </span>
             </p>
-            <h2 className="isheet__name display">{it.name}</h2>
-            <p className="isheet__desc">{offer.description ?? it.description}</p>
+            <h2 key={`n-${it.id}`} className="isheet__name display swap-in">
+              {it.name}
+            </h2>
+            <p key={`d-${it.id}`} className="isheet__desc swap-in">
+              {offer.description ?? it.description}
+            </p>
             {base ? <p className="isheet__base">Основа — напиток на {base}</p> : null}
 
             <div className="isheet__row">
-              <div className="seg" role="radiogroup" aria-label="Размер">
+              <div className="seg" role="radiogroup" aria-label="Размер" style={{ ['--n' as string]: hasL ? 2 : 1, ['--i' as string]: size === 'L' && hasL ? 1 : 0 }}>
+                <span className="seg__ind" aria-hidden="true" />
                 <button type="button" role="radio" aria-checked={size === 'M'} onClick={() => setSize('M')}>
-                  <b>M</b> 500 мл <em>{rub(offer.M)}</em>
+                  <b>M</b> 500 мл <em key={`m-${it.id}`} className="num-in">{rub(offer.M)}</em>
                 </button>
                 {hasL ? (
                   <button type="button" role="radio" aria-checked={size === 'L'} onClick={() => setSize('L')}>
-                    <b>L</b> 700 мл <em>{rub(offer.L!)}</em>
+                    <b>L</b> 700 мл <em key={`l-${it.id}`} className="num-in">{rub(offer.L!)}</em>
                   </button>
                 ) : null}
               </div>
               {canTemp ? (
-                <div className="seg seg--temp" role="radiogroup" aria-label="Температура">
+                <div className="seg seg--temp" role="radiogroup" aria-label="Температура" style={{ ['--n' as string]: 2, ['--i' as string]: temp === 'hot' ? 1 : 0 }}>
+                <span className="seg__ind" aria-hidden="true" />
                   <button type="button" role="radio" aria-checked={temp === 'cold'} onClick={() => setTemp('cold')}>
                     Холодный
                   </button>
@@ -128,19 +136,19 @@ export function ItemSheet({
                   <dl className="kbzhu__grid">
                     <div>
                       <dt>Ккал</dt>
-                      <dd className="display">{num1(v.kcal)}</dd>
+                      <dd key={`k-${v.source}`} className="display num-in">{num1(v.kcal)}</dd>
                     </div>
                     <div>
                       <dt>Белки</dt>
-                      <dd className="display">{num1(v.protein)}&nbsp;г</dd>
+                      <dd key={`p-${v.source}`} className="display num-in">{num1(v.protein)}&nbsp;г</dd>
                     </div>
                     <div>
                       <dt>Жиры</dt>
-                      <dd className="display">{num1(v.fat)}&nbsp;г</dd>
+                      <dd key={`f-${v.source}`} className="display num-in">{num1(v.fat)}&nbsp;г</dd>
                     </div>
                     <div>
                       <dt>Углеводы</dt>
-                      <dd className="display">{num1(v.carbs)}&nbsp;г</dd>
+                      <dd key={`c-${v.source}`} className="display num-in">{num1(v.carbs)}&nbsp;г</dd>
                     </div>
                   </dl>
                   <p className="kbzhu__basis">

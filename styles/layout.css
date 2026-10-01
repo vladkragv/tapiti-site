@@ -171,10 +171,19 @@ main {
   color: var(--color-ink);
   overflow: visible;
 }
+.sheet {
+  /* keep the dialog rendered while its exit transition plays */
+  transition:
+    display 0.42s allow-discrete,
+    overlay 0.42s allow-discrete;
+}
 .sheet::backdrop {
   background: rgb(27 10 58 / 0.55);
   opacity: 0;
-  transition: opacity var(--dur-ui) var(--ease);
+  transition:
+    opacity 0.34s var(--ease),
+    display 0.42s allow-discrete,
+    overlay 0.42s allow-discrete;
 }
 .sheet[open]::backdrop {
   opacity: 1;
@@ -247,7 +256,21 @@ main {
     width: min(420px, 90vw);
     border-radius: var(--radius-l);
     padding: 28px;
+    opacity: 0;
+    transform: translate(-50%, -48%) scale(0.98);
+    transition:
+      opacity var(--dur-ui) var(--ease-out),
+      transform var(--dur-large) var(--ease-out);
+  }
+  .sheet--more[open] .sheet__body {
+    opacity: 1;
     transform: translate(-50%, -50%);
+  }
+  @starting-style {
+    .sheet--more[open] .sheet__body {
+      opacity: 0;
+      transform: translate(-50%, -48%) scale(0.98);
+    }
   }
 }
 
@@ -354,5 +377,24 @@ main {
   }
   .ftr__legal {
     flex-direction: column;
+  }
+}
+
+/* sheets slide/fade out as smoothly as they come in */
+@media (max-width: 899px) {
+  .sheet .sheet__body {
+    transition: transform 0.42s var(--ease-out);
+  }
+}
+.lightbox .lightbox__body {
+  opacity: 0;
+  transition: opacity 0.3s var(--ease);
+}
+.lightbox[open] .lightbox__body {
+  opacity: 1;
+}
+@starting-style {
+  .lightbox[open] .lightbox__body {
+    opacity: 0;
   }
 }

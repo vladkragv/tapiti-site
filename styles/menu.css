@@ -343,7 +343,7 @@
   font-size: 1.4rem;
 }
 .mp__else[open] summary::after {
-  content: '−';
+  transform: rotate(45deg);
 }
 .mp__else summary small {
   font-weight: 600;
@@ -535,15 +535,31 @@
   gap: 10px;
 }
 .seg {
-  display: inline-flex;
+  position: relative;
+  isolation: isolate;
+  display: inline-grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
   padding: 4px;
-  gap: 4px;
   border-radius: var(--radius-pill);
   background: rgb(27 10 58 / 0.08);
+}
+.seg__ind {
+  position: absolute;
+  z-index: -1;
+  top: 4px;
+  bottom: 4px;
+  left: 4px;
+  width: calc((100% - 8px) / var(--n, 2));
+  border-radius: var(--radius-pill);
+  background: var(--color-ink);
+  transform: translateX(calc(var(--i, 0) * 100%));
+  transition: transform 0.34s var(--ease-in-out);
 }
 .seg button {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 6px;
   min-height: 44px;
   padding: 0 16px;
@@ -551,7 +567,6 @@
   font-weight: 600;
   font-size: 0.9375rem;
   transition:
-    background-color var(--dur-ui) var(--ease),
     color var(--dur-ui) var(--ease),
     transform var(--dur-micro) var(--ease-out);
 }
@@ -566,7 +581,6 @@
   font-weight: 800;
 }
 .seg button[aria-checked='true'] {
-  background: var(--color-ink);
   color: #fff;
 }
 .kbzhu {
@@ -852,3 +866,174 @@
   }
 }
 
+
+
+/* ═════ smooth switching ═════ */
+:root {
+  interpolate-size: allow-keywords;
+}
+
+/* cards / group headings take part in the filter View Transition */
+.mc {
+  view-transition-name: var(--vt, none);
+  view-transition-class: mc;
+}
+.mp__gh {
+  view-transition-name: var(--vt, none);
+  view-transition-class: gh;
+}
+.hdr {
+  view-transition-name: site-hdr;
+}
+.mp__head {
+  view-transition-name: mp-head; /* static while the list below transitions */
+}
+.mbar {
+  view-transition-name: site-bar;
+}
+
+::view-transition-group(*.mc),
+::view-transition-group(*.gh) {
+  animation-duration: 440ms;
+  animation-timing-function: cubic-bezier(0.65, 0, 0.35, 1);
+}
+::view-transition-old(*.mc),
+::view-transition-new(*.mc),
+::view-transition-old(*.gh),
+::view-transition-new(*.gh) {
+  animation-duration: 300ms;
+  animation-timing-function: ease;
+}
+::view-transition-new(*.mc):only-child,
+::view-transition-new(*.gh):only-child {
+  animation: vt-rise 420ms var(--ease-out) 90ms both;
+}
+::view-transition-old(*.mc):only-child,
+::view-transition-old(*.gh):only-child {
+  animation: vt-sink 220ms var(--ease) both;
+}
+::view-transition-old(root) {
+  animation: 240ms ease both vt-fade-out;
+}
+::view-transition-new(root) {
+  animation: 300ms ease-out both vt-fade-in;
+}
+@keyframes vt-rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px) scale(0.97);
+  }
+}
+@keyframes vt-sink {
+  to {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+}
+@keyframes vt-fade-out {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes vt-fade-in {
+  from {
+    opacity: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
+}
+
+/* browsers without View Transitions: cards at least rise in */
+@supports not (view-transition-name: a) {
+  .mc {
+    animation: vt-rise 380ms var(--ease-out) both;
+  }
+}
+
+/* page entrance when arriving from another route */
+@media (prefers-reduced-motion: no-preference) {
+  .mp-page,
+  .ls-page {
+    animation: page-in 460ms var(--ease-out) both;
+  }
+}
+@keyframes page-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+}
+
+/* numbers / copy that change inside the product sheet */
+.num-in {
+  animation: num-in 260ms var(--ease-out) both;
+}
+.swap-in {
+  animation: swap-in 340ms var(--ease-out) both;
+}
+.isheet__cup {
+  display: contents;
+}
+.isheet__cup img {
+  animation: cup-swap 460ms var(--ease-out) both;
+}
+@keyframes num-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+}
+@keyframes swap-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+@keyframes cup-swap {
+  from {
+    opacity: 0;
+    transform: translateY(18px) rotate(-5deg) scale(0.94);
+  }
+}
+
+/* expanding blocks (<details>) glide open instead of snapping */
+details::details-content {
+  block-size: 0;
+  overflow: clip;
+  transition:
+    block-size 360ms var(--ease-in-out),
+    content-visibility 360ms allow-discrete;
+}
+details[open]::details-content {
+  block-size: auto;
+}
+.mp__else summary::after,
+.cl__kb summary::after {
+  transition: transform 260ms var(--ease-out);
+}
+
+.search__x {
+  animation: num-in 200ms var(--ease-out) both;
+}
+.mp__empty {
+  animation: swap-in 360ms var(--ease-out) both;
+}
+.mp__status {
+  transition: opacity 200ms var(--ease);
+}
+
+/* soften the remaining state changes */
+.mc__btn,
+.locpick__btn,
+.chip,
+.where__btn,
+.sim__btn {
+  transition-property: transform, background-color, color, box-shadow, opacity;
+  transition-duration: 160ms, 260ms, 260ms, 260ms, 260ms;
+  transition-timing-function: var(--ease-out), var(--ease), var(--ease), var(--ease), var(--ease);
+}

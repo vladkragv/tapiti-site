@@ -33,13 +33,14 @@ const watch = (page, tag) => {
   ok('ghost block present', (await page.locator('.mp__else').count()) === 1)
   // search
   await page.fill('#menu-q', 'клубник')
-  await page.waitForTimeout(250)
+  await page.waitForTimeout(900)
   const nSearch = await count()
   ok('search filters', nSearch > 0 && nSearch < nOzerki, String(nSearch))
   await page.fill('#menu-q', 'zzzzqq')
-  await page.waitForTimeout(200)
+  await page.waitForTimeout(900)
   ok('empty state', (await page.locator('.mp__empty').count()) === 1)
   await page.fill('#menu-q', '')
+  await page.waitForTimeout(700)
   // category
   await page.getByRole('button', { name: /^Матча/ }).first().click()
   await page.waitForTimeout(250)
