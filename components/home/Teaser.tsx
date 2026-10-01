@@ -46,18 +46,12 @@ export function Teaser({ items }: { items: TeaserItem[] }) {
       <div className="wrap">
         <header className="tz__head">
           <div>
-            <p className="eyebrow tz__eyebrow">Меню</p>
+            <p className="eyebrow tz__eyebrow">Что попробовать</p>
             <h2 id="tz-title" className="display tz__title">
-              Из июльского обновления
+              Хиты, от&nbsp;которых хочется ещё
             </h2>
           </div>
-          <p className="tz__note">
-            Эти напитки TapiTi показала в посте об обновлённом меню{' '}
-            <a href="https://t.me/tapiti_vrn/384" target="_blank" rel="noopener noreferrer">
-              15 июля 2026
-            </a>
-            . Цены и КБЖУ — внутри.
-          </p>
+          <p className="tz__note">Тапиока, джус-боллы, сливочный крем и ягоды: выбирай вкус по настроению.</p>
         </header>
 
         <ul className="tz__grid" role="list">

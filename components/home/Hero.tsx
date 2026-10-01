@@ -11,7 +11,7 @@ const hero = photo('hero-cheers')
 
 /**
  * Scene 01 — Hero depth.
- * Motion idea: layered parallax. Slowest → fastest: doodles, bubbles, photo arch, cups; the text barely moves.
+ * Motion idea: layered parallax. Slowest → fastest: doodles, bubbles, the full-bleed photo, cups; the text barely moves.
  * Entrance is pure CSS (works without JS); scroll depth is GSAP/ScrollTrigger (desktop strong, phone gentle).
  */
 export function Hero({ drinks }: { drinks: number }) {
@@ -32,13 +32,29 @@ export function Hero({ drinks }: { drinks: number }) {
         scrollTrigger: { trigger: root, start: 'top top', end: 'bottom top', scrub: true },
       })
     }
-    mm.add(MQ.desktop, () => build(300))
-    mm.add(MQ.mobile, () => build(110))
+    mm.add(MQ.desktop, () => build(260))
+    mm.add(MQ.mobile, () => build(90))
   })
 
   return (
     <section ref={ref} className="hero scene" aria-labelledby="hero-title">
       <div className="hero__doodles doodles" aria-hidden="true" />
+
+      {/* full-bleed real photo, dissolving into the teal field */}
+      <div className="hero__photo" aria-hidden="true">
+        <div className="hero__photo-in" data-depth="0.18">
+          <Image
+            src={hero.src}
+            alt=""
+            width={hero.w}
+            height={hero.h}
+            priority
+            sizes="(min-width: 900px) 52vw, 100vw"
+            style={{ objectPosition: '50% 38%' }}
+          />
+        </div>
+      </div>
+
       <div className="hero__bubbles" aria-hidden="true">
         <i className="bubble bubble--violet hero__b1" data-depth="0.18" style={{ ['--s' as string]: '150px' }} />
         <i className="bubble hero__b2" data-depth="0.3" style={{ ['--s' as string]: '70px' }} />
@@ -52,18 +68,18 @@ export function Hero({ drinks }: { drinks: number }) {
             Воронеж · 5 точек
           </p>
           <h1 id="hero-title" className="display hero__title">
-            <span className="line">
-              <span>Bubble tea,</span>
+            <span className="line line--brand">
+              <span translate="no">TapiTi</span>
             </span>
             <span className="line">
-              <span>кофе&nbsp;и</span>
+              <span>яркие вкусы</span>
             </span>
             <span className="line">
-              <span className="hero__title-hl">лимонады</span>
+              <span className="hero__title-hl">в каждом глотке</span>
             </span>
           </h1>
           <p className="lead hero__lead">
-            Молочные и фруктовые чаи с шариками, матча, кофе и азиатские сладости — на&nbsp;Озерках, в&nbsp;«Галерее Чижова», «Максимире», «Арене» и парке&nbsp;«Дельфин».
+            Бабл-ти с тапиокой и джус-боллами, матча, кофе, лимонады и азиатские сладости. Пять точек в&nbsp;Воронеже: заходи за любимым вкусом.
           </p>
           <div className="hero__cta">
             <Link className="btn" href="/menu">
@@ -90,27 +106,14 @@ export function Hero({ drinks }: { drinks: number }) {
         </div>
 
         <div className="hero__stage" aria-hidden="true">
-          <div className="hero__arch" data-depth="0.5">
-            <div className="hero__arch-in">
-              <Image
-                src={hero.src}
-                alt=""
-                width={hero.w}
-                height={hero.h}
-                priority
-                sizes="(min-width: 900px) 34vw, 78vw"
-                style={{ objectPosition: '50% 40%' }}
-              />
-            </div>
-          </div>
           <div className="hero__cup hero__cup--a" data-depth="1.1">
-            <CupImage id="matcha-zaklyate-lesa" height={300} sizes="(min-width: 900px) 200px, 120px" priority />
+            <CupImage id="matcha-zaklyate-lesa" height={300} sizes="(min-width: 900px) 220px, 120px" priority />
           </div>
           <div className="hero__cup hero__cup--b" data-depth="0.8">
-            <CupImage id="frappe-klubnika-marakuyya" height={250} sizes="(min-width: 900px) 170px, 100px" />
+            <CupImage id="frappe-klubnika-marakuyya" height={250} sizes="(min-width: 900px) 180px, 100px" />
           </div>
           <div className="hero__cup hero__cup--c" data-depth="1.5">
-            <CupImage id="milk-tea-dynnyy-banan" height={210} sizes="(min-width: 900px) 140px, 84px" />
+            <CupImage id="milk-tea-dynnyy-banan" height={210} sizes="(min-width: 900px) 150px, 84px" />
           </div>
           <svg className="hero__badge" viewBox="0 0 200 200" role="presentation">
             <defs>

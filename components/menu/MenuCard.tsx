@@ -21,7 +21,7 @@ export function MenuCard({
   const cat = MENU.categories.find((c) => c.id === item.category)!
   const where = ghost ? item.locationIds.map((id) => LOCATIONS.find((l) => l.id === id)!.name) : null
   return (
-    <li className={`mc${ghost ? ' mc--ghost' : ''}`} style={{ ['--tone' as string]: cupTone(item.id), ['--tone-ink' as string]: cupInk(item.id), ['--vt' as string]: `mc-${item.id}` }}>
+    <li className={`mc${ghost ? ' mc--ghost' : ''}`} style={{ ['--tone' as string]: cupTone(item.id), ['--tone-ink' as string]: cupInk(item.id) }}>
       <button type="button" className="mc__btn" onClick={() => onOpen(item.id)} aria-haspopup="dialog">
         <span className="mc__art" aria-hidden="true">
           <CupImage id={item.id} height={210} sizes="160px" />

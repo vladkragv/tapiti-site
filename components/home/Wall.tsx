@@ -6,7 +6,6 @@ import { Icon } from '@/components/ui/Icon'
 import { MQ, useScene } from '@/components/motion/useScene'
 import { WALL_BOTTOM, WALL_TOP, type WallTile } from '@/content/social'
 import { VIDEO, photo } from '@/lib/media/photos'
-import { BRAND } from '@/content/brand'
 
 const ALL: WallTile[] = [...WALL_TOP, ...WALL_BOTTOM]
 
@@ -88,17 +87,11 @@ export function Wall() {
   return (
     <section ref={ref} className="wall scene" aria-labelledby="wall-title">
       <div className="wrap wall__head">
-        <p className="eyebrow wall__eyebrow">Живое</p>
+        <p className="eyebrow wall__eyebrow">Наши гости</p>
         <h2 id="wall-title" className="display wall__title">
-          TapiTi в&nbsp;реальной жизни
+          Стаканы, которые хочется сфотографировать
         </h2>
-        <p className="wall__sub">
-          Кадры из{' '}
-          <a href={BRAND.links.telegram} target="_blank" rel="noopener noreferrer">
-            Telegram-канала
-          </a>{' '}
-          — гости, стаканы с рисунками, витрины с азиатскими сладостями.
-        </p>
+        <p className="wall__sub">Рисунки на стаканах, неоновый лисёнок, витрины азиатских сладостей и яркие напитки в руках.</p>
       </div>
 
       <div className="wall__rows">
@@ -143,15 +136,6 @@ export function Wall() {
               ←
             </button>
             <p>{t.caption}</p>
-            {ph ? (
-              <a className="chip" href={ph.telegram} target="_blank" rel="noopener noreferrer">
-                Пост в Telegram <Icon name="external" size={16} />
-              </a>
-            ) : (
-              <a className="chip" href={t.kind === 'video' ? t.tg : BRAND.links.telegram} target="_blank" rel="noopener noreferrer">
-                Telegram <Icon name="external" size={16} />
-              </a>
-            )}
             <button type="button" className="chip" onClick={() => step(1)} aria-label="Следующее">
               →
             </button>

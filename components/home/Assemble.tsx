@@ -116,14 +116,13 @@ export function Assemble() {
 
         <div className="asm__stage">
           <div className="asm__window">
-            <video ref={video} muted playsInline preload="metadata" poster={VIDEO.assembly.poster} aria-label="Как собирается напиток в TapiTi: кадры из ролика бренда">
+            <video ref={video} muted playsInline preload="metadata" poster={VIDEO.assembly.poster} aria-label="Как собирается напиток в TapiTi: слой за слоем">
               <source src={VIDEO.assembly.src} type="video/mp4" />
             </video>
           </div>
           <div className="asm__bar" aria-hidden="true">
             <i />
           </div>
-          <p className="asm__credit">Кадры из ролика TapiTi</p>
         </div>
       </div>
     </section>

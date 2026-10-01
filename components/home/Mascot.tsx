@@ -65,13 +65,7 @@ export function Mascot() {
           <p className="lead">
             Тапи напоминает, что в TapiTi вас всегда ждёт тепло, доброжелательность и комфорт. Здесь каждый гость как дома.
           </p>
-          <p className="mascot__src">
-            По постам канала:{' '}
-            <a href="https://t.me/tapiti_vrn/268" target="_blank" rel="noopener noreferrer">
-              «Знакомьтесь с нашим лисёнком»
-            </a>
-            . Сеть открыла первую точку в&nbsp;Озерках 14&nbsp;июля&nbsp;2024 и выросла до пяти.
-          </p>
+          <p className="mascot__src">С&nbsp;июля 2024 года Тапи встречает гостей в&nbsp;Воронеже: сначала на Озерках, теперь на пяти точках по городу.</p>
           <p className="mascot__count display" aria-hidden="true">
             01 / 0{MASCOT_DECK.length}
           </p>

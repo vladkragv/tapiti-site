@@ -4,7 +4,6 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { CupImage } from '@/components/ui/CupImage'
 import { Icon } from '@/components/ui/Icon'
 import { LOCATIONS } from '@/content/locations'
-import { BRAND } from '@/content/brand'
 import { MENU, cupInk, cupTone } from '@/content/menu'
 import type { LocationId, MenuItem } from '@/content/types'
 import { baseOf, kbzhuFor, num1, pluralPoints, priceFor, rub } from '@/lib/menu/utils'
@@ -152,12 +151,8 @@ export function ItemSheet({
                     </div>
                   </dl>
                   <p className="kbzhu__basis">
-                    На напиток целиком: размер {hasL ? size : 'M'} ({(hasL ? size : 'M') === 'M' ? '500' : '700'} мл)
-                    {canTemp || it.temp === 'hot' ? `, ${temp === 'hot' ? 'горячий' : 'холодный'}` : ''}. Значения из{' '}
-                    <a href={BRAND.links.kbzhuVk} target="_blank" rel="noopener noreferrer">
-                      таблицы КБЖУ TapiTi
-                    </a>
-                    , строка «{v.source}».
+                    На весь напиток: размер {hasL ? size : 'M'} ({(hasL ? size : 'M') === 'M' ? '500' : '700'} мл)
+                    {canTemp || it.temp === 'hot' ? `, ${temp === 'hot' ? 'горячий' : 'холодный'}` : ''}.
                   </p>
                 </>
               ) : (
@@ -215,21 +210,6 @@ export function ItemSheet({
               </section>
             ) : null}
 
-            <p className="isheet__src">
-              Источники:{' '}
-              <a href={BRAND.links.menuVk} target="_blank" rel="noopener noreferrer">
-                меню TapiTi (VK)
-              </a>
-              {it.kbzhu ? (
-                <>
-                  {' · '}
-                  <a href={BRAND.links.kbzhuVk} target="_blank" rel="noopener noreferrer">
-                    КБЖУ (VK)
-                  </a>
-                </>
-              ) : null}
-              . Если у вас аллергия на ингредиенты — сообщите бариста.
-            </p>
           </div>
         </div>
       ) : null}

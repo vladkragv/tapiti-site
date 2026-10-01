@@ -16,25 +16,32 @@ const LOC_KEY = 'tapiti.menu.loc'
 const isLoc = (v: string | null): v is LocationId => !!v && LOCATIONS.some((l) => l.id === v)
 const isCat = (v: string | null): v is Cat => v === 'all' || (!!v && MENU.categories.some((c) => c.id === v))
 
-type VTDocument = Document & { startViewTransition?: (cb: () => void) => { finished: Promise<void> } }
-
 /**
- * Every filter change (point / category / search) is a View Transition: cards that stay glide to their new
- * place, new ones rise in, removed ones fade out. Browsers without the API (or reduced motion) just update.
+ * Filter changes are a light fade-swap: the results dip (140 ms), the state flips while they are invisible,
+ * the scroller resets to the top, then they rise back in. Only opacity/transform are animated, so it never janks.
  */
-function smooth(update: () => void, after?: () => void) {
-  const doc = document as VTDocument
-  if (!doc.startViewTransition || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    update()
-    after?.()
-    return
-  }
-  const t = doc.startViewTransition(() => {
-    flushSync(update)
-  })
-  if (after) t.finished.then(after, after)
+function useSwap(resultsRef: React.RefObject<HTMLElement | null>, scrollerRef: React.RefObject<HTMLElement | null>) {
+  return useCallback(
+    (update: () => void) => {
+      const el = resultsRef.current
+      if (!el || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        update()
+        return
+      }
+      el.classList.add('is-leaving')
+      window.setTimeout(() => {
+        flushSync(update)
+        if (scrollerRef.current) scrollerRef.current.scrollTop = 0
+        if (window.matchMedia('(max-width: 899px)').matches) {
+          const top = el.getBoundingClientRect().top + window.scrollY - 190
+          if (window.scrollY > top) window.scrollTo({ top: Math.max(0, top), behavior: 'auto' })
+        }
+        requestAnimationFrame(() => requestAnimationFrame(() => el.classList.remove('is-leaving')))
+      }, 150)
+    },
+    [resultsRef, scrollerRef],
+  )
 }
-
 export function MenuApp() {
   const [loc, setLoc] = useState<LocationId>('chizhova')
   const [cat, setCat] = useState<Cat>('all')
@@ -42,8 +49,9 @@ export function MenuApp() {
   const [qInput, setQInput] = useState('')
   const [itemId, setItemId] = useState<string | null>(null)
   const [ready, setReady] = useState(false)
-  const pickerRef = useRef<HTMLDivElement>(null)
-  const listTop = useRef<HTMLDivElement>(null)
+  const scrollerRef = useRef<HTMLDivElement>(null)
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const smooth = useSwap(resultsRef, scrollerRef)
 
   // ── restore state from external systems (URL > localStorage > default). SSR renders the default point.
   /* eslint-disable react-hooks/set-state-in-effect */
@@ -122,28 +130,43 @@ export function MenuApp() {
 
   const total = filteredHere.length + classic.length
 
-  /** after a filter change, glide back to the top of the results if the visitor scrolled past it */
-  const revealTop = useCallback(() => {
-    const el = listTop.current
-    if (!el) return
-    const top = el.getBoundingClientRect().top
-    const limit = (window.matchMedia('(max-width: 899px)').matches ? 110 : 80) + 8
-    if (top < limit - 40) window.scrollTo({ top: window.scrollY + top - limit - 60, behavior: 'smooth' })
-  }, [])
-
   const pickLoc = (l: LocationId) => {
     if (l !== loc) smooth(() => setLoc(l))
   }
   const pickCat = (c: Cat) => {
-    if (c !== cat) smooth(() => setCat(c), revealTop)
+    if (c !== cat) smooth(() => setCat(c))
   }
 
   // typing: update the field instantly, commit the filter (with a transition) once the visitor pauses
   useEffect(() => {
     if (qInput === q) return
-    const id = window.setTimeout(() => smooth(() => setQ(qInput)), 200)
+    const id = window.setTimeout(() => smooth(() => setQ(qInput)), 220)
     return () => window.clearTimeout(id)
-  }, [qInput, q])
+  }, [qInput, q, smooth])
+
+  // inertial smooth scrolling for the results list (desktop). Lenis is loaded lazily and only here.
+  const lenisRef = useRef<{ stop: () => void; start: () => void } | null>(null)
+  useEffect(() => {
+    const wrapper = scrollerRef.current
+    if (!wrapper || window.matchMedia('(max-width: 899px)').matches || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
+    let dead = false
+    let destroy: (() => void) | undefined
+    import('lenis').then(({ default: Lenis }) => {
+      if (dead) return
+      const lenis = new Lenis({ wrapper, content: wrapper.firstElementChild as HTMLElement, duration: 1.05, smoothWheel: true, autoRaf: true, wheelMultiplier: 0.9 })
+      lenisRef.current = lenis
+      destroy = () => lenis.destroy()
+    })
+    return () => {
+      dead = true
+      lenisRef.current = null
+      destroy?.()
+    }
+  }, [])
+  useEffect(() => {
+    if (itemId) lenisRef.current?.stop()
+    else lenisRef.current?.start()
+  }, [itemId])
 
   // keep the active chip in view in the horizontal rails (phones), smoothly
   useEffect(() => {
@@ -154,20 +177,18 @@ export function MenuApp() {
   }, [cat, loc, ready])
 
   return (
-    <div className="mp wrap">
+    <div className="mp">
       <header className="mp__head">
         <div>
           <p className="eyebrow mp__eyebrow">Меню · Воронеж</p>
           <h1 className="display mp__title">Меню TapiTi</h1>
         </div>
-        <p className="mp__lead">
-          Меню у каждой точки своё: выберите, где будете пить, — покажем то, что есть именно там, с ценами, объёмами и КБЖУ.
-        </p>
+        <p className="mp__lead">Выбирай точку и вкус: покажем всё, что там наливают, с ценами, объёмами и КБЖУ.</p>
       </header>
 
       <div className="mp__layout">
         <aside className="mp__side" aria-label="Фильтры меню">
-          <div ref={pickerRef} id="loc-picker" className="mp__block">
+          <div id="loc-picker" className="mp__block">
             <h2 className="mp__h" id="loc-h">
               Точка
             </h2>
@@ -223,16 +244,17 @@ export function MenuApp() {
           </nav>
         </aside>
 
-        <div className="mp__main" ref={listTop}>
+        <div className="mp__scroll" ref={scrollerRef}>
+          <div className="mp__main">
           <p className="mp__status" role="status" aria-live="polite">
             {location.name}: {pluralPositions(total)}
             {q ? ` по запросу «${q}»` : ''}
           </p>
-
+          <div className="mp__results" ref={resultsRef}>
           {groups.map((g) => (
             <section key={g.cat.id} className="mp__group" aria-labelledby={`g-${g.cat.id}`}>
               {cat === 'all' ? (
-                <h2 id={`g-${g.cat.id}`} className="mp__gh display" style={{ ['--vt' as string]: `gh-${g.cat.id}` }}>
+                <h2 id={`g-${g.cat.id}`} className="mp__gh display">
                   {g.cat.name}
                   <small>{g.items.length}</small>
                 </h2>
@@ -285,13 +307,10 @@ export function MenuApp() {
           ) : null}
 
           <footer className="mp__foot">
-            <p>
-              Цены в рублях. Размеры: M — 500 мл, L — 700 мл. {MENU.classic.allergy}
-            </p>
-            <p>
-              Источник: официальное меню TapiTi во ВКонтакте и таблица КБЖУ. Позиция может отсутствовать на точке в течение дня — уточняйте у бариста. На сайте нет оформления заказа — напитки готовят и выдают на точках.
-            </p>
+            <p>Размеры: M — 500 мл, L — 700 мл. Подберём вкус и ответим на вопросы о составе на точке.</p>
           </footer>
+          </div>
+          </div>
         </div>
       </div>
 

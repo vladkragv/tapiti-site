@@ -2,7 +2,6 @@
 
 import { useRef } from 'react'
 import { MQ, useScene } from '@/components/motion/useScene'
-import { BRAND } from '@/content/brand'
 import { VIDEO } from '@/lib/media/photos'
 
 /**
@@ -80,7 +79,7 @@ export function Story() {
 
         <div className="story__media">
           <div className="story__arch">
-            <video ref={vid} muted loop playsInline preload="metadata" poster={VIDEO.pour.poster} aria-label="Как готовят напиток: добавляют крем и сироп. Кадры из ролика TapiTi">
+            <video ref={vid} muted loop playsInline preload="metadata" poster={VIDEO.pour.poster} aria-label="Как готовят напиток: добавляют крем и сироп.">
               <source src={VIDEO.pour.src} type="video/mp4" />
             </video>
           </div>
@@ -88,20 +87,12 @@ export function Story() {
 
         <div className="story__quotes">
           <figure className="story__quote">
-            <blockquote>{BRAND.quotes.mix.text}</blockquote>
-            <figcaption>
-              <a href={`https://t.me/tapiti_vrn/${BRAND.quotes.mix.tg}`} target="_blank" rel="noopener noreferrer">
-                Telegram TapiTi · {BRAND.quotes.mix.date}
-              </a>
-            </figcaption>
+            <figcaption>Правило №1</figcaption>
+            <blockquote>Перемешивай напиток: так раскрываются все слои вкуса.</blockquote>
           </figure>
           <figure className="story__quote story__quote--b">
-            <blockquote>{BRAND.quotes.shake.text}</blockquote>
-            <figcaption>
-              <a href={`https://t.me/tapiti_vrn/${BRAND.quotes.shake.tg}`} target="_blank" rel="noopener noreferrer">
-                Telegram TapiTi · {BRAND.quotes.shake.date}
-              </a>
-            </figcaption>
+            <figcaption>Правило №2</figcaption>
+            <blockquote>Смело тряси стакан: он запаян плёнкой, ничего не прольётся.</blockquote>
           </figure>
         </div>
       </div>

@@ -44,7 +44,7 @@
   --radius-pill: 999px;
 
   --gutter: clamp(16px, 4.4vw, 64px);
-  --header-h: 64px;
+  --header-h: 92px;
   --bar-h: 0px; /* mobile bottom bar height, set in layout.css */
   --maxw: 1480px;
 
@@ -57,7 +57,7 @@
 
 @media (max-width: 899px) {
   :root {
-    --header-h: 56px;
+    --header-h: 66px;
     --bar-h: calc(64px + env(safe-area-inset-bottom, 0px));
   }
 }

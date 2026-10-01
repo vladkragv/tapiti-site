@@ -1,3 +1,5 @@
+import { TG_PATH, TIKTOK_PATH, VK_PATH } from './brandIcons'
+
 type IconName = 'cup' | 'pin' | 'more' | 'vk' | 'tg' | 'tiktok' | 'arrow' | 'close' | 'search' | 'route' | 'clock' | 'external' | 'check' | 'flame'
 
 const paths: Record<IconName, React.ReactNode> = {
@@ -21,9 +23,9 @@ const paths: Record<IconName, React.ReactNode> = {
       <circle cx="19" cy="12" r="1.6" />
     </>
   ),
-  vk: <path d="M3.5 7.5c.2 5.2 3 8.3 8 8.3h.3v-3c1.8.2 3.2 1.5 3.7 3h2.6c-.7-2.4-2.4-3.8-3.5-4.3 1.1-.6 2.6-2.2 3-4h-2.4c-.5 1.6-1.9 3.1-3.4 3.3V7.5H9.4v5.6C7.8 12.700 5.900 10.900 5.800 7.500z" />,
-  tg: <path d="M20.500 4.200 3.600 10.800c-.7.3-.7 1.200 0 1.400l4.200 1.300 1.600 5c.2.600.9.700 1.300.3l2.300-2.100 4.400 3.200c.6.400 1.300.1 1.500-.6l3-14.100c.2-.9-.6-1.500-1.400-1zM9.200 13.300l8.100-5.100-6.200 6.500-.3 3.300z" />,
-  tiktok: <path d="M15 3c.3 2.300 1.700 3.800 4 4v3c-1.500 0-2.800-.4-4-1.200V15a6 6 0 1 1-6-6c.3 0 .7 0 1 .1v3.200a3 3 0 1 0 2 2.800V3z" />,
+  vk: <path d={VK_PATH} />,
+  tg: <path d={TG_PATH} />,
+  tiktok: <path d={TIKTOK_PATH} />,
   arrow: <path d="M4 12h15m0 0-5.500-5.500M19 12l-5.500 5.500" />,
   close: <path d="M5 5l14 14M19 5L5 19" />,
   search: (

@@ -873,88 +873,6 @@
   interpolate-size: allow-keywords;
 }
 
-/* cards / group headings take part in the filter View Transition */
-.mc {
-  view-transition-name: var(--vt, none);
-  view-transition-class: mc;
-}
-.mp__gh {
-  view-transition-name: var(--vt, none);
-  view-transition-class: gh;
-}
-.hdr {
-  view-transition-name: site-hdr;
-}
-.mp__head {
-  view-transition-name: mp-head; /* static while the list below transitions */
-}
-.mbar {
-  view-transition-name: site-bar;
-}
-
-::view-transition-group(*.mc),
-::view-transition-group(*.gh) {
-  animation-duration: 440ms;
-  animation-timing-function: cubic-bezier(0.65, 0, 0.35, 1);
-}
-::view-transition-old(*.mc),
-::view-transition-new(*.mc),
-::view-transition-old(*.gh),
-::view-transition-new(*.gh) {
-  animation-duration: 300ms;
-  animation-timing-function: ease;
-}
-::view-transition-new(*.mc):only-child,
-::view-transition-new(*.gh):only-child {
-  animation: vt-rise 420ms var(--ease-out) 90ms both;
-}
-::view-transition-old(*.mc):only-child,
-::view-transition-old(*.gh):only-child {
-  animation: vt-sink 220ms var(--ease) both;
-}
-::view-transition-old(root) {
-  animation: 240ms ease both vt-fade-out;
-}
-::view-transition-new(root) {
-  animation: 300ms ease-out both vt-fade-in;
-}
-@keyframes vt-rise {
-  from {
-    opacity: 0;
-    transform: translateY(18px) scale(0.97);
-  }
-}
-@keyframes vt-sink {
-  to {
-    opacity: 0;
-    transform: scale(0.96);
-  }
-}
-@keyframes vt-fade-out {
-  to {
-    opacity: 0;
-  }
-}
-@keyframes vt-fade-in {
-  from {
-    opacity: 0;
-  }
-}
-@media (prefers-reduced-motion: reduce) {
-  ::view-transition-group(*),
-  ::view-transition-old(*),
-  ::view-transition-new(*) {
-    animation: none !important;
-  }
-}
-
-/* browsers without View Transitions: cards at least rise in */
-@supports not (view-transition-name: a) {
-  .mc {
-    animation: vt-rise 380ms var(--ease-out) both;
-  }
-}
-
 /* page entrance when arriving from another route */
 @media (prefers-reduced-motion: no-preference) {
   .mp-page,
@@ -1036,4 +954,256 @@ details[open]::details-content {
   transition-property: transform, background-color, color, box-shadow, opacity;
   transition-duration: 160ms, 260ms, 260ms, 260ms, 260ms;
   transition-timing-function: var(--ease-out), var(--ease), var(--ease), var(--ease), var(--ease);
+}
+
+/* ═════ menu v2: app-like shell — header + sidebar stay put, only the list scrolls ═════ */
+.mp-page {
+  padding-top: var(--header-h);
+  overflow: clip;
+}
+.mp {
+  max-width: 1760px;
+  margin-inline: auto;
+  padding: 0 clamp(16px, 2.6vw, 48px);
+}
+.mp__head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px 40px;
+  padding-block: clamp(10px, 1.6vh, 20px);
+  margin: 0;
+}
+.mp__eyebrow {
+  margin-bottom: 2px;
+}
+.mp__title {
+  font-size: clamp(2.2rem, 4.2vw, 4.2rem);
+  line-height: 0.95;
+}
+.mp__lead {
+  max-width: 27em;
+  font-size: 1rem;
+  color: var(--color-ink-2);
+}
+
+.mp__results {
+  transition:
+    opacity 200ms var(--ease),
+    transform 260ms var(--ease-out);
+}
+.mp__results.is-leaving {
+  opacity: 0;
+  transform: translateY(8px);
+  transition-duration: 140ms, 140ms;
+}
+.mc {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 430px;
+}
+.mp__grid {
+  grid-template-columns: repeat(auto-fill, minmax(238px, 1fr));
+}
+.mc:nth-child(n) {
+  margin-top: 0;
+}
+
+@media (min-width: 900px) {
+  .mp-page {
+    height: 100svh;
+  }
+  .mp {
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto minmax(0, 1fr);
+    padding-bottom: 18px;
+  }
+  .mp__head {
+    border-bottom: 2px solid var(--color-ink);
+    margin-bottom: 14px;
+  }
+  .mp__layout {
+    min-height: 0;
+    height: 100%;
+    grid-template-columns: 320px minmax(0, 1fr);
+    gap: clamp(20px, 2.4vw, 40px);
+  }
+  .mp__side {
+    position: static;
+    height: 100%;
+    max-height: none;
+    overflow-y: auto;
+    padding: 2px 8px 8px 2px;
+    gap: 14px;
+    align-content: start;
+    scrollbar-width: thin;
+  }
+  .locpick__btn {
+    min-height: 44px;
+  }
+  .locpick {
+    gap: 5px;
+  }
+  .mp__where {
+    margin-top: 8px;
+    gap: 1px;
+  }
+  .mp__scroll {
+    min-height: 0;
+    height: 100%;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(27 10 58 / 0.35) transparent;
+    padding-right: 10px;
+    border-radius: 24px;
+  }
+  .mp__main {
+    padding-bottom: 32px;
+  }
+  .mp__status {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    margin: 0;
+    padding: 8px 0 10px;
+    background: linear-gradient(var(--color-paper) 75%, transparent);
+  }
+  /* the footer is replaced by the app shell on this page */
+  body:has(.mp-page) .ftr {
+    display: none;
+  }
+}
+
+@media (max-width: 899px) {
+  .mp {
+    padding-inline: 16px;
+  }
+  .mp__head {
+    padding-block: 12px 4px;
+  }
+  .mp__title {
+    font-size: clamp(2rem, 10vw, 2.8rem);
+  }
+  .mp__lead {
+    display: none;
+  }
+  .mp__layout {
+    display: block;
+  }
+  /* each control block pins itself under the header while the list scrolls */
+  .mp__side {
+    display: contents;
+  }
+  .mp__block:first-child {
+    position: sticky;
+    top: var(--header-h);
+    z-index: 24;
+    background: var(--color-paper);
+    padding-block: 8px 4px;
+    margin-inline: -16px;
+    padding-inline: 16px;
+  }
+  .mp__block:first-child .mp__h,
+  .mp__where {
+    display: none;
+  }
+  .mp__search {
+    padding-block: 6px 8px;
+  }
+  .mp__search .mp__h {
+    display: none;
+  }
+  .mp__cats {
+    top: calc(var(--header-h) + 60px);
+  }
+  .mp__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .mc:nth-child(even) {
+    margin-top: 0;
+  }
+}
+
+/* ═════ menu v2.1 tweaks ═════ */
+.mc__art img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 6%;
+  margin-inline: auto;
+  height: 88%;
+  width: auto;
+  max-width: 88%;
+  object-fit: contain;
+}
+.mc__art {
+  aspect-ratio: 1 / 0.92;
+}
+.mp__grid {
+  grid-template-columns: repeat(auto-fill, minmax(208px, 1fr));
+  gap: 18px 16px;
+}
+@media (min-width: 900px) {
+  .mp__head {
+    padding-top: 22px;
+    padding-bottom: 12px;
+  }
+  .mp__side {
+    gap: 10px;
+  }
+  .mp__h {
+    margin-bottom: 6px;
+  }
+  .locpick__btn {
+    min-height: 40px;
+  }
+  .catrail .chip {
+    min-height: 38px;
+    padding-inline: 14px;
+    font-size: 0.875rem;
+  }
+  .search {
+    min-height: 44px;
+  }
+}
+/* short laptop screens: tighter controls so the sidebar still fits one screen */
+@media (min-width: 900px) and (max-height: 820px) {
+  :root {
+    --header-h: 80px;
+  }
+  .mp__head {
+    padding-top: 14px;
+    padding-bottom: 8px;
+  }
+  .mp__title {
+    font-size: clamp(1.9rem, 3.4vw, 3rem);
+  }
+  .mp__h {
+    display: none;
+  }
+  .locpick__btn {
+    min-height: 36px;
+    border-radius: 12px;
+  }
+  .locpick {
+    gap: 4px;
+  }
+  .mp__where span:last-child {
+    display: none;
+  }
+  .search {
+    min-height: 40px;
+  }
+  .catrail {
+    gap: 5px;
+  }
+  .catrail .chip {
+    min-height: 34px;
+    padding-inline: 12px;
+    font-size: 0.8125rem;
+  }
+  .mp__side {
+    gap: 8px;
+  }
 }

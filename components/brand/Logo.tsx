@@ -1,18 +1,18 @@
 import Image from 'next/image'
 import { BRAND } from '@/content/brand'
 
-/** Official wordmark (flood-fill cut from the Telegram logo post). */
-export function Logo({ height = 44, priority = false }: { height?: number; priority?: boolean }) {
-  const w = Math.round((height * 921) / 745)
+/** Brand mark: the round Tapi the fox artwork (reference/brand/fox-logo-source.webp). */
+export function Logo({ size = 64, priority = false }: { size?: number; priority?: boolean }) {
   return (
     <Image
-      src="/brand/logo.webp"
-      alt={`${BRAND.name} — ${BRAND.tagline}`}
-      width={w}
-      height={height}
+      src="/brand/fox-logo.webp"
+      alt={`${BRAND.name} — лисёнок Тапи`}
+      width={size}
+      height={size}
       priority={priority}
-      sizes={`${w}px`}
-      style={{ width: w, height }}
+      sizes={`${size}px`}
+      className="fox-logo"
+      style={{ width: size, height: size }}
     />
   )
 }

@@ -9,9 +9,9 @@ export function Footer() {
       <div className="wrap ftr__in">
         <div className="ftr__brand">
           <div className="ftr__logo">
-            <Logo height={84} />
+            <Logo size={96} />
           </div>
-          <p className="ftr__lead">Bubble tea, кофе и лимонады — пять точек в Воронеже.</p>
+          <p className="ftr__lead">TapiTi: яркие вкусы в каждом глотке. Пять точек в Воронеже.</p>
           <p className="ftr__small">Оплата: {BRAND.payments.toLowerCase()}.</p>
         </div>
 
@@ -75,10 +75,6 @@ export function Footer() {
       </div>
 
       <div className="wrap ftr__legal">
-        <p>
-          Цены, составы и КБЖУ — по официальному меню TapiTi во ВКонтакте; на точках могут отличаться. Если у вас аллергия на определённые
-          ингредиенты, обязательно сообщите бариста. Сайт носит информационный характер.
-        </p>
         <p>© TapiTi · Bubble Tea • Coffee • Воронеж</p>
       </div>
     </footer>

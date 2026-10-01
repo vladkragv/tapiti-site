@@ -11,7 +11,7 @@ for (const [name, vp, mobile] of [['desktop', { width: 1440, height: 900 }, fals
       const errs = []
       page.on('pageerror', (e) => errs.push(e.message.slice(0, 160)))
       page.on('console', (m) => m.type() === 'error' && errs.push('console: ' + m.text().slice(0, 160)))
-      await page.goto(base + '/', { waitUntil: 'networkidle' })
+      await page.goto(base + '/', { waitUntil: 'load', timeout: 60000 })
       await page.waitForTimeout(1200)
       await page.evaluate((yy) => window.scrollTo(0, yy), y)
       await page.waitForTimeout(700)

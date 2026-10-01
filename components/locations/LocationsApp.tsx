@@ -1,7 +1,6 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
-import { BRAND } from '@/content/brand'
 import { LOCATIONS } from '@/content/locations'
 import type { LocationId } from '@/content/types'
 import { MENU } from '@/content/menu'
@@ -33,29 +32,32 @@ export function LocationsApp() {
 
   return (
     <div className="ls">
-      <header className="wrap ls__head">
-        <div>
-          <p className="eyebrow ls__eyebrow">Воронеж</p>
-          <h1 className="display ls__title">Пять точек TapiTi</h1>
-        </div>
-        <div className="ls__lead">
-          <p>
-            Озерки, «Галерея Чижова», «Максимир», парк «Дельфин» и «Арена». Часы работы — ежедневно с&nbsp;10:00 до&nbsp;22:00; в праздники график может отличаться — следите за{' '}
-            <a href={BRAND.links.telegram} target="_blank" rel="noopener noreferrer">
-              Telegram
-            </a>
-            .
-          </p>
-          <nav className="ls__jump" aria-label="Быстрый переход к точке">
-            {LOCATIONS.map((l) => (
-              <a key={l.id} className="chip" href={`#${l.id}`} aria-current={active === l.id ? 'true' : undefined}>
-                {l.name}
-              </a>
-            ))}
-          </nav>
+      <header className="ls__head">
+        <div className="wrap ls__head-in">
+          <div>
+            <p className="eyebrow ls__eyebrow">Воронеж</p>
+            <h1 className="display ls__title">Пять точек TapiTi</h1>
+          </div>
+          <div className="ls__lead">
+            <p>Заходи в ближайшую: ежедневно с&nbsp;10:00 до&nbsp;22:00. В праздники график может отличаться.</p>
+            <nav className="ls__jump" aria-label="Быстрый переход к точке">
+              {LOCATIONS.map((l) => (
+                <a key={l.id} className="chip" href={`#${l.id}`} aria-current={active === l.id ? 'true' : undefined}>
+                  {l.name}
+                </a>
+              ))}
+            </nav>
+          </div>
         </div>
       </header>
 
+      <nav className="ls__jump ls__jump--m" aria-label="Быстрый переход к точке">
+        {LOCATIONS.map((l) => (
+          <a key={l.id} className="chip" href={`#${l.id}`} aria-current={active === l.id ? 'true' : undefined}>
+            {l.name}
+          </a>
+        ))}
+      </nav>
       <div className="wrap ls__body">
         <div className="ls__stage" aria-hidden="true">
           <div className="ls__frame">

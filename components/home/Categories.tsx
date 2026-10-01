@@ -103,15 +103,18 @@ export function Categories({ panels }: { panels: CatPanel[] }) {
     mm.add(MQ.desktop, () => {
       root.classList.add('is-h')
       const dist = () => Math.max(0, track.scrollWidth - window.innerWidth)
+      const steps = cards.length - 1
       const main = gsap.to(track, {
         x: () => -dist(),
         ease: 'none',
         scrollTrigger: {
           trigger: pin,
           start: 'top top',
-          end: () => `+=${dist()}`,
+          // ~one screen of scroll per card; a flick of the wheel snaps a whole card at a time
+          end: () => `+=${Math.round(window.innerHeight * 0.9 * steps)}`,
           pin: true,
-          scrub: 0.45,
+          scrub: 0.2,
+          snap: { snapTo: 1 / steps, directional: true, duration: { min: 0.35, max: 0.85 }, delay: 0, ease: 'power3.inOut' },
           invalidateOnRefresh: true,
           anticipatePin: 1,
           onUpdate: (self) => {
@@ -134,6 +137,30 @@ export function Categories({ panels }: { panels: CatPanel[] }) {
     })
 
     mm.add(MQ.mobile, () => {
+      // one swipe = one card: snap the sticky stack card by card
+      const first = cards[0]
+      const last = cards[cards.length - 1]
+      if (first && last) {
+        const offs = () => cards.map((c) => c.offsetTop - first.offsetTop)
+        ScrollTrigger.create({
+          trigger: track,
+          start: () => `top top+=${Math.round(window.innerHeight * 0.02 + 66)}`,
+          end: () => `+=${Math.max(1, last.offsetTop - first.offsetTop)}`,
+          invalidateOnRefresh: true,
+          snap: {
+            snapTo: (value: number) => {
+              const o = offs()
+              const len = Math.max(1, o[o.length - 1])
+              const pts = o.map((v) => v / len)
+              return pts.reduce((a, b) => (Math.abs(b - value) < Math.abs(a - value) ? b : a))
+            },
+            directional: true,
+            duration: { min: 0.3, max: 0.7 },
+            delay: 0,
+            ease: 'power2.inOut',
+          },
+        })
+      }
       cards.forEach((card, i) => {
         // entrance: cups pop up once (the «Классика» card has words, not cups)
         const cupEls = card.querySelectorAll('.cat__cup')
